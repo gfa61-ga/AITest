@@ -1,801 +1,801 @@
 [
   {
-    "question": "Ερώτηση 1 για κεφάλαιο 4;",
+    "question": "Τι είναι Supervised Learning;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 1",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Μάθηση χωρίς labels",
+      "B": "Μάθηση με labeled data",
+      "C": "Unsupervised",
+      "D": "Μάθηση χωρίς labels"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 2 για κεφάλαιο 4;",
+    "question": "Τι είναι Classification;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 2",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Πρόβλεψη τιμής",
+      "B": "Πρόβλεψη κατηγορίας",
+      "C": "Dimensionality reduction",
+      "D": "Πρόβλεψη τιμής"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 3 για κεφάλαιο 4;",
+    "question": "Τι είναι Regression;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 3",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Πρόβλεψη κατηγορίας",
+      "B": "Πρόβλεψη συνεχούς τιμής",
+      "C": "Classification",
+      "D": "Πρόβλεψη κατηγορίας"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 4 για κεφάλαιο 4;",
+    "question": "Τι είναι Decision Tree;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 4",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Linear model",
+      "B": "Δενδρική δομή αποφάσεων",
+      "C": "Clustering",
+      "D": "Linear model"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 5 για κεφάλαιο 4;",
+    "question": "Τι είναι Random Forest;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 5",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Ένα tree",
+      "B": "Ensemble από πολλά decision trees",
+      "C": "Linear model",
+      "D": "Ένα tree"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 6 για κεφάλαιο 4;",
+    "question": "Τι είναι SVM;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 6",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Neural network",
+      "B": "Support Vector Machine για classification",
+      "C": "K-means",
+      "D": "Neural network"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 7 για κεφάλαιο 4;",
+    "question": "Τι είναι K-NN;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 7",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Neural network",
+      "B": "K-Nearest Neighbors για classification",
+      "C": "SVM",
+      "D": "Neural network"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 8 για κεφάλαιο 4;",
+    "question": "Τι είναι Logistic Regression;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 8",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Για continuous prediction",
+      "B": "Για binary classification",
+      "C": "Για dimensionality",
+      "D": "Για continuous prediction"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 9 για κεφάλαιο 4;",
+    "question": "Τι είναι Naive Bayes;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 9",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Decision tree",
+      "B": "Probabilistic classifier",
+      "C": "SVM",
+      "D": "Decision tree"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 10 για κεφάλαιο 4;",
+    "question": "Τι είναι Linear Regression;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 10",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Για classification",
+      "B": "Γραμμικό μοντέλο για regression",
+      "C": "Neural network",
+      "D": "Για classification"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 11 για κεφάλαιο 4;",
+    "question": "Τι είναι Supervised Learning;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 11",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Μάθηση χωρίς labels",
+      "B": "Μάθηση με labeled data",
+      "C": "Unsupervised",
+      "D": "Μάθηση χωρίς labels"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 12 για κεφάλαιο 4;",
+    "question": "Τι είναι Classification;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 12",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Πρόβλεψη τιμής",
+      "B": "Πρόβλεψη κατηγορίας",
+      "C": "Dimensionality reduction",
+      "D": "Πρόβλεψη τιμής"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 13 για κεφάλαιο 4;",
+    "question": "Τι είναι Regression;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 13",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Πρόβλεψη κατηγορίας",
+      "B": "Πρόβλεψη συνεχούς τιμής",
+      "C": "Classification",
+      "D": "Πρόβλεψη κατηγορίας"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 14 για κεφάλαιο 4;",
+    "question": "Τι είναι Decision Tree;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 14",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Linear model",
+      "B": "Δενδρική δομή αποφάσεων",
+      "C": "Clustering",
+      "D": "Linear model"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 15 για κεφάλαιο 4;",
+    "question": "Τι είναι Random Forest;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 15",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Ένα tree",
+      "B": "Ensemble από πολλά decision trees",
+      "C": "Linear model",
+      "D": "Ένα tree"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 16 για κεφάλαιο 4;",
+    "question": "Τι είναι SVM;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 16",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Neural network",
+      "B": "Support Vector Machine για classification",
+      "C": "K-means",
+      "D": "Neural network"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 17 για κεφάλαιο 4;",
+    "question": "Τι είναι K-NN;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 17",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Neural network",
+      "B": "K-Nearest Neighbors για classification",
+      "C": "SVM",
+      "D": "Neural network"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 18 για κεφάλαιο 4;",
+    "question": "Τι είναι Logistic Regression;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 18",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Για continuous prediction",
+      "B": "Για binary classification",
+      "C": "Για dimensionality",
+      "D": "Για continuous prediction"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 19 για κεφάλαιο 4;",
+    "question": "Τι είναι Naive Bayes;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 19",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Decision tree",
+      "B": "Probabilistic classifier",
+      "C": "SVM",
+      "D": "Decision tree"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 20 για κεφάλαιο 4;",
+    "question": "Τι είναι Linear Regression;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 20",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Για classification",
+      "B": "Γραμμικό μοντέλο για regression",
+      "C": "Neural network",
+      "D": "Για classification"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 21 για κεφάλαιο 4;",
+    "question": "Τι είναι Unsupervised Learning;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 21",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Μάθηση με labels",
+      "B": "Μάθηση χωρίς labels",
+      "C": "Reinforcement",
+      "D": "Μάθηση με labels"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 22 για κεφάλαιο 4;",
+    "question": "Τι είναι Clustering;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 22",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Classification",
+      "B": "Ομαδοποίηση παρόμοιων δεδομένων",
+      "C": "Dimensionality",
+      "D": "Classification"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 23 για κεφάλαιο 4;",
+    "question": "Τι είναι K-Means;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 23",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Classification",
+      "B": "Clustering algorithm",
+      "C": "Neural network",
+      "D": "Classification"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 24 για κεφάλαιο 4;",
+    "question": "Τι είναι Hierarchical Clustering;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 24",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Flat clustering",
+      "B": "Δενδρική ομαδοποίηση",
+      "C": "Regression",
+      "D": "Flat clustering"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 25 για κεφάλαιο 4;",
+    "question": "Τι είναι DBSCAN;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 25",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "K-means",
+      "B": "Density-based clustering",
+      "C": "Regression",
+      "D": "K-means"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 26 για κεφάλαιο 4;",
+    "question": "Τι είναι Unsupervised Learning;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 26",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Μάθηση με labels",
+      "B": "Μάθηση χωρίς labels",
+      "C": "Reinforcement",
+      "D": "Μάθηση με labels"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 27 για κεφάλαιο 4;",
+    "question": "Τι είναι Clustering;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 27",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Classification",
+      "B": "Ομαδοποίηση παρόμοιων δεδομένων",
+      "C": "Dimensionality",
+      "D": "Classification"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 28 για κεφάλαιο 4;",
+    "question": "Τι είναι K-Means;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 28",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Classification",
+      "B": "Clustering algorithm",
+      "C": "Neural network",
+      "D": "Classification"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 29 για κεφάλαιο 4;",
+    "question": "Τι είναι Hierarchical Clustering;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 29",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Flat clustering",
+      "B": "Δενδρική ομαδοποίηση",
+      "C": "Regression",
+      "D": "Flat clustering"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 30 για κεφάλαιο 4;",
+    "question": "Τι είναι DBSCAN;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 30",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "K-means",
+      "B": "Density-based clustering",
+      "C": "Regression",
+      "D": "K-means"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 31 για κεφάλαιο 4;",
+    "question": "Τι είναι Unsupervised Learning;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 31",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Μάθηση με labels",
+      "B": "Μάθηση χωρίς labels",
+      "C": "Reinforcement",
+      "D": "Μάθηση με labels"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 32 για κεφάλαιο 4;",
+    "question": "Τι είναι Clustering;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 32",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Classification",
+      "B": "Ομαδοποίηση παρόμοιων δεδομένων",
+      "C": "Dimensionality",
+      "D": "Classification"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 33 για κεφάλαιο 4;",
+    "question": "Τι είναι K-Means;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 33",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Classification",
+      "B": "Clustering algorithm",
+      "C": "Neural network",
+      "D": "Classification"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 34 για κεφάλαιο 4;",
+    "question": "Τι είναι Hierarchical Clustering;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 34",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Flat clustering",
+      "B": "Δενδρική ομαδοποίηση",
+      "C": "Regression",
+      "D": "Flat clustering"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 35 για κεφάλαιο 4;",
+    "question": "Τι είναι DBSCAN;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 35",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "K-means",
+      "B": "Density-based clustering",
+      "C": "Regression",
+      "D": "K-means"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 36 για κεφάλαιο 4;",
+    "question": "Τι είναι Reinforcement Learning;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 36",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Supervised learning",
+      "B": "Μάθηση μέσω trial-and-error με rewards",
+      "C": "Transfer learning",
+      "D": "Supervised learning"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 37 για κεφάλαιο 4;",
+    "question": "Τι είναι Agent στο RL;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 37",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Environment",
+      "B": "Το σύστημα που μαθαίνει",
+      "C": "State",
+      "D": "Environment"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 38 για κεφάλαιο 4;",
+    "question": "Τι είναι Reward;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 38",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "State",
+      "B": "Σήμα ανατροφοδότησης",
+      "C": "Policy",
+      "D": "State"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 39 για κεφάλαιο 4;",
+    "question": "Τι είναι Q-Learning;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 39",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Supervised",
+      "B": "RL αλγόριθμος με Q-values",
+      "C": "Deep learning",
+      "D": "Supervised"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 40 για κεφάλαιο 4;",
+    "question": "Τι είναι Policy;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 40",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Reward",
+      "B": "Στρατηγική επιλογής actions",
+      "C": "Agent",
+      "D": "Reward"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 41 για κεφάλαιο 4;",
+    "question": "Τι είναι Reinforcement Learning;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 41",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Supervised learning",
+      "B": "Μάθηση μέσω trial-and-error με rewards",
+      "C": "Transfer learning",
+      "D": "Supervised learning"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 42 για κεφάλαιο 4;",
+    "question": "Τι είναι Agent στο RL;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 42",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Environment",
+      "B": "Το σύστημα που μαθαίνει",
+      "C": "State",
+      "D": "Environment"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 43 για κεφάλαιο 4;",
+    "question": "Τι είναι Reward;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 43",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "State",
+      "B": "Σήμα ανατροφοδότησης",
+      "C": "Policy",
+      "D": "State"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 44 για κεφάλαιο 4;",
+    "question": "Τι είναι Q-Learning;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 44",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Supervised",
+      "B": "RL αλγόριθμος με Q-values",
+      "C": "Deep learning",
+      "D": "Supervised"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 45 για κεφάλαιο 4;",
+    "question": "Τι είναι Policy;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 45",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Reward",
+      "B": "Στρατηγική επιλογής actions",
+      "C": "Agent",
+      "D": "Reward"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 46 για κεφάλαιο 4;",
+    "question": "Τι είναι Ensemble Learning;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 46",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Ένα μοντέλο",
+      "B": "Συνδυασμός πολλών μοντέλων",
+      "C": "Transfer learning",
+      "D": "Ένα μοντέλο"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 47 για κεφάλαιο 4;",
+    "question": "Τι είναι Bagging;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 47",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Boosting",
+      "B": "Bootstrap Aggregating",
+      "C": "Blending",
+      "D": "Boosting"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 48 για κεφάλαιο 4;",
+    "question": "Τι είναι Boosting;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 48",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Bagging",
+      "B": "Σειριακός συνδυασμός αδύναμων μοντέλων",
+      "C": "Blending",
+      "D": "Bagging"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 49 για κεφάλαιο 4;",
+    "question": "Τι είναι XGBoost;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 49",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Random Forest",
+      "B": "Extreme Gradient Boosting",
+      "C": "Neural network",
+      "D": "Random Forest"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 50 για κεφάλαιο 4;",
+    "question": "Τι είναι AdaBoost;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 50",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "XGBoost",
+      "B": "Adaptive Boosting",
+      "C": "Random Forest",
+      "D": "XGBoost"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 51 για κεφάλαιο 4;",
+    "question": "Τι είναι Ensemble Learning;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 51",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Ένα μοντέλο",
+      "B": "Συνδυασμός πολλών μοντέλων",
+      "C": "Transfer learning",
+      "D": "Ένα μοντέλο"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 52 για κεφάλαιο 4;",
+    "question": "Τι είναι Bagging;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 52",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Boosting",
+      "B": "Bootstrap Aggregating",
+      "C": "Blending",
+      "D": "Boosting"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 53 για κεφάλαιο 4;",
+    "question": "Τι είναι Boosting;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 53",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Bagging",
+      "B": "Σειριακός συνδυασμός αδύναμων μοντέλων",
+      "C": "Blending",
+      "D": "Bagging"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 54 για κεφάλαιο 4;",
+    "question": "Τι είναι XGBoost;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 54",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Random Forest",
+      "B": "Extreme Gradient Boosting",
+      "C": "Neural network",
+      "D": "Random Forest"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 55 για κεφάλαιο 4;",
+    "question": "Τι είναι AdaBoost;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 55",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "XGBoost",
+      "B": "Adaptive Boosting",
+      "C": "Random Forest",
+      "D": "XGBoost"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 56 για κεφάλαιο 4;",
+    "question": "Τι είναι Accuracy;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 56",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Precision",
+      "B": "Ποσοστό σωστών προβλέψεων",
+      "C": "F1-score",
+      "D": "Precision"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 57 για κεφάλαιο 4;",
+    "question": "Τι είναι Precision;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 57",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Accuracy",
+      "B": "True Positives / (TP + FP)",
+      "C": "F1-score",
+      "D": "Accuracy"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 58 για κεφάλαιο 4;",
+    "question": "Τι είναι Recall;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 58",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Precision",
+      "B": "True Positives / (TP + FN)",
+      "C": "F1-score",
+      "D": "Precision"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 59 για κεφάλαιο 4;",
+    "question": "Τι είναι F1-Score;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 59",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Accuracy",
+      "B": "Harmonic mean of Precision and Recall",
+      "C": "Recall μόνο",
+      "D": "Accuracy"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 60 για κεφάλαιο 4;",
+    "question": "Τι είναι Confusion Matrix;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 60",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Accuracy μόνο",
+      "B": "Πίνακας με TP, FP, TN, FN",
+      "C": "Recall μόνο",
+      "D": "Accuracy μόνο"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 61 για κεφάλαιο 4;",
+    "question": "Τι είναι Accuracy;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 61",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Precision",
+      "B": "Ποσοστό σωστών προβλέψεων",
+      "C": "F1-score",
+      "D": "Precision"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 62 για κεφάλαιο 4;",
+    "question": "Τι είναι Precision;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 62",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Accuracy",
+      "B": "True Positives / (TP + FP)",
+      "C": "F1-score",
+      "D": "Accuracy"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 63 για κεφάλαιο 4;",
+    "question": "Τι είναι Recall;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 63",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Precision",
+      "B": "True Positives / (TP + FN)",
+      "C": "F1-score",
+      "D": "Precision"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 64 για κεφάλαιο 4;",
+    "question": "Τι είναι F1-Score;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 64",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Accuracy",
+      "B": "Harmonic mean of Precision and Recall",
+      "C": "Recall μόνο",
+      "D": "Accuracy"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 65 για κεφάλαιο 4;",
+    "question": "Τι είναι Confusion Matrix;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 65",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Accuracy μόνο",
+      "B": "Πίνακας με TP, FP, TN, FN",
+      "C": "Recall μόνο",
+      "D": "Accuracy μόνο"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 66 για κεφάλαιο 4;",
+    "question": "Τι είναι Accuracy;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 66",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Precision",
+      "B": "Ποσοστό σωστών προβλέψεων",
+      "C": "F1-score",
+      "D": "Precision"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 67 για κεφάλαιο 4;",
+    "question": "Τι είναι Precision;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 67",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Accuracy",
+      "B": "True Positives / (TP + FP)",
+      "C": "F1-score",
+      "D": "Accuracy"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 68 για κεφάλαιο 4;",
+    "question": "Τι είναι Recall;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 68",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Precision",
+      "B": "True Positives / (TP + FN)",
+      "C": "F1-score",
+      "D": "Precision"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 69 για κεφάλαιο 4;",
+    "question": "Τι είναι F1-Score;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 69",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Accuracy",
+      "B": "Harmonic mean of Precision and Recall",
+      "C": "Recall μόνο",
+      "D": "Accuracy"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 70 για κεφάλαιο 4;",
+    "question": "Τι είναι Confusion Matrix;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 70",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Accuracy μόνο",
+      "B": "Πίνακας με TP, FP, TN, FN",
+      "C": "Recall μόνο",
+      "D": "Accuracy μόνο"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 71 για κεφάλαιο 4;",
+    "question": "Τι είναι Overfitting;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 71",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Underfitting",
+      "B": "Υπερπροσαρμογή στα training data",
+      "C": "Perfect fit",
+      "D": "Underfitting"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 72 για κεφάλαιο 4;",
+    "question": "Τι είναι Underfitting;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 72",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Overfitting",
+      "B": "Κακή προσαρμογή σε training data",
+      "C": "Perfect fit",
+      "D": "Overfitting"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 73 για κεφάλαιο 4;",
+    "question": "Τι είναι Regularization;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 73",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Αύξηση complexity",
+      "B": "Τεχνική για πρόληψη overfitting",
+      "C": "Αύξηση features",
+      "D": "Αύξηση complexity"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 74 για κεφάλαιο 4;",
+    "question": "Τι είναι L1 Regularization;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 74",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "L2 regularization",
+      "B": "Lasso, προσθήκη |w| στο loss",
+      "C": "Batch norm",
+      "D": "L2 regularization"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 75 για κεφάλαιο 4;",
+    "question": "Τι είναι L2 Regularization;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 75",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "L1 regularization",
+      "B": "Ridge, προσθήκη w² στο loss",
+      "C": "Batch norm",
+      "D": "L1 regularization"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 76 για κεφάλαιο 4;",
+    "question": "Τι είναι Overfitting;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 76",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Underfitting",
+      "B": "Υπερπροσαρμογή στα training data",
+      "C": "Perfect fit",
+      "D": "Underfitting"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 77 για κεφάλαιο 4;",
+    "question": "Τι είναι Underfitting;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 77",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Overfitting",
+      "B": "Κακή προσαρμογή σε training data",
+      "C": "Perfect fit",
+      "D": "Overfitting"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 78 για κεφάλαιο 4;",
+    "question": "Τι είναι Regularization;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 78",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "Αύξηση complexity",
+      "B": "Τεχνική για πρόληψη overfitting",
+      "C": "Αύξηση features",
+      "D": "Αύξηση complexity"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 79 για κεφάλαιο 4;",
+    "question": "Τι είναι L1 Regularization;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 79",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "L2 regularization",
+      "B": "Lasso, προσθήκη |w| στο loss",
+      "C": "Batch norm",
+      "D": "L2 regularization"
     },
     "answer": "B"
   },
   {
-    "question": "Ερώτηση 80 για κεφάλαιο 4;",
+    "question": "Τι είναι L2 Regularization;",
     "choices": {
-      "A": "Λάθος A",
-      "B": "Σωστή απάντηση 80",
-      "C": "Λάθος C",
-      "D": "Λάθος A"
+      "A": "L1 regularization",
+      "B": "Ridge, προσθήκη w² στο loss",
+      "C": "Batch norm",
+      "D": "L1 regularization"
     },
     "answer": "B"
   }

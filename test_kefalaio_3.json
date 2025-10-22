@@ -1,351 +1,321 @@
 [
   {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "question": "Τι είναι Structured Data;",
+    "choices": {
+      "A": "Μη οργανωμένα δεδομένα",
+      "B": "Δεδομένα με καθορισμένο σχήμα (tables, databases)",
+      "C": "Μόνο εικόνες",
+      "D": "Μη οργανωμένα δεδομένα"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Unstructured Data;",
+    "choices": {
+      "A": "Μόνο tables",
+      "B": "Δεδομένα χωρίς σχήμα (κείμενο, εικόνες, βίντεο)",
+      "C": "Μόνο αριθμοί",
+      "D": "Μόνο tables"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Semi-structured Data;",
+    "choices": {
+      "A": "Πλήρως structured",
+      "B": "Δεδομένα με κάποια οργάνωση (JSON, XML)",
+      "C": "Μόνο CSV",
+      "D": "Πλήρως structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποια παραδείγματα structured data;",
+    "choices": {
+      "A": "Emails, PDFs",
+      "B": "SQL databases, Excel spreadsheets",
+      "C": "Social media posts",
+      "D": "Emails, PDFs"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποια παραδείγματα unstructured data;",
+    "choices": {
+      "A": "Μόνο databases",
+      "B": "Κείμενο, εικόνες, ήχος, βίντεο",
+      "C": "Μόνο αριθμοί",
+      "D": "Μόνο databases"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Time-series Data;",
+    "choices": {
+      "A": "Στατικά δεδομένα",
+      "B": "Δεδομένα με χρονική σήμανση",
+      "C": "Μόνο ημερομηνίες",
+      "D": "Στατικά δεδομένα"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Spatial Data;",
+    "choices": {
+      "A": "Χωρίς τοποθεσία",
+      "B": "Δεδομένα με γεωγραφική πληροφορία",
+      "C": "Μόνο αριθμοί",
+      "D": "Χωρίς τοποθεσία"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Categorical Data;",
+    "choices": {
+      "A": "Συνεχή δεδομένα",
+      "B": "Δεδομένα σε κατηγορίες (labels)",
+      "C": "Μόνο κείμενο",
+      "D": "Συνεχή δεδομένα"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Numerical Data;",
+    "choices": {
+      "A": "Ποιοτικά δεδομένα",
+      "B": "Ποσοτικά δεδομένα (integers, floats)",
+      "C": "Μόνο εικόνες",
+      "D": "Ποιοτικά δεδομένα"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Text Data;",
+    "choices": {
+      "A": "Αριθμοί",
+      "B": "Κείμενο σε φυσική γλώσσα",
+      "C": "Βίντεο",
+      "D": "Αριθμοί"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Image Data;",
+    "choices": {
+      "A": "Κείμενο",
+      "B": "Pixel matrices για εικόνες",
+      "C": "Αριθμοί",
+      "D": "Κείμενο"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Multimodal Data;",
+    "choices": {
+      "A": "Ένας τύπος μόνο",
+      "B": "Συνδυασμός πολλών τύπων (κείμενο+εικόνα)",
+      "C": "Μόνο εικόνες",
+      "D": "Ένας τύπος μόνο"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα από sensors;",
+    "choices": {
+      "A": "Μόνο χειρονακτικά",
+      "B": "IoT devices, wearables",
+      "C": "Μόνο από βάσεις",
+      "D": "Μόνο χειρονακτικά"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Web Scraping;",
+    "choices": {
+      "A": "Χειρονακτική αντιγραφή",
+      "B": "Αυτόματη εξαγωγή δεδομένων από ιστοσελίδες",
+      "C": "Δημιουργία sites",
+      "D": "Χειρονακτική αντιγραφή"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι APIs για δεδομένα;",
+    "choices": {
+      "A": "Βάσεις δεδομένων",
+      "B": "Interfaces για πρόσβαση σε δεδομένα",
+      "C": "Δίκτυα",
+      "D": "Βάσεις δεδομένων"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα από surveys;",
+    "choices": {
+      "A": "Αυτόματα sensors",
+      "B": "Ερωτηματολόγια σε χρήστες",
+      "C": "Databases",
+      "D": "Αυτόματα sensors"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Crowdsourcing;",
+    "choices": {
+      "A": "Μόνο από εταιρεία",
+      "B": "Συλλογή δεδομένων από πλήθος ανθρώπων",
+      "C": "Μόνο από sensors",
+      "D": "Μόνο από εταιρεία"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα από social media;",
+    "choices": {
+      "A": "Χειρονακτική αντιγραφή",
+      "B": "APIs των platforms (Twitter, Facebook)",
+      "C": "Τηλέφωνο",
+      "D": "Χειρονακτική αντιγραφή"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Labeling;",
+    "choices": {
+      "A": "Διαγραφή δεδομένων",
+      "B": "Προσθήκη ετικετών σε δεδομένα",
+      "C": "Συμπίεση",
+      "D": "Διαγραφή δεδομένων"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Annotation;",
+    "choices": {
+      "A": "Διαγραφή annotations",
+      "B": "Επισημείωση δεδομένων με metadata",
+      "C": "Εκτύπωση",
+      "D": "Διαγραφή annotations"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται εικόνες για training;",
+    "choices": {
+      "A": "Μόνο ζωγραφική",
+      "B": "Cameras, open datasets, web scraping",
+      "C": "Μόνο text",
+      "D": "Μόνο ζωγραφική"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Synthetic Data;",
+    "choices": {
+      "A": "Μόνο πραγματικά",
+      "B": "Τεχνητά δεδομένα από AI",
+      "C": "Μόνο κείμενο",
+      "D": "Μόνο πραγματικά"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι SQL Database;",
+    "choices": {
+      "A": "NoSQL database",
+      "B": "Relational database με tables",
+      "C": "Cloud storage",
+      "D": "NoSQL database"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι NoSQL Database;",
+    "choices": {
+      "A": "SQL database",
+      "B": "Non-relational database (MongoDB, Cassandra)",
+      "C": "Memory",
+      "D": "SQL database"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Lake;",
     "choices": {
       "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
+      "B": "Κεντρική αποθήκη για raw data",
+      "C": "Μόνο tables",
       "D": "Μόνο structured"
     },
     "answer": "B"
   },
   {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "question": "Τι είναι Data Warehouse;",
     "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
+      "A": "Raw data storage",
+      "B": "Structured data για analytics και BI",
+      "C": "Cache",
+      "D": "Raw data storage"
     },
     "answer": "B"
   },
   {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "question": "Τι διαφορά Data Lake vs Warehouse;",
     "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
+      "A": "Ίδιο",
+      "B": "Lake: raw, Warehouse: processed/structured",
+      "C": "Καμία διαφορά",
+      "D": "Ίδιο"
     },
     "answer": "B"
   },
   {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "question": "Τι είναι Cloud Storage;",
     "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
+      "A": "Local disk",
+      "B": "Αποθήκευση σε remote servers (S3, Azure Blob)",
+      "C": "Cache",
+      "D": "Local disk"
     },
     "answer": "B"
   },
   {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "question": "Τι είναι Object Storage;",
     "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
+      "A": "Block storage",
+      "B": "Storage για unstructured data (S3)",
+      "C": "Database",
+      "D": "Block storage"
     },
     "answer": "B"
   },
   {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "question": "Τι είναι Distributed Storage;",
     "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
+      "A": "Ένα μόνο node",
+      "B": "Αποθήκευση σε πολλά nodes (HDFS)",
+      "C": "RAM",
+      "D": "Ένα μόνο node"
     },
     "answer": "B"
   },
   {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "question": "Τι είναι Data Versioning;",
     "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
+      "A": "Διαγραφή versions",
+      "B": "Παρακολούθηση εκδόσεων δεδομένων",
+      "C": "Μόνο backup",
+      "D": "Διαγραφή versions"
     },
     "answer": "B"
   },
   {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "question": "Τι είναι Data Backup;",
     "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
-    "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
-    "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
-    "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
-    "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
-    "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
-    "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
-    "choices": {
-      "A": "Μόνο structured",
-      "B": "Structured, Unstructured, Semi-structured",
-      "C": "Μόνο semi-structured",
-      "D": "Μόνο structured"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς συλλέγονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο sensors",
-      "B": "Sensors, APIs, Surveys, Web scraping",
-      "C": "Μόνο surveys",
-      "D": "Μόνο sensors"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς συλλέγονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο sensors",
-      "B": "Sensors, APIs, Surveys, Web scraping",
-      "C": "Μόνο surveys",
-      "D": "Μόνο sensors"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς συλλέγονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο sensors",
-      "B": "Sensors, APIs, Surveys, Web scraping",
-      "C": "Μόνο surveys",
-      "D": "Μόνο sensors"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς συλλέγονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο sensors",
-      "B": "Sensors, APIs, Surveys, Web scraping",
-      "C": "Μόνο surveys",
-      "D": "Μόνο sensors"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς συλλέγονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο sensors",
-      "B": "Sensors, APIs, Surveys, Web scraping",
-      "C": "Μόνο surveys",
-      "D": "Μόνο sensors"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς συλλέγονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο sensors",
-      "B": "Sensors, APIs, Surveys, Web scraping",
-      "C": "Μόνο surveys",
-      "D": "Μόνο sensors"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς συλλέγονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο sensors",
-      "B": "Sensors, APIs, Surveys, Web scraping",
-      "C": "Μόνο surveys",
-      "D": "Μόνο sensors"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς συλλέγονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο sensors",
-      "B": "Sensors, APIs, Surveys, Web scraping",
-      "C": "Μόνο surveys",
-      "D": "Μόνο sensors"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς συλλέγονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο sensors",
-      "B": "Sensors, APIs, Surveys, Web scraping",
-      "C": "Μόνο surveys",
-      "D": "Μόνο sensors"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς συλλέγονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο sensors",
-      "B": "Sensors, APIs, Surveys, Web scraping",
-      "C": "Μόνο surveys",
-      "D": "Μόνο sensors"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πού αποθηκεύονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο local",
-      "B": "Databases, Data Lakes, Cloud Storage",
-      "C": "Μόνο memory",
-      "D": "Μόνο local"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πού αποθηκεύονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο local",
-      "B": "Databases, Data Lakes, Cloud Storage",
-      "C": "Μόνο memory",
-      "D": "Μόνο local"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πού αποθηκεύονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο local",
-      "B": "Databases, Data Lakes, Cloud Storage",
-      "C": "Μόνο memory",
-      "D": "Μόνο local"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πού αποθηκεύονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο local",
-      "B": "Databases, Data Lakes, Cloud Storage",
-      "C": "Μόνο memory",
-      "D": "Μόνο local"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πού αποθηκεύονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο local",
-      "B": "Databases, Data Lakes, Cloud Storage",
-      "C": "Μόνο memory",
-      "D": "Μόνο local"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πού αποθηκεύονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο local",
-      "B": "Databases, Data Lakes, Cloud Storage",
-      "C": "Μόνο memory",
-      "D": "Μόνο local"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πού αποθηκεύονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο local",
-      "B": "Databases, Data Lakes, Cloud Storage",
-      "C": "Μόνο memory",
-      "D": "Μόνο local"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πού αποθηκεύονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο local",
-      "B": "Databases, Data Lakes, Cloud Storage",
-      "C": "Μόνο memory",
-      "D": "Μόνο local"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πού αποθηκεύονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο local",
-      "B": "Databases, Data Lakes, Cloud Storage",
-      "C": "Μόνο memory",
-      "D": "Μόνο local"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πού αποθηκεύονται δεδομένα;",
-    "choices": {
-      "A": "Μόνο local",
-      "B": "Databases, Data Lakes, Cloud Storage",
-      "C": "Μόνο memory",
-      "D": "Μόνο local"
+      "A": "Διαγραφή δεδομένων",
+      "B": "Αντίγραφα ασφαλείας",
+      "C": "Encryption μόνο",
+      "D": "Διαγραφή δεδομένων"
     },
     "answer": "B"
   },
@@ -353,299 +323,329 @@
     "question": "Τι είναι Data Quality;",
     "choices": {
       "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
+      "B": "Accuracy, Completeness, Consistency, Timeliness",
+      "C": "Μόνο size",
       "D": "Μόνο accuracy"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Τι σημαίνει Data Accuracy;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Δεδομένα είναι πλήρη",
+      "B": "Δεδομένα είναι σωστά και ακριβή",
+      "C": "Δεδομένα είναι μεγάλα",
+      "D": "Δεδομένα είναι πλήρη"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Τι σημαίνει Data Completeness;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Δεδομένα είναι σωστά",
+      "B": "Δεδομένα είναι πλήρη χωρίς missing values",
+      "C": "Δεδομένα είναι μικρά",
+      "D": "Δεδομένα είναι σωστά"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Τι σημαίνει Data Consistency;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Δεδομένα είναι γρήγορα",
+      "B": "Δεδομένα είναι συνεπή σε διάφορες πηγές",
+      "C": "Δεδομένα είναι νέα",
+      "D": "Δεδομένα είναι γρήγορα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Τι είναι Missing Data;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Πλήρη δεδομένα",
+      "B": "Δεδομένα που λείπουν",
+      "C": "Παλιά δεδομένα",
+      "D": "Πλήρη δεδομένα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Πώς χειρίζονται Missing Values;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Αγνόηση",
+      "B": "Imputation, deletion, prediction",
+      "C": "Διπλασιασμός",
+      "D": "Αγνόηση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Τι είναι Data Cleaning;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Διαγραφή όλων",
+      "B": "Αφαίρεση errors και inconsistencies",
+      "C": "Συμπίεση",
+      "D": "Διαγραφή όλων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Τι είναι Outliers;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Κανονικές τιμές",
+      "B": "Ακραίες τιμές εκτός κανονικού range",
+      "C": "Duplicates",
+      "D": "Κανονικές τιμές"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Πώς ανιχνεύονται Outliers;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Χειρονακτικά μόνο",
+      "B": "Statistical methods, visualization",
+      "C": "Καθόλου",
+      "D": "Χειρονακτικά μόνο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Τι είναι Duplicate Data;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Unique data",
+      "B": "Επαναλαμβανόμενες εγγραφές",
+      "C": "Outliers",
+      "D": "Unique data"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Τι είναι Data Validation;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Διαγραφή δεδομένων",
+      "B": "Έλεγχος ότι δεδομένα πληρούν κανόνες",
+      "C": "Συμπίεση",
+      "D": "Διαγραφή δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Τι είναι Data Profiling;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Διαγραφή",
+      "B": "Ανάλυση δομής και ποιότητας δεδομένων",
+      "C": "Encryption",
+      "D": "Διαγραφή"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Τι είναι Data Lineage;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Διαγραφή ιστορικού",
+      "B": "Παρακολούθηση προέλευσης και μετασχηματισμών",
+      "C": "Συμπίεση",
+      "D": "Διαγραφή ιστορικού"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Τι είναι Data Governance;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Καμία διαχείριση",
+      "B": "Πολιτικές διαχείρισης δεδομένων",
+      "C": "Μόνο διαγραφή",
+      "D": "Καμία διαχείριση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Quality;",
+    "question": "Τι είναι Data Catalog;",
     "choices": {
-      "A": "Μόνο accuracy",
-      "B": "Accuracy, Completeness, Consistency",
-      "C": "Μόνο consistency",
-      "D": "Μόνο accuracy"
+      "A": "Βάση δεδομένων",
+      "B": "Μητρώο διαθέσιμων datasets",
+      "C": "Backup",
+      "D": "Βάση δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Data Preprocessing;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Μετά το ML",
+      "B": "Προετοιμασία δεδομένων για ML",
+      "C": "Μόνο visualization",
+      "D": "Μετά το ML"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Normalization;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Διαγραφή",
+      "B": "Scaling δεδομένων σε κοινό range (0-1)",
+      "C": "Compression",
+      "D": "Διαγραφή"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Standardization;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Normalization",
+      "B": "Μετασχηματισμός σε mean=0, std=1",
+      "C": "Αποθήκευση",
+      "D": "Normalization"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Feature Scaling;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Διαγραφή features",
+      "B": "Προσαρμογή κλίμακας features",
+      "C": "Visualization",
+      "D": "Διαγραφή features"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Encoding;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Decoding",
+      "B": "Μετατροπή categorical σε numerical",
+      "C": "Encryption",
+      "D": "Decoding"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι One-Hot Encoding;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Label encoding",
+      "B": "Μετατροπή categories σε binary vectors",
+      "C": "Διαγραφή",
+      "D": "Label encoding"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Label Encoding;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "One-hot encoding",
+      "B": "Ανάθεση αριθμών σε κατηγορίες",
+      "C": "Διαγραφή",
+      "D": "One-hot encoding"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Feature Engineering;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Διαγραφή features",
+      "B": "Δημιουργία νέων features από υπάρχοντα",
+      "C": "Visualization",
+      "D": "Διαγραφή features"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Feature Selection;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Διαγραφή όλων",
+      "B": "Επιλογή σημαντικών features",
+      "C": "Τυχαία επιλογή",
+      "D": "Διαγραφή όλων"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Dimensionality Reduction;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Αύξηση dimensions",
+      "B": "Μείωση αριθμού features (PCA)",
+      "C": "Αποθήκευση",
+      "D": "Αύξηση dimensions"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι PCA;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Personal Computer Analysis",
+      "B": "Principal Component Analysis",
+      "C": "Protocol Communication Analysis",
+      "D": "Personal Computer Analysis"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Data Transformation;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Διαγραφή",
+      "B": "Μετασχηματισμός δεδομένων σε άλλη μορφή",
+      "C": "Visualization",
+      "D": "Διαγραφή"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Data Aggregation;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Διαχωρισμός",
+      "B": "Συγκέντρωση δεδομένων (sum, avg, count)",
+      "C": "Αποθήκευση",
+      "D": "Διαχωρισμός"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Data Sampling;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Όλα τα δεδομένα",
+      "B": "Επιλογή υποσυνόλου από dataset",
+      "C": "Αποθήκευση",
+      "D": "Όλα τα δεδομένα"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς γίνεται Data Preprocessing;",
+    "question": "Τι είναι Train-Test Split;",
     "choices": {
-      "A": "Μόνο cleaning",
-      "B": "Cleaning, Transformation, Normalization",
-      "C": "Μόνο normalization",
-      "D": "Μόνο cleaning"
+      "A": "Ένα set μόνο",
+      "B": "Διαχωρισμός σε train και test sets",
+      "C": "Αποθήκευση",
+      "D": "Ένα set μόνο"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Cross-Validation;",
+    "choices": {
+      "A": "Ένα split μόνο",
+      "B": "Πολλαπλά train-test splits για validation",
+      "C": "Μόνο training",
+      "D": "Ένα split μόνο"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Augmentation;",
+    "choices": {
+      "A": "Μείωση dataset",
+      "B": "Αύξηση dataset με μετασχηματισμούς",
+      "C": "Αποθήκευση",
+      "D": "Μείωση dataset"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Image Augmentation;",
+    "choices": {
+      "A": "Διαγραφή",
+      "B": "Rotation, flip, zoom, crop",
+      "C": "Compression",
+      "D": "Διαγραφή"
     },
     "answer": "B"
   }
