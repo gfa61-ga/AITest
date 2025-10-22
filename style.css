@@ -998,9 +998,53 @@ p {
 }
 
 .subtitle {
+  font-size: var(--font-size-xl);
+  color: var(--color-primary);
+  margin: 0 0 var(--space-8) 0;
+  font-weight: var(--font-weight-medium);
+}
+
+.description {
   font-size: var(--font-size-lg);
   color: var(--color-text-secondary);
   margin: 0;
+}
+
+/* Summary Statistics */
+.summary-stats {
+  margin-bottom: var(--space-32);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-16);
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--space-24);
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-item {
+  text-align: center;
+  padding: var(--space-16);
+}
+
+.stat-number {
+  display: block;
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--space-8);
+}
+
+.stat-label {
+  display: block;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .tests-container {
@@ -1049,8 +1093,35 @@ p {
 }
 
 .questions-count {
-  color: var(--color-text-secondary);
-  font-size: var(--font-size-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+.question-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4) var(--space-8);
+  background: var(--color-bg-1);
+  color: var(--color-primary);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  min-width: 32px;
+}
+
+.question-badge.high-count {
+  background: var(--color-bg-6);
+  color: var(--color-orange-500);
+}
+
+.chapter-row.high-count {
+  background: rgba(var(--color-orange-500-rgb), 0.05);
+}
+
+.chapter-row.high-count:hover {
+  background: rgba(var(--color-orange-500-rgb), 0.08);
 }
 
 /* Quiz Page Styles */
@@ -1381,6 +1452,20 @@ p {
   }
 
   .main-header h1 {
+    font-size: var(--font-size-3xl);
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-12);
+    padding: var(--space-16);
+  }
+
+  .stat-item {
+    padding: var(--space-12);
+  }
+
+  .stat-number {
     font-size: var(--font-size-3xl);
   }
 

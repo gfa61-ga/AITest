@@ -1,0 +1,652 @@
+[
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιοι τύποι δεδομένων υπάρχουν;",
+    "choices": {
+      "A": "Μόνο structured",
+      "B": "Structured, Unstructured, Semi-structured",
+      "C": "Μόνο semi-structured",
+      "D": "Μόνο structured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο sensors",
+      "B": "Sensors, APIs, Surveys, Web scraping",
+      "C": "Μόνο surveys",
+      "D": "Μόνο sensors"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο sensors",
+      "B": "Sensors, APIs, Surveys, Web scraping",
+      "C": "Μόνο surveys",
+      "D": "Μόνο sensors"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο sensors",
+      "B": "Sensors, APIs, Surveys, Web scraping",
+      "C": "Μόνο surveys",
+      "D": "Μόνο sensors"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο sensors",
+      "B": "Sensors, APIs, Surveys, Web scraping",
+      "C": "Μόνο surveys",
+      "D": "Μόνο sensors"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο sensors",
+      "B": "Sensors, APIs, Surveys, Web scraping",
+      "C": "Μόνο surveys",
+      "D": "Μόνο sensors"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο sensors",
+      "B": "Sensors, APIs, Surveys, Web scraping",
+      "C": "Μόνο surveys",
+      "D": "Μόνο sensors"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο sensors",
+      "B": "Sensors, APIs, Surveys, Web scraping",
+      "C": "Μόνο surveys",
+      "D": "Μόνο sensors"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο sensors",
+      "B": "Sensors, APIs, Surveys, Web scraping",
+      "C": "Μόνο surveys",
+      "D": "Μόνο sensors"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο sensors",
+      "B": "Sensors, APIs, Surveys, Web scraping",
+      "C": "Μόνο surveys",
+      "D": "Μόνο sensors"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς συλλέγονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο sensors",
+      "B": "Sensors, APIs, Surveys, Web scraping",
+      "C": "Μόνο surveys",
+      "D": "Μόνο sensors"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πού αποθηκεύονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο local",
+      "B": "Databases, Data Lakes, Cloud Storage",
+      "C": "Μόνο memory",
+      "D": "Μόνο local"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πού αποθηκεύονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο local",
+      "B": "Databases, Data Lakes, Cloud Storage",
+      "C": "Μόνο memory",
+      "D": "Μόνο local"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πού αποθηκεύονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο local",
+      "B": "Databases, Data Lakes, Cloud Storage",
+      "C": "Μόνο memory",
+      "D": "Μόνο local"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πού αποθηκεύονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο local",
+      "B": "Databases, Data Lakes, Cloud Storage",
+      "C": "Μόνο memory",
+      "D": "Μόνο local"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πού αποθηκεύονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο local",
+      "B": "Databases, Data Lakes, Cloud Storage",
+      "C": "Μόνο memory",
+      "D": "Μόνο local"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πού αποθηκεύονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο local",
+      "B": "Databases, Data Lakes, Cloud Storage",
+      "C": "Μόνο memory",
+      "D": "Μόνο local"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πού αποθηκεύονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο local",
+      "B": "Databases, Data Lakes, Cloud Storage",
+      "C": "Μόνο memory",
+      "D": "Μόνο local"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πού αποθηκεύονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο local",
+      "B": "Databases, Data Lakes, Cloud Storage",
+      "C": "Μόνο memory",
+      "D": "Μόνο local"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πού αποθηκεύονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο local",
+      "B": "Databases, Data Lakes, Cloud Storage",
+      "C": "Μόνο memory",
+      "D": "Μόνο local"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πού αποθηκεύονται δεδομένα;",
+    "choices": {
+      "A": "Μόνο local",
+      "B": "Databases, Data Lakes, Cloud Storage",
+      "C": "Μόνο memory",
+      "D": "Μόνο local"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Quality;",
+    "choices": {
+      "A": "Μόνο accuracy",
+      "B": "Accuracy, Completeness, Consistency",
+      "C": "Μόνο consistency",
+      "D": "Μόνο accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς γίνεται Data Preprocessing;",
+    "choices": {
+      "A": "Μόνο cleaning",
+      "B": "Cleaning, Transformation, Normalization",
+      "C": "Μόνο normalization",
+      "D": "Μόνο cleaning"
+    },
+    "answer": "B"
+  }
+]

@@ -2,21 +2,21 @@
 class QuizApp {
     constructor() {
         this.chapters = [
-            { number: 1, title: "Εισαγωγή στην Τεχνητή Νοημοσύνη", questions: 40, file: "test_kefalaio_1.json" },
-            { number: 2, title: "Διασύνδεση AI με Άλλες Τεχνολογίες", questions: 40, file: "test_kefalaio_2.json" },
-            { number: 3, title: "Η Αξία των Δεδομένων για την AI", questions: 40, file: "test_kefalaio_3.json" },
-            { number: 4, title: "Αλγόριθμοι και Μοντέλα Μηχανικής Μάθησης", questions: 40, file: "test_kefalaio_4.json" },
-            { number: 5, title: "Νευρωνικά Δίκτυα και Βαθιά Μάθηση", questions: 40, file: "test_kefalaio_5.json" },
-            { number: 6, title: "Ανάπτυξη και Εκπαίδευση Μοντέλων AI", questions: 40, file: "test_kefalaio_6.json" },
-            { number: 7, title: "Natural Language Processing (NLP)", questions: 40, file: "test_kefalaio_7.json" },
-            { number: 8, title: "Computer Vision", questions: 40, file: "test_kefalaio_8.json" },
-            { number: 9, title: "Ρομποτική και Αυτονομία", questions: 40, file: "test_kefalaio_9.json" },
-            { number: 10, title: "Ηθικά και Νομικά Ζητήματα AI", questions: 40, file: "test_kefalaio_10.json" },
-            { number: 11, title: "AI στο Marketing", questions: 40, file: "test_kefalaio_11.json" },
-            { number: 12, title: "AI στην Υγεία", questions: 40, file: "test_kefalaio_12.json" },
-            { number: 13, title: "Conversational AI και Personal Assistants", questions: 40, file: "test_kefalaio_13.json" },
-            { number: 14, title: "AI στις Επιχειρήσεις", questions: 40, file: "test_kefalaio_14.json" },
-            { number: 15, title: "Υλοποίηση και Ενσωμάτωση AI", questions: 40, file: "test_kefalaio_15.json" }
+            { number: 1, title: "Εισαγωγή στην Τεχνητή Νοημοσύνη", questions: 60, file: "test_kefalaio_1.json" },
+            { number: 2, title: "Διασύνδεση AI με Άλλες Τεχνολογίες", questions: 70, file: "test_kefalaio_2.json" },
+            { number: 3, title: "Η Αξία των Δεδομένων για την AI", questions: 65, file: "test_kefalaio_3.json" },
+            { number: 4, title: "Αλγόριθμοι και Μοντέλα Μηχανικής Μάθησης", questions: 80, file: "test_kefalaio_4.json" },
+            { number: 5, title: "Νευρωνικά Δίκτυα και Βαθιά Μάθηση", questions: 75, file: "test_kefalaio_5.json" },
+            { number: 6, title: "Ανάπτυξη και Εκπαίδευση Μοντέλων AI", questions: 70, file: "test_kefalaio_6.json" },
+            { number: 7, title: "Natural Language Processing (NLP)", questions: 65, file: "test_kefalaio_7.json" },
+            { number: 8, title: "Computer Vision", questions: 70, file: "test_kefalaio_8.json" },
+            { number: 9, title: "Ρομποτική και Αυτονομία", questions: 60, file: "test_kefalaio_9.json" },
+            { number: 10, title: "Ηθικά και Νομικά Ζητήματα AI", questions: 55, file: "test_kefalaio_10.json" },
+            { number: 11, title: "AI στο Marketing", questions: 60, file: "test_kefalaio_11.json" },
+            { number: 12, title: "AI στην Υγεία", questions: 65, file: "test_kefalaio_12.json" },
+            { number: 13, title: "Conversational AI και Personal Assistants", questions: 55, file: "test_kefalaio_13.json" },
+            { number: 14, title: "AI στις Επιχειρήσεις", questions: 60, file: "test_kefalaio_14.json" },
+            { number: 15, title: "Υλοποίηση και Ενσωμάτωση AI", questions: 55, file: "test_kefalaio_15.json" }
         ];
         
         this.currentChapter = null;
@@ -103,10 +103,25 @@ class QuizApp {
         
         this.chapters.forEach(chapter => {
             const row = document.createElement('tr');
+            const isHighCount = chapter.questions >= 80;
+            
+            if (isHighCount) {
+                row.classList.add('chapter-row', 'high-count');
+            } else {
+                row.classList.add('chapter-row');
+            }
+            
+            const badgeClass = isHighCount ? 'question-badge high-count' : 'question-badge';
+            
             row.innerHTML = `
                 <td><span class="chapter-number">${chapter.number}</span></td>
                 <td><span class="chapter-title">${chapter.title}</span></td>
-                <td><span class="questions-count">${chapter.questions}</span></td>
+                <td>
+                    <div class="questions-count">
+                        <span class="${badgeClass}">${chapter.questions}</span>
+                        <span>ερωτήσεις</span>
+                    </div>
+                </td>
                 <td>
                     <button class="btn btn--primary" onclick="app.startTest(${chapter.number})">
                         Έναρξη Τεστ
@@ -156,7 +171,10 @@ class QuizApp {
     }
 
     generateSampleQuestions(chapterNumber) {
-        // Generate 40 sample questions for demonstration
+        // Get the correct number of questions for this chapter
+        const chapter = this.chapters.find(c => c.number === chapterNumber);
+        const numQuestions = chapter ? chapter.questions : 40;
+        
         const questions = [];
         const sampleQuestions = {
             1: [
@@ -205,11 +223,11 @@ class QuizApp {
             ]
         };
 
-        // Get sample questions for this chapter, or default questions
+        // Get sample questions for this chapter, or default questions from chapter 1
         const chapterQuestions = sampleQuestions[chapterNumber] || sampleQuestions[1];
         
-        // Generate 40 questions by repeating and modifying the sample questions
-        for (let i = 0; i < 40; i++) {
+        // Generate the correct number of questions by repeating and modifying the sample questions
+        for (let i = 0; i < numQuestions; i++) {
             const baseQuestion = chapterQuestions[i % chapterQuestions.length];
             questions.push({
                 question: `${i + 1}. ${baseQuestion.question}`,

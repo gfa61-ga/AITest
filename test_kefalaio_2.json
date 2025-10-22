@@ -1,0 +1,702 @@
+[
+  {
+    "question": "Τι σημαίνει IoT;",
+    "choices": {
+      "A": "Internet of Technology",
+      "B": "Internet of Things",
+      "C": "International of Tech",
+      "D": "Internet of Technology"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI βελτιώνει IoT;",
+    "choices": {
+      "A": "Μόνο αποθήκευση",
+      "B": "Ανάλυση δεδομένων sensors σε πραγματικό χρόνο",
+      "C": "Μόνο εκτύπωση",
+      "D": "Μόνο αποθήκευση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Edge AI στο IoT;",
+    "choices": {
+      "A": "AI στο cloud",
+      "B": "AI επεξεργασία στη συσκευή",
+      "C": "AI στη βάση",
+      "D": "AI στο cloud"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποια πρωτόκολλα χρησιμοποιεί IoT;",
+    "choices": {
+      "A": "Μόνο HTTP",
+      "B": "MQTT, CoAP, LoRaWAN",
+      "C": "Μόνο SMTP",
+      "D": "Μόνο HTTP"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι ρόλο παίζει AI στα Smart Homes;",
+    "choices": {
+      "A": "Μόνο φωτισμός",
+      "B": "Αυτοματισμός και εξατομίκευση",
+      "C": "Μόνο ασφάλεια",
+      "D": "Μόνο φωτισμός"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς λειτουργεί predictive maintenance με IoT;",
+    "choices": {
+      "A": "Επισκευή μετά βλάβη",
+      "B": "AI προβλέπει βλάβες από sensor data",
+      "C": "Καμία συντήρηση",
+      "D": "Επισκευή μετά βλάβη"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Smart Cities;",
+    "choices": {
+      "A": "Πόλεις με φώτα",
+      "B": "Πόλεις με IoT και AI για βελτιστοποίηση",
+      "C": "Πόλεις με κτίρια",
+      "D": "Πόλεις με φώτα"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI βοηθά στη διαχείριση κυκλοφορίας;",
+    "choices": {
+      "A": "Μόνο φανάρια",
+      "B": "Ανάλυση πραγματικού χρόνου και βελτιστοποίηση",
+      "C": "Μόνο πινακίδες",
+      "D": "Μόνο φανάρια"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Industrial IoT (IIoT);",
+    "choices": {
+      "A": "IoT για σπίτια",
+      "B": "IoT για βιομηχανικές εφαρμογές",
+      "C": "IoT για κινητά",
+      "D": "IoT για σπίτια"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI αναλύει streaming data από IoT;",
+    "choices": {
+      "A": "Batch processing",
+      "B": "Real-time processing με ML",
+      "C": "Offline ανάλυση",
+      "D": "Batch processing"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Digital Twin;",
+    "choices": {
+      "A": "Φυσικό αντίγραφο",
+      "B": "Ψηφιακό αντίγραφο φυσικού συστήματος",
+      "C": "Αποθήκευση",
+      "D": "Φυσικό αντίγραφο"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιο πρόβλημα λύνει AI στα IoT δεδομένα;",
+    "choices": {
+      "A": "Μόνο αποθήκευση",
+      "B": "Διαχείριση μεγάλου όγκου και ταχύτητας",
+      "C": "Μόνο διαγραφή",
+      "D": "Μόνο αποθήκευση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Fog Computing στο IoT;",
+    "choices": {
+      "A": "Μόνο cloud",
+      "B": "Επεξεργασία μεταξύ edge και cloud",
+      "C": "Μόνο on-premise",
+      "D": "Μόνο cloud"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI βελτιώνει ενεργειακή διαχείριση IoT;",
+    "choices": {
+      "A": "Μόνο μέτρηση",
+      "B": "Πρόβλεψη κατανάλωσης και βελτιστοποίηση",
+      "C": "Μόνο εκτύπωση",
+      "D": "Μόνο μέτρηση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι ασφάλεια προσφέρει AI στο IoT;",
+    "choices": {
+      "A": "Καμία",
+      "B": "Ανίχνευση ανωμαλιών και απειλών",
+      "C": "Μόνο firewall",
+      "D": "Καμία"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Blockchain;",
+    "choices": {
+      "A": "Κεντρική βάση",
+      "B": "Κατανεμημένο αμετάβλητο ledger",
+      "C": "Cloud storage",
+      "D": "Κεντρική βάση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς blockchain βοηθά AI;",
+    "choices": {
+      "A": "Μόνο αποθήκευση",
+      "B": "Εξασφαλίζει ακεραιότητα δεδομένων",
+      "C": "Μόνο εκτύπωση",
+      "D": "Μόνο αποθήκευση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Smart Contracts με AI;",
+    "choices": {
+      "A": "Χειρονακτικά συμβόλαια",
+      "B": "Αυτόματη εκτέλεση συμβολαίων με AI",
+      "C": "Email συμβόλαια",
+      "D": "Χειρονακτικά συμβόλαια"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI χρησιμοποιείται στο crypto trading;",
+    "choices": {
+      "A": "Μόνο αγορά",
+      "B": "Πρόβλεψη τιμών και αυτόματο trading",
+      "C": "Καμία χρήση",
+      "D": "Μόνο αγορά"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι πρόκληση λύνει blockchain στην AI;",
+    "choices": {
+      "A": "Ταχύτητα",
+      "B": "Διαφάνεια και trust σε δεδομένα",
+      "C": "Μέγεθος",
+      "D": "Ταχύτητα"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι decentralized AI;",
+    "choices": {
+      "A": "Κεντρική AI",
+      "B": "AI μοντέλα σε blockchain χωρίς κεντρικό έλεγχο",
+      "C": "Μόνο edge AI",
+      "D": "Κεντρική AI"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς blockchain προστατεύει AI models;",
+    "choices": {
+      "A": "Καμία προστασία",
+      "B": "Immutable αποθήκευση και versioning",
+      "C": "Μόνο encryption",
+      "D": "Καμία προστασία"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι AI marketplace στο blockchain;",
+    "choices": {
+      "A": "Supermarket",
+      "B": "Αγορά/πώληση AI μοντέλων και δεδομένων",
+      "C": "Παντοπωλείο",
+      "D": "Supermarket"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI βοηθά στην ανίχνευση απάτης blockchain;",
+    "choices": {
+      "A": "Καμία βοήθεια",
+      "B": "Ανάλυση patterns συναλλαγών",
+      "C": "Μόνο reporting",
+      "D": "Καμία βοήθεια"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Federated Learning με blockchain;",
+    "choices": {
+      "A": "Κεντρική εκπαίδευση",
+      "B": "Κατανεμημένη εκπαίδευση με ασφάλεια blockchain",
+      "C": "Μόνο local",
+      "D": "Κεντρική εκπαίδευση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς blockchain βελτιώνει data provenance για AI;",
+    "choices": {
+      "A": "Καμία βελτίωση",
+      "B": "Καταγραφή προέλευσης και ιστορικού δεδομένων",
+      "C": "Μόνο διαγραφή",
+      "D": "Καμία βελτίωση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι tokenization στην AI economy;",
+    "choices": {
+      "A": "Διαγραφή tokens",
+      "B": "Οικονομικά κίνητρα για data sharing",
+      "C": "Εκτύπωση tokens",
+      "D": "Διαγραφή tokens"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιες cloud platforms προσφέρουν AI;",
+    "choices": {
+      "A": "Μόνο on-premise",
+      "B": "AWS, Azure, Google Cloud",
+      "C": "Καμία",
+      "D": "Μόνο on-premise"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι AI as a Service (AIaaS);",
+    "choices": {
+      "A": "On-premise AI",
+      "B": "Cloud-based AI services",
+      "C": "No AI",
+      "D": "On-premise AI"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποια πλεονεκτήματα cloud training;",
+    "choices": {
+      "A": "Μόνο ταχύτητα",
+      "B": "Scalability, ισχύς, κόστος",
+      "C": "Καμία",
+      "D": "Μόνο ταχύτητα"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι διαφορά cloud από edge AI;",
+    "choices": {
+      "A": "Ίδιο",
+      "B": "Cloud στο datacenter, edge στη συσκευή",
+      "C": "Καμία διαφορά",
+      "D": "Ίδιο"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι serverless AI;",
+    "choices": {
+      "A": "Με servers",
+      "B": "Εκτέλεση χωρίς διαχείριση servers",
+      "C": "Χωρίς cloud",
+      "D": "Με servers"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποια AWS υπηρεσία για AI;",
+    "choices": {
+      "A": "Μόνο S3",
+      "B": "SageMaker, Rekognition, Comprehend",
+      "C": "Μόνο Lambda",
+      "D": "Μόνο S3"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποια Azure υπηρεσία για AI;",
+    "choices": {
+      "A": "Μόνο VMs",
+      "B": "Azure ML, Cognitive Services",
+      "C": "Μόνο Network",
+      "D": "Μόνο VMs"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποια Google Cloud υπηρεσία για AI;",
+    "choices": {
+      "A": "Μόνο Compute",
+      "B": "Vertex AI, AutoML",
+      "C": "Μόνο Network",
+      "D": "Μόνο Compute"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι GPU instances στο cloud;",
+    "choices": {
+      "A": "Μόνο CPU",
+      "B": "VMs με GPU για training",
+      "C": "Μόνο Storage",
+      "D": "Μόνο CPU"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι TPU;",
+    "choices": {
+      "A": "CPU",
+      "B": "Tensor Processing Unit για AI",
+      "C": "Storage",
+      "D": "CPU"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς λειτουργεί auto-scaling στο cloud AI;",
+    "choices": {
+      "A": "Χειρονακτική",
+      "B": "Αυτόματη προσαρμογή πόρων",
+      "C": "Καμία",
+      "D": "Χειρονακτική"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι hybrid cloud για AI;",
+    "choices": {
+      "A": "Μόνο cloud",
+      "B": "Συνδυασμός cloud και on-premise",
+      "C": "Καμία",
+      "D": "Μόνο cloud"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς cloud μειώνει κόστος AI;",
+    "choices": {
+      "A": "Αύξηση κόστους",
+      "B": "Pay-as-you-go, shared resources",
+      "C": "Δωρεάν",
+      "D": "Αύξηση κόστους"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι MLOps στο cloud;",
+    "choices": {
+      "A": "Μόνο development",
+      "B": "Practices για ML lifecycle",
+      "C": "Μόνο monitoring",
+      "D": "Μόνο development"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς cloud βοηθά collaboration σε AI;",
+    "choices": {
+      "A": "Απομόνωση",
+      "B": "Κεντρική πρόσβαση και version control",
+      "C": "Κανένα",
+      "D": "Απομόνωση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Big Data;",
+    "choices": {
+      "A": "Μικρά δεδομένα",
+      "B": "Δεδομένα με μεγάλο όγκο, ταχύτητα, ποικιλία",
+      "C": "Μόνο ταχύτητα",
+      "D": "Μικρά δεδομένα"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποια τα 3 Vs του Big Data;",
+    "choices": {
+      "A": "Value, Version, View",
+      "B": "Volume, Velocity, Variety",
+      "C": "Void, Vast, Vague",
+      "D": "Value, Version, View"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI αναλύει Big Data;",
+    "choices": {
+      "A": "Χειρονακτική",
+      "B": "ML για patterns και insights",
+      "C": "Τυχαία",
+      "D": "Χειρονακτική"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Hadoop;",
+    "choices": {
+      "A": "Βάση δεδομένων",
+      "B": "Framework για distributed processing",
+      "C": "Γλώσσα",
+      "D": "Βάση δεδομένων"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Spark;",
+    "choices": {
+      "A": "Βάση δεδομένων",
+      "B": "Fast processing engine για Big Data",
+      "C": "Storage",
+      "D": "Βάση δεδομένων"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI βελτιώνει data quality;",
+    "choices": {
+      "A": "Καμία βελτίωση",
+      "B": "Ανίχνευση errors και anomalies",
+      "C": "Μόνο διαγραφή",
+      "D": "Καμία βελτίωση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Lake;",
+    "choices": {
+      "A": "Βάση SQL",
+      "B": "Κεντρική αποθήκη για raw data",
+      "C": "Email",
+      "D": "Βάση SQL"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Data Warehouse;",
+    "choices": {
+      "A": "Raw data storage",
+      "B": "Structured data για analytics",
+      "C": "Archive",
+      "D": "Raw data storage"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI κάνει data mining;",
+    "choices": {
+      "A": "Χειρονακτική εξόρυξη",
+      "B": "Εξαγωγή patterns από μεγάλα datasets",
+      "C": "Τυχαία",
+      "D": "Χειρονακτική εξόρυξη"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι stream processing με AI;",
+    "choices": {
+      "A": "Batch processing",
+      "B": "Real-time ανάλυση ροής δεδομένων",
+      "C": "Manual",
+      "D": "Batch processing"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI διαχειρίζεται unstructured data;",
+    "choices": {
+      "A": "Καμία διαχείριση",
+      "B": "NLP για κείμενο, CV για εικόνες",
+      "C": "Μόνο αποθήκευση",
+      "D": "Καμία διαχείριση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι ETL στο Big Data;",
+    "choices": {
+      "A": "Edit, Test, Learn",
+      "B": "Extract, Transform, Load",
+      "C": "Enter, Type, List",
+      "D": "Edit, Test, Learn"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Industry 4.0;",
+    "choices": {
+      "A": "1η επανάσταση",
+      "B": "4η βιομηχανική επανάσταση με AI, IoT, automation",
+      "C": "Μόνο internet",
+      "D": "1η επανάσταση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Ποιες τεχνολογίες αποτελούν Industry 4.0;",
+    "choices": {
+      "A": "Μόνο AI",
+      "B": "AI, IoT, Cloud, Robotics, Big Data",
+      "C": "Μόνο Cloud",
+      "D": "Μόνο AI"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI βελτιώνει παραγωγή;",
+    "choices": {
+      "A": "Καμία βελτίωση",
+      "B": "Βελτιστοποίηση, quality control, predictive maintenance",
+      "C": "Μόνο κόστος",
+      "D": "Καμία βελτίωση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Smart Factory;",
+    "choices": {
+      "A": "Παλαιό εργοστάσιο",
+      "B": "Εργοστάσιο με AI και IoT automation",
+      "C": "Χωρίς μηχανές",
+      "D": "Παλαιό εργοστάσιο"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI βοηθά quality control;",
+    "choices": {
+      "A": "Χειρονακτικός έλεγχος",
+      "B": "Computer vision για ανίχνευση ελαττωμάτων",
+      "C": "Τυχαίος έλεγχος",
+      "D": "Χειρονακτικός έλεγχος"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Cobots;",
+    "choices": {
+      "A": "Μόνο ρομπότ",
+      "B": "Collaborative robots με ανθρώπους",
+      "C": "Μόνο automation",
+      "D": "Μόνο ρομπότ"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI βελτιστοποιεί supply chain;",
+    "choices": {
+      "A": "Καμία βελτιστοποίηση",
+      "B": "Πρόβλεψη ζήτησης και inventory",
+      "C": "Μόνο μεταφορά",
+      "D": "Καμία βελτιστοποίηση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι predictive maintenance Industry 4.0;",
+    "choices": {
+      "A": "Επισκευή μετά βλάβη",
+      "B": "AI προβλέπει βλάβες μηχανημάτων",
+      "C": "Καμία",
+      "D": "Επισκευή μετά βλάβη"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI μειώνει downtime;",
+    "choices": {
+      "A": "Αύξηση downtime",
+      "B": "Πρόβλεψη και πρόληψη βλαβών",
+      "C": "Τυχαίο",
+      "D": "Αύξηση downtime"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Augmented Reality στη βιομηχανία;",
+    "choices": {
+      "A": "Virtual reality",
+      "B": "AR για training και maintenance",
+      "C": "Μόνο VR",
+      "D": "Virtual reality"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI βοηθά στην ενεργειακή απόδοση;",
+    "choices": {
+      "A": "Αύξηση κατανάλωσης",
+      "B": "Βελτιστοποίηση κατανάλωσης",
+      "C": "Τυχαία",
+      "D": "Αύξηση κατανάλωσης"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Autonomous Guided Vehicles (AGVs);",
+    "choices": {
+      "A": "Χειρονακτικά",
+      "B": "Αυτόνομα οχήματα σε εργοστάσια",
+      "C": "Εξωτερικά",
+      "D": "Χειρονακτικά"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI βελτιώνει scheduling;",
+    "choices": {
+      "A": "Χειρονακτικό",
+      "B": "Βελτιστοποίηση παραγωγής και πόρων",
+      "C": "Σταθερό",
+      "D": "Χειρονακτικό"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Mass Customization;",
+    "choices": {
+      "A": "Μόνο mass production",
+      "B": "Εξατομίκευση σε μαζική παραγωγή",
+      "C": "Καμία",
+      "D": "Μόνο mass production"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Πώς AI βελτιώνει ασφάλεια εργασίας;",
+    "choices": {
+      "A": "Καμία βελτίωση",
+      "B": "Πρόβλεψη κινδύνων και monitoring",
+      "C": "Μόνο αισθητήρες",
+      "D": "Καμία βελτίωση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι Lights-Out Manufacturing;",
+    "choices": {
+      "A": "Με ανθρώπους",
+      "B": "Πλήρως αυτόματο εργοστάσιο χωρίς ανθρώπους",
+      "C": "Χειρονακτικό",
+      "D": "Με ανθρώπους"
+    },
+    "answer": "B"
+  }
+]
