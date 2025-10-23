@@ -254,6 +254,7 @@ class QuizApp {
     }
 
     async loadQuiz(chapter) {
+        console.log(`Loading chapter: ${chapter.number}`);
         console.log(`Loading quiz for chapter ${chapter.number}`);
         this.currentChapter = chapter;
         this.showQuizView();
@@ -261,60 +262,48 @@ class QuizApp {
         
         // Construct the JSON file path
         const jsonFile = `test_kefalaio_${chapter.number}.json`;
-        console.log(`Attempting to fetch: ${jsonFile}`);
+        console.log(`Fetching: ${jsonFile}`);
         
         try {
             // Show loading message
             this.updateLoadingMessage('Φόρτωση τεστ...');
             
-            // Create AbortController for timeout
-            const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
+            // Attempt to fetch the JSON file
+            const response = await fetch(jsonFile, {
+                cache: 'no-cache'
+            });
+            console.log(`Fetch response status: ${response.status}`);
             
-            try {
-                // Attempt to fetch the JSON file with timeout
-                const response = await fetch(jsonFile, {
-                    signal: controller.signal,
-                    cache: 'no-cache'
-                });
-                clearTimeout(timeoutId);
-                console.log(`Fetch response status: ${response.status}`);
-                
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                
-                const data = await response.json();
-                console.log(`Response received, data type:`, typeof data);
-                console.log(`Data length:`, Array.isArray(data) ? data.length : 'Not an array');
-                
-                // Comprehensive data validation
-                if (!this.validateQuizData(data)) {
-                    throw new Error('VALIDATION_ERROR');
-                }
-                
-                console.log(`Successfully validated ${data.length} questions`);
-                console.log('Sample question structure:', data[0]);
-                
-            } catch (fetchError) {
-                clearTimeout(timeoutId);
-                if (fetchError.name === 'AbortError') {
-                    throw new Error('TIMEOUT_ERROR');
-                }
-                throw fetchError;
+            if (!response.ok) {
+                throw new Error(`File not found: ${jsonFile}`);
             }
             
-            // Load the questions
-            this.questions = data;
-            this.userAnswers = new Array(data.length).fill(null);
+            const jsonData = await response.json();
+            console.log(`Response received, data type:`, typeof jsonData);
+            console.log(`Data length:`, Array.isArray(jsonData) ? jsonData.length : 'Not an array');
+            
+            // Comprehensive data validation
+            if (!this.validateQuizData(jsonData)) {
+                throw new Error('Invalid JSON format or structure');
+            }
+            
+            console.log(`Loaded: ${jsonData.length} questions`);
+            console.log(`Successfully validated ${jsonData.length} questions`);
+            console.log('Sample question structure:', jsonData[0]);
+            
+            // Store in instance variables IMMEDIATELY after validation
+            this.questions = jsonData;
+            this.userAnswers = new Array(jsonData.length).fill(null);
             this.currentQuestionIndex = 0;
             this.isTestComplete = false;
             
+            // Initialize UI
             this.hideLoading();
             this.displayQuestion();
             this.updateProgress();
             
         } catch (error) {
+            console.error(`Error: ${error.message}`);
             console.error('Error loading quiz:', error);
             this.hideLoading();
             
@@ -322,26 +311,17 @@ class QuizApp {
             let errorMessage = 'Σφάλμα φόρτωσης τεστ';
             let errorDetails = '';
             
-            if (error.message.includes('404')) {
+            if (error.message.includes('File not found') || error.message.includes('404')) {
                 errorMessage = 'Το αρχείο δεν βρέθηκε';
                 errorDetails = `Βεβαιωθείτε ότι το αρχείο ${jsonFile} υπάρχει στον ίδιο φάκελο.`;
             } else if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
                 errorMessage = 'Σφάλμα δικτύου';
                 errorDetails = 'Ελέγξτε τη σύνδεσή σας στο διαδίκτυο.';
-            } else if (error.message.includes('JSON')) {
+            } else if (error.message.includes('JSON') || error.message.includes('Invalid JSON format')) {
                 errorMessage = 'Σφάλμα ανάγνωσης δεδομένων';
                 errorDetails = 'Το αρχείο JSON είναι κατεστραμμένο ή έχει λάθος μορφή.';
             } else {
                 errorDetails = error.message;
-            }
-            
-            // Determine specific error type and message
-            if (error.message === 'TIMEOUT_ERROR') {
-                errorMessage = 'Χρονικό όριο λήξεως';
-                errorDetails = 'Το αρχείο φαίνεται να είναι πολύ μεγάλο ή η σύνδεση είναι αργή.';
-            } else if (error.message === 'VALIDATION_ERROR') {
-                errorMessage = 'Μη έγκυρο αρχείο';
-                errorDetails = 'Το αρχείο JSON δεν έχει τη σωστή μορφή ερωτήσεων.';
             }
             
             this.showError(errorMessage, errorDetails, jsonFile);
@@ -354,99 +334,10 @@ class QuizApp {
                 expectedFile: jsonFile,
                 timestamp: new Date().toISOString()
             });
-            
-            // Fallback: Load sample questions for demonstration
-            console.log('Falling back to sample questions');
-            setTimeout(() => {
-                try {
-                    const questions = this.generateSampleQuestions(chapter.number);
-                    this.questions = questions;
-                    this.userAnswers = new Array(questions.length).fill(null);
-                    this.currentQuestionIndex = 0;
-                    this.isTestComplete = false;
-                    
-                    console.log(`Loaded ${questions.length} sample questions for chapter ${chapter.number}`);
-                    
-                    // Show a notice that we're using sample data
-                    this.showSampleDataNotice();
-                    this.hideError();
-                    this.displayQuestion();
-                    this.updateProgress();
-                } catch (fallbackError) {
-                    console.error('Error with fallback questions:', fallbackError);
-                }
-            }, 2000);
         }
     }
 
-    generateSampleQuestions(chapterNumber) {
-        // Get the correct number of questions for this chapter
-        const chapter = this.chapters.find(c => c.number === chapterNumber);
-        const numQuestions = chapter ? chapter.questions : 40;
-        
-        const questions = [];
-        const sampleQuestions = {
-            1: [
-                {
-                    question: "Τι σημαίνει το ακρωνύμιο AI;",
-                    choices: {
-                        A: "Artificial Intelligence",
-                        B: "Automated Information",
-                        C: "Advanced Integration",
-                        D: "Algorithmic Innovation"
-                    },
-                    answer: "A"
-                },
-                {
-                    question: "Ποια είναι η βασική ιδέα πίσω από την τεχνητή νοημοσύνη;",
-                    choices: {
-                        A: "Η δημιουργία ρομπότ",
-                        B: "Η προσομοίωση της ανθρώπινης νοημοσύνης",
-                        C: "Η ανάπτυξη γρήγορων υπολογιστών",
-                        D: "Η αυτοματοποίηση εργασιών"
-                    },
-                    answer: "B"
-                },
-                {
-                    question: "Ποιος θεωρείται ο πατέρας της τεχνητής νοημοσύνης;",
-                    choices: {
-                        A: "Bill Gates",
-                        B: "Steve Jobs",
-                        C: "Alan Turing",
-                        D: "Mark Zuckerberg"
-                    },
-                    answer: "C"
-                }
-            ],
-            2: [
-                {
-                    question: "Με ποιες τεχνολογίες συνδυάζεται συχνά η AI;",
-                    choices: {
-                        A: "IoT και Cloud Computing",
-                        B: "Μόνο με βάσεις δεδομένων",
-                        C: "Μόνο με το Internet",
-                        D: "Μόνο με mobile εφαρμογές"
-                    },
-                    answer: "A"
-                }
-            ]
-        };
 
-        // Get sample questions for this chapter, or default questions from chapter 1
-        const chapterQuestions = sampleQuestions[chapterNumber] || sampleQuestions[1];
-        
-        // Generate the correct number of questions by repeating and modifying the sample questions
-        for (let i = 0; i < numQuestions; i++) {
-            const baseQuestion = chapterQuestions[i % chapterQuestions.length];
-            questions.push({
-                question: `${i + 1}. ${baseQuestion.question}`,
-                choices: baseQuestion.choices,
-                answer: baseQuestion.answer
-            });
-        }
-        
-        return questions;
-    }
 
     showMainView() {
         // Update URL
@@ -512,35 +403,7 @@ class QuizApp {
         }
     }
     
-    showSampleDataNotice() {
-        // Create a temporary notice
-        const notice = document.createElement('div');
-        notice.className = 'sample-data-notice';
-        notice.innerHTML = `
-            <div style="
-                background: var(--color-bg-2);
-                border: 1px solid var(--color-warning);
-                border-radius: var(--radius-base);
-                padding: var(--space-12);
-                margin-bottom: var(--space-16);
-                text-align: center;
-                color: var(--color-warning);
-                font-size: var(--font-size-sm);
-            ">
-                ⚠️ Χρησιμοποιούνται δείγματα ερωτήσεων (το JSON αρχείο δεν βρέθηκε)
-            </div>
-        `;
-        
-        const quizContent = document.getElementById('quiz-content');
-        quizContent.insertBefore(notice, quizContent.firstChild);
-        
-        // Remove notice after 5 seconds
-        setTimeout(() => {
-            if (notice.parentNode) {
-                notice.parentNode.removeChild(notice);
-            }
-        }, 5000);
-    }
+
 
     displayQuestion() {
         if (this.questions.length === 0) {
