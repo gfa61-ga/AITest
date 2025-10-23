@@ -646,7 +646,7 @@ class QuizApp {
                 </div>
                 
                 <div class="result-question">
-                    <strong>:</strong> ${result.question}
+                    ${result.question}
                 </div>
                 
                 <div class="result-answers">
@@ -660,7 +660,7 @@ class QuizApp {
             if (!result.isCorrect) {
                 resultHTML += `
                     <div class="result-correct">
-                        <strong>Σωστή απάντηση:</strong> ${result.correctAnswerText}
+                        <strong><u>Σωστή απάντηση:</u></strong> ${result.correctAnswerText}
                     </div>
                 `;
             }
