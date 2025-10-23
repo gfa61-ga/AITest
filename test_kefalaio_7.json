@@ -1,651 +1,401 @@
 [
   {
-    "question": "Τι είναι NLP;",
+    "question": "Τι σημαίνει NLP (Natural Language Processing);",
     "choices": {
-      "A": "Neural Language Programming",
-      "B": "Natural Language Processing",
-      "C": "New Learning Process",
-      "D": "Neural Language Programming"
+      "A": "Network Layer Protocol",
+      "B": "Επεξεργασία Φυσικής Γλώσσας - κατανόηση ανθρώπινης γλώσσας από υπολογιστές",
+      "C": "New Language Programming",
+      "D": "Neural Learning Process"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Tokenization;",
+    "question": "Τι είναι το Tokenization;",
     "choices": {
-      "A": "Encoding",
-      "B": "Διαχωρισμός κειμένου σε tokens",
-      "C": "Classification",
-      "D": "Encoding"
+      "A": "Κρυπτογράφηση",
+      "B": "Διαχωρισμός κειμένου σε tokens (λέξεις ή χαρακτήρες)",
+      "C": "Μετάφραση",
+      "D": "Διαγραφή"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Word Embedding;",
+    "question": "Τι είναι το Stemming;",
     "choices": {
-      "A": "Tokenization",
-      "B": "Vector representation λέξεων",
-      "C": "NER",
-      "D": "Tokenization"
+      "A": "Προσθήκη λέξεων",
+      "B": "Αφαίρεση καταλήξεων για εύρεση ρίζας λέξης",
+      "C": "Μετάφραση λέξεων",
+      "D": "Διαγραφή λέξεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Word2Vec;",
+    "question": "Τι είναι το Lemmatization;",
     "choices": {
-      "A": "Transformer",
-      "B": "Αλγόριθμος για word embeddings",
-      "C": "GPT",
-      "D": "Transformer"
+      "A": "Διαγραφή λέξεων",
+      "B": "Μετατροπή λέξεων στη βασική τους μορφή (λήμμα)",
+      "C": "Μετάφραση λέξεων",
+      "D": "Κρυπτογράφηση λέξεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι GloVe;",
+    "question": "Τι είναι τα Stop Words;",
     "choices": {
-      "A": "Word2Vec",
-      "B": "Global Vectors for word representation",
-      "C": "GPT",
-      "D": "Word2Vec"
+      "A": "Σημαντικές λέξεις",
+      "B": "Συχνές λέξεις χωρίς σημασιολογική αξία (π.χ. και, το, η)",
+      "C": "Σπάνιες λέξεις",
+      "D": "Ξένες λέξεις"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Transformer;",
+    "question": "Τι είναι το Bag-of-Words;",
     "choices": {
-      "A": "RNN",
-      "B": "Αρχιτεκτονική με attention mechanism",
-      "C": "LSTM",
-      "D": "RNN"
+      "A": "Λεξικό",
+      "B": "Μοντέλο αναπαράστασης κειμένου ως συλλογή λέξεων",
+      "C": "Βιβλίο",
+      "D": "Αρχείο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Attention Mechanism;",
+    "question": "Τι είναι το TF-IDF;",
     "choices": {
-      "A": "Convolution",
-      "B": "Εστίαση σε σημαντικά μέρη input",
-      "C": "Dropout",
-      "D": "Convolution"
+      "A": "Τύπος αρχείου",
+      "B": "Term Frequency - Inverse Document Frequency (σημασία λέξεων)",
+      "C": "Πρωτόκολλο",
+      "D": "Λειτουργικό σύστημα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι BERT;",
+    "question": "Τι είναι τα Word Embeddings;",
     "choices": {
-      "A": "GPT",
-      "B": "Bidirectional Encoder Representations from Transformers",
-      "C": "GloVe",
-      "D": "GPT"
+      "A": "Εικόνες",
+      "B": "Αναπαραστάσεις λέξεων ως διανύσματα (π.χ. Word2Vec, GloVe)",
+      "C": "Ήχοι",
+      "D": "Βίντεο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι GPT;",
+    "question": "Τι είναι το Word2Vec;",
     "choices": {
-      "A": "BERT",
-      "B": "Generative Pre-trained Transformer",
-      "C": "RNN",
-      "D": "BERT"
+      "A": "Βάση δεδομένων",
+      "B": "Τεχνική για δημιουργία word embeddings",
+      "C": "Λειτουργικό σύστημα",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Sentiment Analysis;",
+    "question": "Τι είναι το GloVe;",
     "choices": {
-      "A": "Translation",
-      "B": "Ανάλυση συναισθημάτων σε κείμενο",
-      "C": "Generation",
-      "D": "Translation"
+      "A": "Εργαλείο σχεδίασης",
+      "B": "Global Vectors - τεχνική word embeddings",
+      "C": "Βάση δεδομένων",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Named Entity Recognition;",
+    "question": "Τι είναι το Named Entity Recognition (NER);",
     "choices": {
-      "A": "POS tagging",
-      "B": "Εντοπισμός entities (πρόσωπα, τόποι)",
-      "C": "Translation",
-      "D": "POS tagging"
+      "A": "Διαγραφή οντοτήτων",
+      "B": "Αναγνώριση ονομαστικών οντοτήτων (άτομα, τόποι, οργανισμοί)",
+      "C": "Αποθήκευση οντοτήτων",
+      "D": "Μετάφραση οντοτήτων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι POS Tagging;",
+    "question": "Τι είναι το Sentiment Analysis;",
     "choices": {
-      "A": "NER",
-      "B": "Part-of-Speech tagging",
-      "C": "Translation",
-      "D": "NER"
+      "A": "Ανάλυση αριθμών",
+      "B": "Ανάλυση συναισθημάτων/γνώμης σε κείμενο",
+      "C": "Ανάλυση εικόνων",
+      "D": "Ανάλυση ήχου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Machine Translation;",
+    "question": "Τι είναι το Text Classification;",
     "choices": {
-      "A": "Sentiment analysis",
-      "B": "Αυτόματη μετάφραση",
-      "C": "POS tagging",
-      "D": "Sentiment analysis"
+      "A": "Διαγραφή κειμένου",
+      "B": "Κατηγοριοποίηση κειμένου σε προκαθορισμένες κατηγορίες",
+      "C": "Μετάφραση κειμένου",
+      "D": "Εκτύπωση κειμένου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι NLP;",
+    "question": "Τι είναι ένα Language Model;",
     "choices": {
-      "A": "Neural Language Programming",
-      "B": "Natural Language Processing",
-      "C": "New Learning Process",
-      "D": "Neural Language Programming"
+      "A": "Μοντέλο για εικόνες",
+      "B": "Μοντέλο που προβλέπει την επόμενη λέξη/πιθανότητα ακολουθιών",
+      "C": "Μοντέλο για αριθμούς",
+      "D": "Μοντέλο για ήχο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Tokenization;",
+    "question": "Τι είναι το BERT;",
     "choices": {
-      "A": "Encoding",
-      "B": "Διαχωρισμός κειμένου σε tokens",
-      "C": "Classification",
-      "D": "Encoding"
+      "A": "Βάση δεδομένων",
+      "B": "Bidirectional Encoder Representations from Transformers - pretrained model",
+      "C": "Λειτουργικό σύστημα",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Word Embedding;",
+    "question": "Τι είναι το GPT;",
     "choices": {
-      "A": "Tokenization",
-      "B": "Vector representation λέξεων",
-      "C": "NER",
-      "D": "Tokenization"
+      "A": "Εργαλείο σχεδίασης",
+      "B": "Generative Pre-trained Transformer για παραγωγή κειμένου",
+      "C": "Βάση δεδομένων",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Word2Vec;",
+    "question": "Τι είναι οι Transformers στο NLP;",
     "choices": {
-      "A": "Transformer",
-      "B": "Αλγόριθμος για word embeddings",
-      "C": "GPT",
-      "D": "Transformer"
+      "A": "Ρομπότ",
+      "B": "Αρχιτεκτονική με self-attention για επεξεργασία γλώσσας",
+      "C": "Μηχανές",
+      "D": "Οχήματα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι GloVe;",
+    "question": "Τι είναι το Self-Attention;",
     "choices": {
-      "A": "Word2Vec",
-      "B": "Global Vectors for word representation",
-      "C": "GPT",
-      "D": "Word2Vec"
+      "A": "Αποθήκευση",
+      "B": "Μηχανισμός που επιτρέπει στο μοντέλο να εστιάζει σε διαφορετικά μέρη εισόδου",
+      "C": "Διαγραφή",
+      "D": "Εκτύπωση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Transformer;",
+    "question": "Τι είναι ένα Chatbot;",
     "choices": {
-      "A": "RNN",
-      "B": "Αρχιτεκτονική με attention mechanism",
-      "C": "LSTM",
-      "D": "RNN"
+      "A": "Βάση δεδομένων",
+      "B": "Εφαρμογή συνομιλίας με χρήστες μέσω κειμένου",
+      "C": "Λειτουργικό σύστημα",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Attention Mechanism;",
+    "question": "Τι είναι το Machine Translation;",
     "choices": {
-      "A": "Convolution",
-      "B": "Εστίαση σε σημαντικά μέρη input",
-      "C": "Dropout",
-      "D": "Convolution"
+      "A": "Μεταφορά μηχανών",
+      "B": "Αυτόματη μετάφραση κειμένου από μία γλώσσα σε άλλη",
+      "C": "Αποθήκευση κειμένου",
+      "D": "Διαγραφή κειμένου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι BERT;",
+    "question": "Τι είναι το Text Summarization;",
     "choices": {
-      "A": "GPT",
-      "B": "Bidirectional Encoder Representations from Transformers",
-      "C": "GloVe",
-      "D": "GPT"
+      "A": "Επέκταση κειμένου",
+      "B": "Αυτόματη δημιουργία σύνοψης κειμένου",
+      "C": "Διαγραφή κειμένου",
+      "D": "Μετάφραση κειμένου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι GPT;",
+    "question": "Τι είναι το Question Answering;",
     "choices": {
-      "A": "BERT",
-      "B": "Generative Pre-trained Transformer",
-      "C": "RNN",
-      "D": "BERT"
+      "A": "Διαγραφή ερωτήσεων",
+      "B": "Σύστημα που απαντά σε ερωτήσεις με βάση κείμενο",
+      "C": "Αποθήκευση ερωτήσεων",
+      "D": "Μετάφραση ερωτήσεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Sentiment Analysis;",
+    "question": "Τι είναι το Text Generation;",
     "choices": {
-      "A": "Translation",
-      "B": "Ανάλυση συναισθημάτων σε κείμενο",
-      "C": "Generation",
-      "D": "Translation"
+      "A": "Διαγραφή κειμένου",
+      "B": "Αυτόματη δημιουργία κειμένου από το μοντέλο",
+      "C": "Αποθήκευση κειμένου",
+      "D": "Μετάφραση κειμένου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Named Entity Recognition;",
+    "question": "Τι είναι το Part-of-Speech (POS) Tagging;",
     "choices": {
-      "A": "POS tagging",
-      "B": "Εντοπισμός entities (πρόσωπα, τόποι)",
-      "C": "Translation",
-      "D": "POS tagging"
+      "A": "Διαγραφή λέξεων",
+      "B": "Αναγνώριση γραμματικού τύπου λέξεων (ουσιαστικό, ρήμα)",
+      "C": "Μετάφραση λέξεων",
+      "D": "Εκτύπωση λέξεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι POS Tagging;",
+    "question": "Τι είναι το Dependency Parsing;",
     "choices": {
-      "A": "NER",
-      "B": "Part-of-Speech tagging",
-      "C": "Translation",
-      "D": "NER"
+      "A": "Διαγραφή προτάσεων",
+      "B": "Ανάλυση γραμματικών εξαρτήσεων μεταξύ λέξεων",
+      "C": "Αποθήκευση προτάσεων",
+      "D": "Μετάφραση προτάσεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Machine Translation;",
+    "question": "Τι είναι το Coreference Resolution;",
     "choices": {
-      "A": "Sentiment analysis",
-      "B": "Αυτόματη μετάφραση",
-      "C": "POS tagging",
-      "D": "Sentiment analysis"
+      "A": "Διαγραφή αναφορών",
+      "B": "Εύρεση λέξεων που αναφέρονται στην ίδια οντότητα",
+      "C": "Αποθήκευση αναφορών",
+      "D": "Μετάφραση αναφορών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι NLP;",
+    "question": "Τι είναι το Language Generation;",
     "choices": {
-      "A": "Neural Language Programming",
-      "B": "Natural Language Processing",
-      "C": "New Learning Process",
-      "D": "Neural Language Programming"
+      "A": "Διαγραφή γλώσσας",
+      "B": "Δημιουργία φυσικού κειμένου από το μοντέλο",
+      "C": "Αποθήκευση γλώσσας",
+      "D": "Μετάφραση γλώσσας"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Tokenization;",
+    "question": "Τι είναι το Zero-shot Learning στο NLP;",
     "choices": {
-      "A": "Encoding",
-      "B": "Διαχωρισμός κειμένου σε tokens",
-      "C": "Classification",
-      "D": "Encoding"
+      "A": "Μάθηση με πολλά παραδείγματα",
+      "B": "Εκτέλεση εργασίας χωρίς προηγούμενη εκπαίδευση σε αυτήν",
+      "C": "Διαγραφή μάθησης",
+      "D": "Αποθήκευση μάθησης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Word Embedding;",
+    "question": "Τι είναι το Few-shot Learning;",
     "choices": {
-      "A": "Tokenization",
-      "B": "Vector representation λέξεων",
-      "C": "NER",
-      "D": "Tokenization"
+      "A": "Μάθηση χωρίς δεδομένα",
+      "B": "Μάθηση από λίγα παραδείγματα",
+      "C": "Μάθηση από πολλά παραδείγματα",
+      "D": "Μη μάθηση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Word2Vec;",
+    "question": "Τι είναι το Fine-tuning στο NLP;",
     "choices": {
-      "A": "Transformer",
-      "B": "Αλγόριθμος για word embeddings",
-      "C": "GPT",
-      "D": "Transformer"
+      "A": "Διαγραφή μοντέλου",
+      "B": "Προσαρμογή pretrained μοντέλου σε συγκεκριμένη εργασία",
+      "C": "Αποθήκευση μοντέλου",
+      "D": "Μεταφορά μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι GloVe;",
+    "question": "Τι βιβλιοθήκη χρησιμοποιείται για NLP σε Python;",
     "choices": {
-      "A": "Word2Vec",
-      "B": "Global Vectors for word representation",
-      "C": "GPT",
-      "D": "Word2Vec"
+      "A": "Word",
+      "B": "spaCy, NLTK, Hugging Face Transformers",
+      "C": "Excel",
+      "D": "PowerPoint"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Transformer;",
+    "question": "Τι είναι το GreekBERT;",
     "choices": {
-      "A": "RNN",
-      "B": "Αρχιτεκτονική με attention mechanism",
-      "C": "LSTM",
-      "D": "RNN"
+      "A": "Μοντέλο για αγγλικά",
+      "B": "BERT μοντέλο εκπαιδευμένο σε ελληνικά κείμενα",
+      "C": "Μοντέλο για εικόνες",
+      "D": "Μοντέλο για αριθμούς"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Attention Mechanism;",
+    "question": "Τι είναι το Sequence-to-Sequence (Seq2Seq);",
     "choices": {
-      "A": "Convolution",
-      "B": "Εστίαση σε σημαντικά μέρη input",
-      "C": "Dropout",
-      "D": "Convolution"
+      "A": "Μοντέλο για εικόνες",
+      "B": "Αρχιτεκτονική για μετατροπή μιας ακολουθίας σε άλλη (π.χ. μετάφραση)",
+      "C": "Μοντέλο για αριθμούς",
+      "D": "Μοντέλο για ήχο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι BERT;",
+    "question": "Τι είναι το Attention Mechanism στο NLP;",
     "choices": {
-      "A": "GPT",
-      "B": "Bidirectional Encoder Representations from Transformers",
-      "C": "GloVe",
-      "D": "GPT"
+      "A": "Διαγραφή λέξεων",
+      "B": "Μηχανισμός εστίασης σε σημαντικές λέξεις",
+      "C": "Αποθήκευση λέξεων",
+      "D": "Μετάφραση λέξεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι GPT;",
+    "question": "Τι είναι το Encoder-Decoder;",
     "choices": {
-      "A": "BERT",
-      "B": "Generative Pre-trained Transformer",
-      "C": "RNN",
-      "D": "BERT"
+      "A": "Εργαλείο σχεδίασης",
+      "B": "Αρχιτεκτονική με encoder (κωδικοποίηση) και decoder (αποκωδικοποίηση)",
+      "C": "Βάση δεδομένων",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Sentiment Analysis;",
+    "question": "Τι είναι το Contextualized Embeddings;",
     "choices": {
-      "A": "Translation",
-      "B": "Ανάλυση συναισθημάτων σε κείμενο",
-      "C": "Generation",
-      "D": "Translation"
+      "A": "Στατικά embeddings",
+      "B": "Embeddings που αλλάζουν ανάλογα με το context (π.χ. BERT)",
+      "C": "Διαγραφή embeddings",
+      "D": "Αποθήκευση embeddings"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Named Entity Recognition;",
+    "question": "Τι είναι το Text Preprocessing;",
     "choices": {
-      "A": "POS tagging",
-      "B": "Εντοπισμός entities (πρόσωπα, τόποι)",
-      "C": "Translation",
-      "D": "POS tagging"
+      "A": "Μετά την επεξεργασία",
+      "B": "Προετοιμασία κειμένου (cleaning, tokenization) πριν το μοντέλο",
+      "C": "Διαγραφή κειμένου",
+      "D": "Εκτύπωση κειμένου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι POS Tagging;",
+    "question": "Τι είναι το Information Extraction;",
     "choices": {
-      "A": "NER",
-      "B": "Part-of-Speech tagging",
-      "C": "Translation",
-      "D": "NER"
+      "A": "Διαγραφή πληροφοριών",
+      "B": "Εξαγωγή δομημένων πληροφοριών από μη δομημένο κείμενο",
+      "C": "Αποθήκευση πληροφοριών",
+      "D": "Μετάφραση πληροφοριών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Machine Translation;",
+    "question": "Τι είναι το Conversational AI;",
     "choices": {
-      "A": "Sentiment analysis",
-      "B": "Αυτόματη μετάφραση",
-      "C": "POS tagging",
-      "D": "Sentiment analysis"
+      "A": "AI για εικόνες",
+      "B": "AI για φυσικό διάλογο με χρήστες (chatbots, assistants)",
+      "C": "AI για αριθμούς",
+      "D": "AI για ήχο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι NLP;",
+    "question": "Τι είναι το Intent Detection;",
     "choices": {
-      "A": "Neural Language Programming",
-      "B": "Natural Language Processing",
-      "C": "New Learning Process",
-      "D": "Neural Language Programming"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Tokenization;",
-    "choices": {
-      "A": "Encoding",
-      "B": "Διαχωρισμός κειμένου σε tokens",
-      "C": "Classification",
-      "D": "Encoding"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Word Embedding;",
-    "choices": {
-      "A": "Tokenization",
-      "B": "Vector representation λέξεων",
-      "C": "NER",
-      "D": "Tokenization"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Word2Vec;",
-    "choices": {
-      "A": "Transformer",
-      "B": "Αλγόριθμος για word embeddings",
-      "C": "GPT",
-      "D": "Transformer"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι GloVe;",
-    "choices": {
-      "A": "Word2Vec",
-      "B": "Global Vectors for word representation",
-      "C": "GPT",
-      "D": "Word2Vec"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Transformer;",
-    "choices": {
-      "A": "RNN",
-      "B": "Αρχιτεκτονική με attention mechanism",
-      "C": "LSTM",
-      "D": "RNN"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Attention Mechanism;",
-    "choices": {
-      "A": "Convolution",
-      "B": "Εστίαση σε σημαντικά μέρη input",
-      "C": "Dropout",
-      "D": "Convolution"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι BERT;",
-    "choices": {
-      "A": "GPT",
-      "B": "Bidirectional Encoder Representations from Transformers",
-      "C": "GloVe",
-      "D": "GPT"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι GPT;",
-    "choices": {
-      "A": "BERT",
-      "B": "Generative Pre-trained Transformer",
-      "C": "RNN",
-      "D": "BERT"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Sentiment Analysis;",
-    "choices": {
-      "A": "Translation",
-      "B": "Ανάλυση συναισθημάτων σε κείμενο",
-      "C": "Generation",
-      "D": "Translation"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Named Entity Recognition;",
-    "choices": {
-      "A": "POS tagging",
-      "B": "Εντοπισμός entities (πρόσωπα, τόποι)",
-      "C": "Translation",
-      "D": "POS tagging"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι POS Tagging;",
-    "choices": {
-      "A": "NER",
-      "B": "Part-of-Speech tagging",
-      "C": "Translation",
-      "D": "NER"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Machine Translation;",
-    "choices": {
-      "A": "Sentiment analysis",
-      "B": "Αυτόματη μετάφραση",
-      "C": "POS tagging",
-      "D": "Sentiment analysis"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι NLP;",
-    "choices": {
-      "A": "Neural Language Programming",
-      "B": "Natural Language Processing",
-      "C": "New Learning Process",
-      "D": "Neural Language Programming"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Tokenization;",
-    "choices": {
-      "A": "Encoding",
-      "B": "Διαχωρισμός κειμένου σε tokens",
-      "C": "Classification",
-      "D": "Encoding"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Word Embedding;",
-    "choices": {
-      "A": "Tokenization",
-      "B": "Vector representation λέξεων",
-      "C": "NER",
-      "D": "Tokenization"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Word2Vec;",
-    "choices": {
-      "A": "Transformer",
-      "B": "Αλγόριθμος για word embeddings",
-      "C": "GPT",
-      "D": "Transformer"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι GloVe;",
-    "choices": {
-      "A": "Word2Vec",
-      "B": "Global Vectors for word representation",
-      "C": "GPT",
-      "D": "Word2Vec"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Transformer;",
-    "choices": {
-      "A": "RNN",
-      "B": "Αρχιτεκτονική με attention mechanism",
-      "C": "LSTM",
-      "D": "RNN"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Attention Mechanism;",
-    "choices": {
-      "A": "Convolution",
-      "B": "Εστίαση σε σημαντικά μέρη input",
-      "C": "Dropout",
-      "D": "Convolution"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι BERT;",
-    "choices": {
-      "A": "GPT",
-      "B": "Bidirectional Encoder Representations from Transformers",
-      "C": "GloVe",
-      "D": "GPT"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι GPT;",
-    "choices": {
-      "A": "BERT",
-      "B": "Generative Pre-trained Transformer",
-      "C": "RNN",
-      "D": "BERT"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Sentiment Analysis;",
-    "choices": {
-      "A": "Translation",
-      "B": "Ανάλυση συναισθημάτων σε κείμενο",
-      "C": "Generation",
-      "D": "Translation"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Named Entity Recognition;",
-    "choices": {
-      "A": "POS tagging",
-      "B": "Εντοπισμός entities (πρόσωπα, τόποι)",
-      "C": "Translation",
-      "D": "POS tagging"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι POS Tagging;",
-    "choices": {
-      "A": "NER",
-      "B": "Part-of-Speech tagging",
-      "C": "Translation",
-      "D": "NER"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Machine Translation;",
-    "choices": {
-      "A": "Sentiment analysis",
-      "B": "Αυτόματη μετάφραση",
-      "C": "POS tagging",
-      "D": "Sentiment analysis"
+      "A": "Διαγραφή προθέσεων",
+      "B": "Αναγνώριση πρόθεσης χρήστη σε διάλογο",
+      "C": "Αποθήκευση προθέσεων",
+      "D": "Μετάφραση προθέσεων"
     },
     "answer": "B"
   }

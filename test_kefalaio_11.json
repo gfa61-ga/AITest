@@ -1,601 +1,401 @@
 [
   {
-    "question": "Πώς χρησιμοποιείται AI στο Marketing;",
+    "question": "Πώς χρησιμοποιείται η AI στο Marketing;",
     "choices": {
-      "A": "Μόνο design",
-      "B": "Personalization, prediction, automation",
-      "C": "Μόνο email",
-      "D": "Μόνο design"
+      "A": "Μόνο για σχεδιασμό",
+      "B": "Προσωποποίηση, πρόβλεψη, chatbots, content generation",
+      "C": "Μόνο για εκτύπωση",
+      "D": "Μόνο για αποθήκευση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Personalized Marketing;",
+    "question": "Τι είναι το Personalized Marketing;",
     "choices": {
-      "A": "Μαζικό marketing",
-      "B": "Εξατομικευμένες προτάσεις",
-      "C": "Τυχαίο",
-      "D": "Μαζικό marketing"
+      "A": "Γενικό marketing",
+      "B": "Εξατομικευμένες προτάσεις με βάση δεδομένα χρήστη",
+      "C": "Μαζικό marketing",
+      "D": "Τυχαίο marketing"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Predictive Analytics;",
+    "question": "Τι είναι το Predictive Analytics στο marketing;",
     "choices": {
       "A": "Ιστορική ανάλυση",
-      "B": "Πρόβλεψη συμπεριφοράς πελατών",
-      "C": "Αποθήκευση",
-      "D": "Ιστορική ανάλυση"
+      "B": "Πρόβλεψη συμπεριφοράς πελατών με AI",
+      "C": "Διαγραφή δεδομένων",
+      "D": "Αποθήκευση δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Customer Segmentation;",
+    "question": "Τι είναι το Customer Segmentation;",
     "choices": {
-      "A": "Ενοποίηση",
-      "B": "Κατηγοριοποίηση πελατών",
-      "C": "Αγνόηση",
-      "D": "Ενοποίηση"
+      "A": "Ενοποίηση πελατών",
+      "B": "Κατηγοριοποίηση πελατών σε ομάδες με κοινά χαρακτηριστικά",
+      "C": "Διαγραφή πελατών",
+      "D": "Αγνόηση πελατών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Churn Prediction;",
-    "choices": {
-      "A": "Πρόβλεψη αγορών",
-      "B": "Πρόβλεψη αποχώρησης πελατών",
-      "C": "Κόστος",
-      "D": "Πρόβλεψη αγορών"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Recommendation Engine;",
-    "choices": {
-      "A": "Διαγραφή",
-      "B": "Προτάσεις προϊόντων (Netflix, Amazon)",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Sentiment Analysis στο marketing;",
-    "choices": {
-      "A": "Ανάλυση πωλήσεων",
-      "B": "Ανάλυση συναισθημάτων πελατών",
-      "C": "Αποθήκη",
-      "D": "Ανάλυση πωλήσεων"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Chatbot;",
-    "choices": {
-      "A": "Ανθρώπινος πράκτορας",
-      "B": "AI bot για εξυπηρέτηση 24/7",
-      "C": "Τηλέφωνο",
-      "D": "Ανθρώπινος πράκτορας"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Dynamic Pricing;",
-    "choices": {
-      "A": "Σταθερές τιμές",
-      "B": "Προσαρμογή τιμών σε πραγματικό χρόνο",
-      "C": "Χαμηλές πάντα",
-      "D": "Σταθερές τιμές"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Marketing Automation;",
-    "choices": {
-      "A": "Χειρονακτικό",
-      "B": "Αυτοματοποίηση campaigns με AI",
-      "C": "Αποθήκευση",
-      "D": "Χειρονακτικό"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς χρησιμοποιείται AI στο Marketing;",
-    "choices": {
-      "A": "Μόνο design",
-      "B": "Personalization, prediction, automation",
-      "C": "Μόνο email",
-      "D": "Μόνο design"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Personalized Marketing;",
-    "choices": {
-      "A": "Μαζικό marketing",
-      "B": "Εξατομικευμένες προτάσεις",
-      "C": "Τυχαίο",
-      "D": "Μαζικό marketing"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Predictive Analytics;",
-    "choices": {
-      "A": "Ιστορική ανάλυση",
-      "B": "Πρόβλεψη συμπεριφοράς πελατών",
-      "C": "Αποθήκευση",
-      "D": "Ιστορική ανάλυση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Customer Segmentation;",
-    "choices": {
-      "A": "Ενοποίηση",
-      "B": "Κατηγοριοποίηση πελατών",
-      "C": "Αγνόηση",
-      "D": "Ενοποίηση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Churn Prediction;",
+    "question": "Τι είναι το Churn Prediction;",
     "choices": {
       "A": "Πρόβλεψη αγορών",
-      "B": "Πρόβλεψη αποχώρησης πελατών",
-      "C": "Κόστος",
-      "D": "Πρόβλεψη αγορών"
+      "B": "Πρόβλεψη πελατών που θα εγκαταλείψουν την υπηρεσία",
+      "C": "Πρόβλεψη κέρδους",
+      "D": "Πρόβλεψη κόστους"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Recommendation Engine;",
+    "question": "Τι είναι το Recommendation Engine;",
     "choices": {
-      "A": "Διαγραφή",
-      "B": "Προτάσεις προϊόντων (Netflix, Amazon)",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή"
+      "A": "Διαγραφή προτάσεων",
+      "B": "Σύστημα που προτείνει προϊόντα/υπηρεσίες (π.χ. Netflix, Amazon)",
+      "C": "Αποθήκευση προτάσεων",
+      "D": "Εκτύπωση προτάσεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Sentiment Analysis στο marketing;",
+    "question": "Τι είναι το Content Generation με AI;",
     "choices": {
-      "A": "Ανάλυση πωλήσεων",
-      "B": "Ανάλυση συναισθημάτων πελατών",
-      "C": "Αποθήκη",
-      "D": "Ανάλυση πωλήσεων"
+      "A": "Χειρονακτική δημιουργία",
+      "B": "Αυτόματη δημιουργία περιεχομένου (κείμενο, εικόνες) με AI",
+      "C": "Διαγραφή περιεχομένου",
+      "D": "Αντιγραφή περιεχομένου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Chatbot;",
-    "choices": {
-      "A": "Ανθρώπινος πράκτορας",
-      "B": "AI bot για εξυπηρέτηση 24/7",
-      "C": "Τηλέφωνο",
-      "D": "Ανθρώπινος πράκτορας"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Dynamic Pricing;",
-    "choices": {
-      "A": "Σταθερές τιμές",
-      "B": "Προσαρμογή τιμών σε πραγματικό χρόνο",
-      "C": "Χαμηλές πάντα",
-      "D": "Σταθερές τιμές"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Marketing Automation;",
-    "choices": {
-      "A": "Χειρονακτικό",
-      "B": "Αυτοματοποίηση campaigns με AI",
-      "C": "Αποθήκευση",
-      "D": "Χειρονακτικό"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς χρησιμοποιείται AI στο Marketing;",
-    "choices": {
-      "A": "Μόνο design",
-      "B": "Personalization, prediction, automation",
-      "C": "Μόνο email",
-      "D": "Μόνο design"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Personalized Marketing;",
-    "choices": {
-      "A": "Μαζικό marketing",
-      "B": "Εξατομικευμένες προτάσεις",
-      "C": "Τυχαίο",
-      "D": "Μαζικό marketing"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Predictive Analytics;",
-    "choices": {
-      "A": "Ιστορική ανάλυση",
-      "B": "Πρόβλεψη συμπεριφοράς πελατών",
-      "C": "Αποθήκευση",
-      "D": "Ιστορική ανάλυση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Customer Segmentation;",
-    "choices": {
-      "A": "Ενοποίηση",
-      "B": "Κατηγοριοποίηση πελατών",
-      "C": "Αγνόηση",
-      "D": "Ενοποίηση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Churn Prediction;",
-    "choices": {
-      "A": "Πρόβλεψη αγορών",
-      "B": "Πρόβλεψη αποχώρησης πελατών",
-      "C": "Κόστος",
-      "D": "Πρόβλεψη αγορών"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Recommendation Engine;",
-    "choices": {
-      "A": "Διαγραφή",
-      "B": "Προτάσεις προϊόντων (Netflix, Amazon)",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Sentiment Analysis στο marketing;",
+    "question": "Τι είναι το Sentiment Analysis στο marketing;",
     "choices": {
       "A": "Ανάλυση πωλήσεων",
-      "B": "Ανάλυση συναισθημάτων πελατών",
-      "C": "Αποθήκη",
-      "D": "Ανάλυση πωλήσεων"
+      "B": "Ανάλυση συναισθημάτων πελατών από κείμενο (reviews, social media)",
+      "C": "Ανάλυση κόστους",
+      "D": "Ανάλυση αποθήκης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Chatbot;",
+    "question": "Τι είναι το Programmatic Advertising;",
     "choices": {
-      "A": "Ανθρώπινος πράκτορας",
-      "B": "AI bot για εξυπηρέτηση 24/7",
-      "C": "Τηλέφωνο",
-      "D": "Ανθρώπινος πράκτορας"
+      "A": "Χειρονακτική αγορά διαφημίσεων",
+      "B": "Αυτόματη αγορά και τοποθέτηση διαφημίσεων με AI",
+      "C": "Διαγραφή διαφημίσεων",
+      "D": "Αποθήκευση διαφημίσεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Dynamic Pricing;",
+    "question": "Τι είναι το A/B Testing με AI;",
     "choices": {
-      "A": "Σταθερές τιμές",
-      "B": "Προσαρμογή τιμών σε πραγματικό χρόνο",
-      "C": "Χαμηλές πάντα",
-      "D": "Σταθερές τιμές"
+      "A": "Μόνο ένα test",
+      "B": "Δοκιμή παραλλαγών για βελτιστοποίηση με AI",
+      "C": "Διαγραφή test",
+      "D": "Αποθήκευση test"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Marketing Automation;",
+    "question": "Τι είναι το Lead Scoring;",
     "choices": {
-      "A": "Χειρονακτικό",
-      "B": "Αυτοματοποίηση campaigns με AI",
-      "C": "Αποθήκευση",
-      "D": "Χειρονακτικό"
+      "A": "Διαγραφή leads",
+      "B": "Βαθμολόγηση πιθανών πελατών με βάση πιθανότητα μετατροπής",
+      "C": "Αποθήκευση leads",
+      "D": "Εκτύπωση leads"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς χρησιμοποιείται AI στο Marketing;",
+    "question": "Τι είναι το Customer Lifetime Value (CLV);",
     "choices": {
-      "A": "Μόνο design",
-      "B": "Personalization, prediction, automation",
-      "C": "Μόνο email",
-      "D": "Μόνο design"
+      "A": "Μία αγορά",
+      "B": "Εκτίμηση συνολικής αξίας πελάτη κατά τη διάρκεια σχέσης",
+      "C": "Κόστος απόκτησης",
+      "D": "Κόστος προϊόντος"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Personalized Marketing;",
-    "choices": {
-      "A": "Μαζικό marketing",
-      "B": "Εξατομικευμένες προτάσεις",
-      "C": "Τυχαίο",
-      "D": "Μαζικό marketing"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Predictive Analytics;",
-    "choices": {
-      "A": "Ιστορική ανάλυση",
-      "B": "Πρόβλεψη συμπεριφοράς πελατών",
-      "C": "Αποθήκευση",
-      "D": "Ιστορική ανάλυση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Customer Segmentation;",
-    "choices": {
-      "A": "Ενοποίηση",
-      "B": "Κατηγοριοποίηση πελατών",
-      "C": "Αγνόηση",
-      "D": "Ενοποίηση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Churn Prediction;",
-    "choices": {
-      "A": "Πρόβλεψη αγορών",
-      "B": "Πρόβλεψη αποχώρησης πελατών",
-      "C": "Κόστος",
-      "D": "Πρόβλεψη αγορών"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Recommendation Engine;",
-    "choices": {
-      "A": "Διαγραφή",
-      "B": "Προτάσεις προϊόντων (Netflix, Amazon)",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Sentiment Analysis στο marketing;",
-    "choices": {
-      "A": "Ανάλυση πωλήσεων",
-      "B": "Ανάλυση συναισθημάτων πελατών",
-      "C": "Αποθήκη",
-      "D": "Ανάλυση πωλήσεων"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Chatbot;",
-    "choices": {
-      "A": "Ανθρώπινος πράκτορας",
-      "B": "AI bot για εξυπηρέτηση 24/7",
-      "C": "Τηλέφωνο",
-      "D": "Ανθρώπινος πράκτορας"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Dynamic Pricing;",
+    "question": "Τι είναι το Dynamic Pricing;",
     "choices": {
       "A": "Σταθερές τιμές",
-      "B": "Προσαρμογή τιμών σε πραγματικό χρόνο",
-      "C": "Χαμηλές πάντα",
-      "D": "Σταθερές τιμές"
+      "B": "Προσαρμογή τιμών σε πραγματικό χρόνο με βάση ζήτηση/ανταγωνισμό",
+      "C": "Υψηλές τιμές πάντα",
+      "D": "Χαμηλές τιμές πάντα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Marketing Automation;",
+    "question": "Τι είναι το Marketing Automation;",
     "choices": {
-      "A": "Χειρονακτικό",
-      "B": "Αυτοματοποίηση campaigns με AI",
-      "C": "Αποθήκευση",
-      "D": "Χειρονακτικό"
+      "A": "Χειρονακτικό marketing",
+      "B": "Αυτοματοποίηση marketing εργασιών (emails, campaigns) με AI",
+      "C": "Διαγραφή marketing",
+      "D": "Αποθήκευση marketing"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς χρησιμοποιείται AI στο Marketing;",
+    "question": "Τι είναι το Voice Search Optimization;",
     "choices": {
-      "A": "Μόνο design",
-      "B": "Personalization, prediction, automation",
-      "C": "Μόνο email",
-      "D": "Μόνο design"
+      "A": "Βελτιστοποίηση για κείμενο",
+      "B": "Βελτιστοποίηση περιεχομένου για φωνητική αναζήτηση (Alexa, Siri)",
+      "C": "Διαγραφή αναζήτησης",
+      "D": "Αποθήκευση αναζήτησης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Personalized Marketing;",
+    "question": "Τι είναι το Influencer Identification;",
     "choices": {
-      "A": "Μαζικό marketing",
-      "B": "Εξατομικευμένες προτάσεις",
-      "C": "Τυχαίο",
-      "D": "Μαζικό marketing"
+      "A": "Διαγραφή influencers",
+      "B": "Εντοπισμός κατάλληλων influencers με AI",
+      "C": "Αποθήκευση influencers",
+      "D": "Αγνόηση influencers"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Predictive Analytics;",
+    "question": "Τι είναι το Email Marketing με AI;",
     "choices": {
-      "A": "Ιστορική ανάλυση",
-      "B": "Πρόβλεψη συμπεριφοράς πελατών",
-      "C": "Αποθήκευση",
-      "D": "Ιστορική ανάλυση"
+      "A": "Μαζικά emails χωρίς στόχευση",
+      "B": "Εξατομικευμένα emails με βέλτιστο timing και περιεχόμενο",
+      "C": "Διαγραφή emails",
+      "D": "Spam"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Customer Segmentation;",
+    "question": "Τι είναι το Social Media Monitoring;",
     "choices": {
-      "A": "Ενοποίηση",
-      "B": "Κατηγοριοποίηση πελατών",
-      "C": "Αγνόηση",
-      "D": "Ενοποίηση"
+      "A": "Αγνόηση social media",
+      "B": "Παρακολούθηση και ανάλυση social media με AI",
+      "C": "Διαγραφή social media",
+      "D": "Αποθήκευση social media"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Churn Prediction;",
-    "choices": {
-      "A": "Πρόβλεψη αγορών",
-      "B": "Πρόβλεψη αποχώρησης πελατών",
-      "C": "Κόστος",
-      "D": "Πρόβλεψη αγορών"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Recommendation Engine;",
-    "choices": {
-      "A": "Διαγραφή",
-      "B": "Προτάσεις προϊόντων (Netflix, Amazon)",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Sentiment Analysis στο marketing;",
-    "choices": {
-      "A": "Ανάλυση πωλήσεων",
-      "B": "Ανάλυση συναισθημάτων πελατών",
-      "C": "Αποθήκη",
-      "D": "Ανάλυση πωλήσεων"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Chatbot;",
+    "question": "Τι είναι το Chatbot για Customer Service;",
     "choices": {
       "A": "Ανθρώπινος πράκτορας",
-      "B": "AI bot για εξυπηρέτηση 24/7",
-      "C": "Τηλέφωνο",
-      "D": "Ανθρώπινος πράκτορας"
+      "B": "AI bot για εξυπηρέτηση πελατών 24/7",
+      "C": "Τηλεφωνικό κέντρο",
+      "D": "Email υποστήριξη μόνο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Dynamic Pricing;",
+    "question": "Τι είναι το Visual Search;",
     "choices": {
-      "A": "Σταθερές τιμές",
-      "B": "Προσαρμογή τιμών σε πραγματικό χρόνο",
-      "C": "Χαμηλές πάντα",
-      "D": "Σταθερές τιμές"
+      "A": "Αναζήτηση με κείμενο",
+      "B": "Αναζήτηση με εικόνες (π.χ. Google Lens)",
+      "C": "Αναζήτηση με φωνή",
+      "D": "Αναζήτηση με αριθμούς"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Marketing Automation;",
+    "question": "Τι είναι το Lookalike Audience;",
     "choices": {
-      "A": "Χειρονακτικό",
-      "B": "Αυτοματοποίηση campaigns με AI",
-      "C": "Αποθήκευση",
-      "D": "Χειρονακτικό"
+      "A": "Τυχαίο κοινό",
+      "B": "Κοινό με όμοια χαρακτηριστικά με υπάρχοντες πελάτες",
+      "C": "Διαγραμμένο κοινό",
+      "D": "Αποθηκευμένο κοινό"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς χρησιμοποιείται AI στο Marketing;",
+    "question": "Τι είναι το Retargeting με AI;",
     "choices": {
-      "A": "Μόνο design",
-      "B": "Personalization, prediction, automation",
-      "C": "Μόνο email",
-      "D": "Μόνο design"
+      "A": "Νέοι επισκέπτες μόνο",
+      "B": "Στόχευση χρηστών που επισκέφτηκαν το site αλλά δεν αγόρασαν",
+      "C": "Διαγραφή στόχευσης",
+      "D": "Τυχαία στόχευση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Personalized Marketing;",
+    "question": "Τι είναι το Content Curation με AI;",
     "choices": {
-      "A": "Μαζικό marketing",
-      "B": "Εξατομικευμένες προτάσεις",
-      "C": "Τυχαίο",
-      "D": "Μαζικό marketing"
+      "A": "Διαγραφή περιεχομένου",
+      "B": "Επιλογή και οργάνωση σχετικού περιεχομένου με AI",
+      "C": "Αποθήκευση περιεχομένου",
+      "D": "Εκτύπωση περιεχομένου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Predictive Analytics;",
+    "question": "Τι είναι το Marketing Mix Modeling;",
     "choices": {
-      "A": "Ιστορική ανάλυση",
-      "B": "Πρόβλεψη συμπεριφοράς πελατών",
-      "C": "Αποθήκευση",
-      "D": "Ιστορική ανάλυση"
+      "A": "Διαγραφή καναλιών",
+      "B": "Ανάλυση επίδρασης διαφόρων marketing καναλιών με AI",
+      "C": "Αποθήκευση καναλιών",
+      "D": "Εκτύπωση καναλιών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Customer Segmentation;",
+    "question": "Τι είναι το Customer Journey Mapping;",
     "choices": {
-      "A": "Ενοποίηση",
-      "B": "Κατηγοριοποίηση πελατών",
-      "C": "Αγνόηση",
-      "D": "Ενοποίηση"
+      "A": "Διαγραφή ταξιδιού",
+      "B": "Χαρτογράφηση διαδρομής πελάτη με touchpoints",
+      "C": "Αποθήκευση ταξιδιού",
+      "D": "Εκτύπωση ταξιδιού"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Churn Prediction;",
+    "question": "Τι είναι το Conversational Marketing;",
     "choices": {
-      "A": "Πρόβλεψη αγορών",
-      "B": "Πρόβλεψη αποχώρησης πελατών",
-      "C": "Κόστος",
-      "D": "Πρόβλεψη αγορών"
+      "A": "Μη διαδραστικό marketing",
+      "B": "Marketing μέσω διαλόγου (chatbots, messaging)",
+      "C": "Μαζικά emails",
+      "D": "Αφίσες"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Recommendation Engine;",
+    "question": "Τι είναι το Attribution Modeling;",
     "choices": {
-      "A": "Διαγραφή",
-      "B": "Προτάσεις προϊόντων (Netflix, Amazon)",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή"
+      "A": "Αγνόηση πηγών",
+      "B": "Καθορισμός ποια touchpoints οδήγησαν σε conversion",
+      "C": "Διαγραφή πηγών",
+      "D": "Τυχαία απόδοση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Sentiment Analysis στο marketing;",
+    "question": "Τι είναι το Micro-Moments;",
     "choices": {
-      "A": "Ανάλυση πωλήσεων",
-      "B": "Ανάλυση συναισθημάτων πελατών",
-      "C": "Αποθήκη",
-      "D": "Ανάλυση πωλήσεων"
+      "A": "Μεγάλες στιγμές",
+      "B": "Σύντομες στιγμές όπου χρήστες ψάχνουν πληροφορίες",
+      "C": "Μακροχρόνια events",
+      "D": "Αποθηκευμένες στιγμές"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Chatbot;",
+    "question": "Τι είναι το Neuromarketing με AI;",
     "choices": {
-      "A": "Ανθρώπινος πράκτορας",
-      "B": "AI bot για εξυπηρέτηση 24/7",
-      "C": "Τηλέφωνο",
-      "D": "Ανθρώπινος πράκτορας"
+      "A": "Παραδοσιακό marketing",
+      "B": "Μελέτη εγκεφαλικής δραστηριότητας για κατανόηση αντιδράσεων",
+      "C": "Διαγραφή νευρώνων",
+      "D": "Αποθήκευση νευρώνων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Dynamic Pricing;",
+    "question": "Τι είναι το Hyper-Personalization;",
     "choices": {
-      "A": "Σταθερές τιμές",
-      "B": "Προσαρμογή τιμών σε πραγματικό χρόνο",
-      "C": "Χαμηλές πάντα",
-      "D": "Σταθερές τιμές"
+      "A": "Γενική προσέγγιση",
+      "B": "Εξαιρετικά εξατομικευμένο περιεχόμενο με AI",
+      "C": "Μαζική προσέγγιση",
+      "D": "Τυχαία προσέγγιση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Marketing Automation;",
+    "question": "Τι είναι το Marketing ROI Optimization;",
     "choices": {
-      "A": "Χειρονακτικό",
-      "B": "Αυτοματοποίηση campaigns με AI",
-      "C": "Αποθήκευση",
-      "D": "Χειρονακτικό"
+      "A": "Αγνόηση ROI",
+      "B": "Βελτιστοποίηση απόδοσης επένδυσης marketing με AI",
+      "C": "Μείωση ROI",
+      "D": "Διαγραφή ROI"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Brand Monitoring;",
+    "choices": {
+      "A": "Αγνόηση brand",
+      "B": "Παρακολούθηση αναφορών και reputation brand με AI",
+      "C": "Διαγραφή brand",
+      "D": "Απόκρυψη brand"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Competitor Analysis με AI;",
+    "choices": {
+      "A": "Αγνόηση ανταγωνισμού",
+      "B": "Ανάλυση στρατηγικών ανταγωνιστών με AI",
+      "C": "Διαγραφή ανταγωνισμού",
+      "D": "Αποθήκευση ανταγωνισμού"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Predictive Content;",
+    "choices": {
+      "A": "Ιστορικό περιεχόμενο",
+      "B": "Περιεχόμενο που προβλέπει τι θα ενδιαφέρει τον χρήστη",
+      "C": "Διαγραμμένο περιεχόμενο",
+      "D": "Τυχαίο περιεχόμενο"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Marketing Analytics Dashboard;",
+    "choices": {
+      "A": "Χειρονακτική αναφορά",
+      "B": "Dashboard με KPIs και μετρικές marketing",
+      "C": "Διαγραφή αναφορών",
+      "D": "Αποθήκευση χωρίς visualization"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Customer Data Platform (CDP);",
+    "choices": {
+      "A": "Διαγραφή δεδομένων",
+      "B": "Ενοποιημένη πλατφόρμα δεδομένων πελατών",
+      "C": "Αποθήκευση χωρίς ανάλυση",
+      "D": "Τυχαία δεδομένα"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Marketing Intelligence;",
+    "choices": {
+      "A": "Απουσία πληροφοριών",
+      "B": "Συλλογή και ανάλυση δεδομένων αγοράς με AI",
+      "C": "Διαγραφή πληροφοριών",
+      "D": "Αποθήκευση χωρίς ανάλυση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Omnichannel Marketing;",
+    "choices": {
+      "A": "Ένα κανάλι μόνο",
+      "B": "Ενοποιημένη εμπειρία σε πολλά κανάλια",
+      "C": "Χωρίς κανάλια",
+      "D": "Διαγραφή καναλιών"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Geotargeting με AI;",
+    "choices": {
+      "A": "Παγκόσμια στόχευση",
+      "B": "Στόχευση με βάση γεωγραφική τοποθεσία",
+      "C": "Χωρίς στόχευση",
+      "D": "Τυχαία στόχευση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι πλατφόρμα χρησιμοποιείται για Marketing Automation;",
+    "choices": {
+      "A": "Word",
+      "B": "HubSpot, Marketo, Salesforce",
+      "C": "Excel",
+      "D": "Paint"
     },
     "answer": "B"
   }

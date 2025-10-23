@@ -1,751 +1,401 @@
 [
   {
-    "question": "Τι είναι Neural Network;",
+    "question": "Τι είναι τα Νευρωνικά Δίκτυα (Neural Networks);",
     "choices": {
-      "A": "Βιολογικό δίκτυο",
-      "B": "Δίκτυο τεχνητών νευρώνων",
-      "C": "Κοινωνικό δίκτυο",
-      "D": "Βιολογικό δίκτυο"
+      "A": "Βιολογικά δίκτυα",
+      "B": "Υπολογιστικά μοντέλα εμπνευσμένα από τον ανθρώπινο εγκέφαλο",
+      "C": "Δίκτυα υπολογιστών",
+      "D": "Βάσεις δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Neuron;",
+    "question": "Τι είναι ο νευρώνας (neuron) σε ένα νευρωνικό δίκτυο;",
     "choices": {
-      "A": "Βιολογικό κύτταρο",
-      "B": "Βασική μονάδα neural network",
-      "C": "Αισθητήρας",
-      "D": "Βιολογικό κύτταρο"
+      "A": "Μια βάση δεδομένων",
+      "B": "Βασική μονάδα επεξεργασίας που λαμβάνει εισόδους και παράγει έξοδο",
+      "C": "Ένα αρχείο",
+      "D": "Ένα πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Activation Function;",
+    "question": "Τι είναι η συνάρτηση ενεργοποίησης (activation function);",
     "choices": {
-      "A": "Input function",
-      "B": "Συνάρτηση εξόδου νευρώνα",
-      "C": "Bias",
-      "D": "Input function"
+      "A": "Μια συνάρτηση αποθήκευσης",
+      "B": "Συνάρτηση που εισάγει μη-γραμμικότητα (π.χ. ReLU, Sigmoid)",
+      "C": "Μια συνάρτηση διαγραφής",
+      "D": "Μια συνάρτηση εκτύπωσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι ReLU;",
+    "question": "Τι είναι το ReLU (Rectified Linear Unit);",
     "choices": {
-      "A": "Sigmoid",
-      "B": "Rectified Linear Unit: max(0, x)",
-      "C": "Softmax",
-      "D": "Sigmoid"
+      "A": "Μια βάση δεδομένων",
+      "B": "Συνάρτηση ενεργοποίησης: f(x) = max(0, x)",
+      "C": "Ένα λειτουργικό σύστημα",
+      "D": "Ένα πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Sigmoid;",
+    "question": "Τι είναι η Sigmoid συνάρτηση;",
     "choices": {
-      "A": "ReLU",
-      "B": "1 / (1 + e^-x)",
-      "C": "Softmax",
-      "D": "ReLU"
+      "A": "Συνάρτηση για αποθήκευση",
+      "B": "Συνάρτηση ενεργοποίησης που μετατρέπει τιμές σε [0,1]",
+      "C": "Συνάρτηση για διαγραφή",
+      "D": "Συνάρτηση για εκτύπωση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Neural Network;",
+    "question": "Τι είναι η Backpropagation;",
     "choices": {
-      "A": "Βιολογικό δίκτυο",
-      "B": "Δίκτυο τεχνητών νευρώνων",
-      "C": "Κοινωνικό δίκτυο",
-      "D": "Βιολογικό δίκτυο"
+      "A": "Αλγόριθμος αποθήκευσης",
+      "B": "Αλγόριθμος εκπαίδευσης που υπολογίζει gradients για ενημέρωση βαρών",
+      "C": "Αλγόριθμος διαγραφής",
+      "D": "Αλγόριθμος εκτύπωσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Neuron;",
+    "question": "Τι είναι το Forward Propagation;",
     "choices": {
-      "A": "Βιολογικό κύτταρο",
-      "B": "Βασική μονάδα neural network",
-      "C": "Αισθητήρας",
-      "D": "Βιολογικό κύτταρο"
+      "A": "Διαδικασία αποθήκευσης",
+      "B": "Διαδικασία υπολογισμού της εξόδου από την είσοδο μέσω του δικτύου",
+      "C": "Διαδικασία διαγραφής",
+      "D": "Διαδικασία εκτύπωσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Activation Function;",
+    "question": "Τι σημαίνει Deep Learning;",
     "choices": {
-      "A": "Input function",
-      "B": "Συνάρτηση εξόδου νευρώνα",
-      "C": "Bias",
-      "D": "Input function"
+      "A": "Μάθηση με μικρά δίκτυα",
+      "B": "Μάθηση με βαθιά νευρωνικά δίκτυα (πολλά layers)",
+      "C": "Μάθηση χωρίς δεδομένα",
+      "D": "Μάθηση από βιβλία"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι ReLU;",
+    "question": "Τι είναι ένα Hidden Layer;",
     "choices": {
-      "A": "Sigmoid",
-      "B": "Rectified Linear Unit: max(0, x)",
-      "C": "Softmax",
-      "D": "Sigmoid"
+      "A": "Το εμφανές layer",
+      "B": "Στρώμα μεταξύ input και output layers",
+      "C": "Το input layer",
+      "D": "Το output layer"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Sigmoid;",
+    "question": "Τι είναι τα Weights (βάρη) σε ένα νευρωνικό δίκτυο;",
     "choices": {
-      "A": "ReLU",
-      "B": "1 / (1 + e^-x)",
-      "C": "Softmax",
-      "D": "ReLU"
+      "A": "Το μέγεθος του δικτύου",
+      "B": "Παράμετροι που ρυθμίζουν τη σημασία των εισόδων",
+      "C": "Αριθμός νευρώνων",
+      "D": "Αριθμός layers"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Neural Network;",
+    "question": "Τι είναι το Bias σε έναν νευρώνα;",
     "choices": {
-      "A": "Βιολογικό δίκτυο",
-      "B": "Δίκτυο τεχνητών νευρώνων",
-      "C": "Κοινωνικό δίκτυο",
-      "D": "Βιολογικό δίκτυο"
+      "A": "Ένα λάθος",
+      "B": "Σταθερά που προστίθεται για ευελιξία στο μοντέλο",
+      "C": "Μια βάση δεδομένων",
+      "D": "Ένα αρχείο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Neuron;",
+    "question": "Τι είναι το Dropout;",
     "choices": {
-      "A": "Βιολογικό κύτταρο",
-      "B": "Βασική μονάδα neural network",
-      "C": "Αισθητήρας",
-      "D": "Βιολογικό κύτταρο"
+      "A": "Τεχνική αποθήκευσης",
+      "B": "Τεχνική regularization που απενεργοποιεί τυχαία νευρώνες",
+      "C": "Τεχνική διαγραφής δεδομένων",
+      "D": "Τεχνική εκτύπωσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Activation Function;",
+    "question": "Τι είναι το Batch Normalization;",
     "choices": {
-      "A": "Input function",
-      "B": "Συνάρτηση εξόδου νευρώνα",
-      "C": "Bias",
-      "D": "Input function"
+      "A": "Διαγραφή batches",
+      "B": "Τεχνική που κανονικοποιεί τις εισόδους κάθε layer",
+      "C": "Αποθήκευση batches",
+      "D": "Εκτύπωση batches"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι ReLU;",
+    "question": "Τι είναι τα Convolutional Neural Networks (CNNs);",
     "choices": {
-      "A": "Sigmoid",
-      "B": "Rectified Linear Unit: max(0, x)",
-      "C": "Softmax",
-      "D": "Sigmoid"
+      "A": "Δίκτυα για κείμενο",
+      "B": "Δίκτυα ειδικευμένα για επεξεργασία εικόνων",
+      "C": "Δίκτυα για ήχο",
+      "D": "Δίκτυα για βάσεις δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Sigmoid;",
+    "question": "Τι είναι τα Recurrent Neural Networks (RNNs);",
     "choices": {
-      "A": "ReLU",
-      "B": "1 / (1 + e^-x)",
-      "C": "Softmax",
-      "D": "ReLU"
+      "A": "Δίκτυα για εικόνες",
+      "B": "Δίκτυα για σειριακά δεδομένα με μνήμη (κείμενο, ομιλία)",
+      "C": "Δίκτυα για αριθμούς",
+      "D": "Δίκτυα για γραφικά"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι CNN;",
+    "question": "Τι είναι τα Long Short-Term Memory (LSTM) networks;",
     "choices": {
-      "A": "RNN",
-      "B": "Convolutional Neural Network για εικόνες",
-      "C": "GRU",
-      "D": "RNN"
+      "A": "Απλά RNN",
+      "B": "Ειδικό RNN που αντιμετωπίζει το vanishing gradient problem",
+      "C": "CNN για εικόνες",
+      "D": "Δίκτυο χωρίς μνήμη"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Convolutional Layer;",
+    "question": "Τι είναι τα Autoencoders;",
     "choices": {
-      "A": "Pooling layer",
-      "B": "Layer με convolution filters",
-      "C": "Dropout",
-      "D": "Pooling layer"
+      "A": "Δίκτυα για ταξινόμηση",
+      "B": "Δίκτυα για μάθηση συμπιεσμένων αναπαραστάσεων δεδομένων",
+      "C": "Δίκτυα για clustering",
+      "D": "Δίκτυα για regression"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Pooling;",
+    "question": "Τι είναι τα Generative Adversarial Networks (GANs);",
     "choices": {
-      "A": "Convolution",
-      "B": "Downsampling layer (max/average)",
-      "C": "Activation",
-      "D": "Convolution"
+      "A": "Δίκτυα μόνο για ταξινόμηση",
+      "B": "Δύο δίκτυα (Generator & Discriminator) που ανταγωνίζονται για δημιουργία νέων δεδομένων",
+      "C": "Δίκτυα για clustering",
+      "D": "Δίκτυα για regression"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Max Pooling;",
+    "question": "Τι είναι ο Generator στα GANs;",
     "choices": {
-      "A": "Average pooling",
-      "B": "Επιλογή μέγιστης τιμής",
-      "C": "Sum pooling",
-      "D": "Average pooling"
+      "A": "Δίκτυο που ελέγχει",
+      "B": "Δίκτυο που δημιουργεί νέα δεδομένα",
+      "C": "Δίκτυο που διαγράφει",
+      "D": "Δίκτυο που αποθηκεύει"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Filter/Kernel;",
+    "question": "Τι είναι ο Discriminator στα GANs;",
     "choices": {
-      "A": "Pooling window",
-      "B": "Παράθυρο convolution",
-      "C": "Activation",
-      "D": "Pooling window"
+      "A": "Δίκτυο που δημιουργεί",
+      "B": "Δίκτυο που διακρίνει αληθινά από ψεύτικα δεδομένα",
+      "C": "Δίκτυο που αποθηκεύει",
+      "D": "Δίκτυο που διαγράφει"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι CNN;",
+    "question": "Τι είναι το Transfer Learning;",
     "choices": {
-      "A": "RNN",
-      "B": "Convolutional Neural Network για εικόνες",
-      "C": "GRU",
-      "D": "RNN"
+      "A": "Μεταφορά δεδομένων",
+      "B": "Χρήση προεκπαιδευμένου μοντέλου σε νέο πρόβλημα",
+      "C": "Μεταφορά αρχείων",
+      "D": "Διαγραφή μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Convolutional Layer;",
+    "question": "Τι είναι το Fine-tuning;",
     "choices": {
-      "A": "Pooling layer",
-      "B": "Layer με convolution filters",
-      "C": "Dropout",
-      "D": "Pooling layer"
+      "A": "Διαγραφή μοντέλου",
+      "B": "Επαναπροσαρμογή προεκπαιδευμένου μοντέλου σε νέα δεδομένα",
+      "C": "Αποθήκευση μοντέλου",
+      "D": "Εκτύπωση μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Pooling;",
+    "question": "Τι είναι το Vanishing Gradient Problem;",
     "choices": {
-      "A": "Convolution",
-      "B": "Downsampling layer (max/average)",
-      "C": "Activation",
-      "D": "Convolution"
+      "A": "Πρόβλημα ταχύτητας",
+      "B": "Πρόβλημα όπου τα gradients γίνονται πολύ μικρά σε βαθιά δίκτυα",
+      "C": "Πρόβλημα μνήμης",
+      "D": "Πρόβλημα κόστους"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Max Pooling;",
+    "question": "Τι είναι το Exploding Gradient Problem;",
     "choices": {
-      "A": "Average pooling",
-      "B": "Επιλογή μέγιστης τιμής",
-      "C": "Sum pooling",
-      "D": "Average pooling"
+      "A": "Πρόβλημα αποθήκευσης",
+      "B": "Πρόβλημα όπου τα gradients γίνονται πολύ μεγάλα",
+      "C": "Πρόβλημα διαγραφής",
+      "D": "Πρόβλημα εκτύπωσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Filter/Kernel;",
+    "question": "Τι είναι η Adam Optimizer;",
     "choices": {
-      "A": "Pooling window",
-      "B": "Παράθυρο convolution",
-      "C": "Activation",
-      "D": "Pooling window"
+      "A": "Μια βάση δεδομένων",
+      "B": "Αλγόριθμος βελτιστοποίησης που συνδυάζει momentum και adaptive learning rates",
+      "C": "Ένα λειτουργικό σύστημα",
+      "D": "Ένα πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι CNN;",
+    "question": "Τι είναι το Momentum;",
     "choices": {
-      "A": "RNN",
-      "B": "Convolutional Neural Network για εικόνες",
-      "C": "GRU",
-      "D": "RNN"
+      "A": "Ταχύτητα υπολογιστή",
+      "B": "Τεχνική που επιταχύνει τη σύγκλιση με χρήση προηγούμενων gradients",
+      "C": "Μέγεθος δεδομένων",
+      "D": "Αριθμός layers"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Convolutional Layer;",
+    "question": "Τι είναι το Stochastic Gradient Descent (SGD);",
     "choices": {
-      "A": "Pooling layer",
-      "B": "Layer με convolution filters",
-      "C": "Dropout",
-      "D": "Pooling layer"
+      "A": "Αλγόριθμος αποθήκευσης",
+      "B": "Αλγόριθμος βελτιστοποίησης που ενημερώνει βάρη με τυχαία batches",
+      "C": "Αλγόριθμος διαγραφής",
+      "D": "Αλγόριθμος εκτύπωσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Pooling;",
+    "question": "Τι είναι το Mini-batch Gradient Descent;",
     "choices": {
-      "A": "Convolution",
-      "B": "Downsampling layer (max/average)",
-      "C": "Activation",
-      "D": "Convolution"
+      "A": "Χρήση όλων των δεδομένων",
+      "B": "Χρήση μικρών batches για ενημέρωση βαρών",
+      "C": "Χρήση ενός δείγματος",
+      "D": "Μη χρήση δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Max Pooling;",
+    "question": "Τι είναι το Pooling Layer στα CNNs;",
     "choices": {
-      "A": "Average pooling",
-      "B": "Επιλογή μέγιστης τιμής",
-      "C": "Sum pooling",
-      "D": "Average pooling"
+      "A": "Layer για αποθήκευση",
+      "B": "Layer που μειώνει τις διαστάσεις (π.χ. Max Pooling)",
+      "C": "Layer για διαγραφή",
+      "D": "Layer για εκτύπωση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Filter/Kernel;",
+    "question": "Τι είναι το Convolutional Layer;",
     "choices": {
-      "A": "Pooling window",
-      "B": "Παράθυρο convolution",
-      "C": "Activation",
-      "D": "Pooling window"
+      "A": "Layer για κείμενο",
+      "B": "Layer που εφαρμόζει φίλτρα για εξαγωγή χαρακτηριστικών από εικόνες",
+      "C": "Layer για ήχο",
+      "D": "Layer για αριθμούς"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι RNN;",
+    "question": "Τι είναι το Fully Connected Layer (Dense Layer);",
     "choices": {
-      "A": "CNN",
-      "B": "Recurrent Neural Network για sequences",
-      "C": "GAN",
-      "D": "CNN"
+      "A": "Layer χωρίς συνδέσεις",
+      "B": "Layer όπου κάθε νευρώνας συνδέεται με όλους τους νευρώνες του προηγούμενου layer",
+      "C": "Layer μόνο για εικόνες",
+      "D": "Layer μόνο για κείμενο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι LSTM;",
+    "question": "Τι framework χρησιμοποιείται για Deep Learning;",
     "choices": {
-      "A": "GRU",
-      "B": "Long Short-Term Memory RNN",
-      "C": "CNN",
-      "D": "GRU"
+      "A": "Word",
+      "B": "TensorFlow ή PyTorch",
+      "C": "Excel",
+      "D": "PowerPoint"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι GRU;",
+    "question": "Τι είναι το Keras;",
     "choices": {
-      "A": "LSTM",
-      "B": "Gated Recurrent Unit",
-      "C": "CNN",
-      "D": "LSTM"
+      "A": "Μια βάση δεδομένων",
+      "B": "High-level API για εύκολη κατασκευή νευρωνικών δικτύων (τρέχει πάνω σε TensorFlow)",
+      "C": "Ένα λειτουργικό σύστημα",
+      "D": "Ένα πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Γιατί χρησιμοποιούνται RNNs;",
+    "question": "Τι είναι το Pre-training;",
     "choices": {
-      "A": "Για εικόνες",
-      "B": "Για sequential data (text, time-series)",
-      "C": "Για clustering",
-      "D": "Για εικόνες"
+      "A": "Διαγραφή μοντέλου",
+      "B": "Αρχική εκπαίδευση μοντέλου σε μεγάλο dataset",
+      "C": "Αποθήκευση μοντέλου",
+      "D": "Εκτύπωση μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι πρόβλημα έχουν απλά RNNs;",
+    "question": "Τι είναι το Data Augmentation στην εκπαίδευση νευρωνικών δικτύων;",
     "choices": {
-      "A": "Overfitting",
-      "B": "Vanishing gradient",
-      "C": "Too fast",
-      "D": "Overfitting"
+      "A": "Διαγραφή δεδομένων",
+      "B": "Τεχνική αύξησης δεδομένων με μετασχηματισμούς (rotations, flips)",
+      "C": "Συμπίεση δεδομένων",
+      "D": "Κρυπτογράφηση δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι RNN;",
+    "question": "Τι είναι το Early Stopping;",
     "choices": {
-      "A": "CNN",
-      "B": "Recurrent Neural Network για sequences",
-      "C": "GAN",
-      "D": "CNN"
+      "A": "Αποθήκευση μοντέλου",
+      "B": "Τεχνική που σταματά την εκπαίδευση όταν η απόδοση σταθεροποιηθεί",
+      "C": "Διαγραφή μοντέλου",
+      "D": "Εκτύπωση μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι LSTM;",
+    "question": "Τι είναι το Loss Function;",
     "choices": {
-      "A": "GRU",
-      "B": "Long Short-Term Memory RNN",
-      "C": "CNN",
-      "D": "GRU"
+      "A": "Συνάρτηση για αποθήκευση",
+      "B": "Συνάρτηση που μετρά το σφάλμα του μοντέλου",
+      "C": "Συνάρτηση για διαγραφή",
+      "D": "Συνάρτηση για εκτύπωση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι GRU;",
+    "question": "Τι είναι το Cross-Entropy Loss;",
     "choices": {
-      "A": "LSTM",
-      "B": "Gated Recurrent Unit",
-      "C": "CNN",
-      "D": "LSTM"
+      "A": "Loss για regression",
+      "B": "Loss συνάρτηση για προβλήματα ταξινόμησης",
+      "C": "Loss για clustering",
+      "D": "Loss για αποθήκευση"
     },
     "answer": "B"
   },
   {
-    "question": "Γιατί χρησιμοποιούνται RNNs;",
+    "question": "Τι GPUs χρησιμοποιούνται για εκπαίδευση Deep Learning μοντέλων;",
     "choices": {
-      "A": "Για εικόνες",
-      "B": "Για sequential data (text, time-series)",
-      "C": "Για clustering",
-      "D": "Για εικόνες"
+      "A": "Μόνο CPUs",
+      "B": "NVIDIA GPUs (π.χ. RTX, A100) για παραλληλοποίηση υπολογισμών",
+      "C": "Μόνο RAM",
+      "D": "Μόνο σκληροί δίσκοι"
     },
     "answer": "B"
   },
   {
-    "question": "Τι πρόβλημα έχουν απλά RNNs;",
+    "question": "Τι είναι το Attention Mechanism;",
     "choices": {
-      "A": "Overfitting",
-      "B": "Vanishing gradient",
-      "C": "Too fast",
-      "D": "Overfitting"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι RNN;",
-    "choices": {
-      "A": "CNN",
-      "B": "Recurrent Neural Network για sequences",
-      "C": "GAN",
-      "D": "CNN"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι LSTM;",
-    "choices": {
-      "A": "GRU",
-      "B": "Long Short-Term Memory RNN",
-      "C": "CNN",
-      "D": "GRU"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι GRU;",
-    "choices": {
-      "A": "LSTM",
-      "B": "Gated Recurrent Unit",
-      "C": "CNN",
-      "D": "LSTM"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Γιατί χρησιμοποιούνται RNNs;",
-    "choices": {
-      "A": "Για εικόνες",
-      "B": "Για sequential data (text, time-series)",
-      "C": "Για clustering",
-      "D": "Για εικόνες"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι πρόβλημα έχουν απλά RNNs;",
-    "choices": {
-      "A": "Overfitting",
-      "B": "Vanishing gradient",
-      "C": "Too fast",
-      "D": "Overfitting"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Deep Learning;",
-    "choices": {
-      "A": "Shallow learning",
-      "B": "Neural networks με πολλά layers",
-      "C": "No layers",
-      "D": "Shallow learning"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Backpropagation;",
-    "choices": {
-      "A": "Forward pass μόνο",
-      "B": "Αλγόριθμος εκπαίδευσης με gradients",
-      "C": "No training",
-      "D": "Forward pass μόνο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Optimizer;",
-    "choices": {
-      "A": "Loss function",
-      "B": "Αλγόριθμος ενημέρωσης weights (SGD, Adam)",
-      "C": "Layer",
-      "D": "Loss function"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Adam;",
-    "choices": {
-      "A": "SGD",
-      "B": "Adaptive Moment Estimation optimizer",
-      "C": "Momentum",
-      "D": "SGD"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Learning Rate;",
-    "choices": {
-      "A": "Accuracy",
-      "B": "Βήμα ενημέρωσης weights",
-      "C": "Epoch",
-      "D": "Accuracy"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Deep Learning;",
-    "choices": {
-      "A": "Shallow learning",
-      "B": "Neural networks με πολλά layers",
-      "C": "No layers",
-      "D": "Shallow learning"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Backpropagation;",
-    "choices": {
-      "A": "Forward pass μόνο",
-      "B": "Αλγόριθμος εκπαίδευσης με gradients",
-      "C": "No training",
-      "D": "Forward pass μόνο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Optimizer;",
-    "choices": {
-      "A": "Loss function",
-      "B": "Αλγόριθμος ενημέρωσης weights (SGD, Adam)",
-      "C": "Layer",
-      "D": "Loss function"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Adam;",
-    "choices": {
-      "A": "SGD",
-      "B": "Adaptive Moment Estimation optimizer",
-      "C": "Momentum",
-      "D": "SGD"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Learning Rate;",
-    "choices": {
-      "A": "Accuracy",
-      "B": "Βήμα ενημέρωσης weights",
-      "C": "Epoch",
-      "D": "Accuracy"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Deep Learning;",
-    "choices": {
-      "A": "Shallow learning",
-      "B": "Neural networks με πολλά layers",
-      "C": "No layers",
-      "D": "Shallow learning"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Backpropagation;",
-    "choices": {
-      "A": "Forward pass μόνο",
-      "B": "Αλγόριθμος εκπαίδευσης με gradients",
-      "C": "No training",
-      "D": "Forward pass μόνο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Optimizer;",
-    "choices": {
-      "A": "Loss function",
-      "B": "Αλγόριθμος ενημέρωσης weights (SGD, Adam)",
-      "C": "Layer",
-      "D": "Loss function"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Adam;",
-    "choices": {
-      "A": "SGD",
-      "B": "Adaptive Moment Estimation optimizer",
-      "C": "Momentum",
-      "D": "SGD"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Learning Rate;",
-    "choices": {
-      "A": "Accuracy",
-      "B": "Βήμα ενημέρωσης weights",
-      "C": "Epoch",
-      "D": "Accuracy"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι GAN;",
-    "choices": {
-      "A": "CNN",
-      "B": "Generative Adversarial Network",
-      "C": "LSTM",
-      "D": "CNN"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Generator σε GAN;",
-    "choices": {
-      "A": "Διακρίνει real/fake",
-      "B": "Δημιουργεί fake data",
-      "C": "Κάνει regression",
-      "D": "Διακρίνει real/fake"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Discriminator σε GAN;",
-    "choices": {
-      "A": "Δημιουργεί data",
-      "B": "Διακρίνει real από fake",
-      "C": "Κάνει regression",
-      "D": "Δημιουργεί data"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Transfer Learning;",
-    "choices": {
-      "A": "Training from scratch",
-      "B": "Χρήση pretrained model",
-      "C": "Random weights",
-      "D": "Training from scratch"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Fine-tuning;",
-    "choices": {
-      "A": "Training from scratch",
-      "B": "Προσαρμογή pretrained model",
-      "C": "Freezing all layers",
-      "D": "Training from scratch"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι GAN;",
-    "choices": {
-      "A": "CNN",
-      "B": "Generative Adversarial Network",
-      "C": "LSTM",
-      "D": "CNN"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Generator σε GAN;",
-    "choices": {
-      "A": "Διακρίνει real/fake",
-      "B": "Δημιουργεί fake data",
-      "C": "Κάνει regression",
-      "D": "Διακρίνει real/fake"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Discriminator σε GAN;",
-    "choices": {
-      "A": "Δημιουργεί data",
-      "B": "Διακρίνει real από fake",
-      "C": "Κάνει regression",
-      "D": "Δημιουργεί data"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Transfer Learning;",
-    "choices": {
-      "A": "Training from scratch",
-      "B": "Χρήση pretrained model",
-      "C": "Random weights",
-      "D": "Training from scratch"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Fine-tuning;",
-    "choices": {
-      "A": "Training from scratch",
-      "B": "Προσαρμογή pretrained model",
-      "C": "Freezing all layers",
-      "D": "Training from scratch"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι GAN;",
-    "choices": {
-      "A": "CNN",
-      "B": "Generative Adversarial Network",
-      "C": "LSTM",
-      "D": "CNN"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Generator σε GAN;",
-    "choices": {
-      "A": "Διακρίνει real/fake",
-      "B": "Δημιουργεί fake data",
-      "C": "Κάνει regression",
-      "D": "Διακρίνει real/fake"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Discriminator σε GAN;",
-    "choices": {
-      "A": "Δημιουργεί data",
-      "B": "Διακρίνει real από fake",
-      "C": "Κάνει regression",
-      "D": "Δημιουργεί data"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Transfer Learning;",
-    "choices": {
-      "A": "Training from scratch",
-      "B": "Χρήση pretrained model",
-      "C": "Random weights",
-      "D": "Training from scratch"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Fine-tuning;",
-    "choices": {
-      "A": "Training from scratch",
-      "B": "Προσαρμογή pretrained model",
-      "C": "Freezing all layers",
-      "D": "Training from scratch"
+      "A": "Μηχανισμός αποθήκευσης",
+      "B": "Μηχανισμός που επιτρέπει στο μοντέλο να εστιάζει σε σημαντικά μέρη της εισόδου",
+      "C": "Μηχανισμός διαγραφής",
+      "D": "Μηχανισμός εκτύπωσης"
     },
     "answer": "B"
   }

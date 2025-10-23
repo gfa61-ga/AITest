@@ -1,651 +1,401 @@
 [
   {
-    "question": "Πώς χρησιμοποιείται AI στην Υγεία;",
+    "question": "Πώς χρησιμοποιείται η AI στην Υγεία;",
     "choices": {
-      "A": "Μόνο διοίκηση",
-      "B": "Διάγνωση, πρόβλεψη, drug discovery, imaging",
-      "C": "Μόνο ραντεβού",
-      "D": "Μόνο διοίκηση"
+      "A": "Μόνο για διοίκηση",
+      "B": "Διάγνωση, πρόβλεψη, ανακάλυψη φαρμάκων, ιατρική απεικόνιση",
+      "C": "Μόνο για τιμολόγηση",
+      "D": "Μόνο για ραντεβού"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Medical Imaging με AI;",
+    "question": "Τι είναι το Medical Imaging με AI;",
     "choices": {
-      "A": "Χειρονακτική",
-      "B": "Ανάλυση X-Ray, MRI, CT με AI",
-      "C": "Αποθήκευση",
-      "D": "Χειρονακτική"
+      "A": "Χειρονακτική ανάλυση",
+      "B": "Ανάλυση ιατρικών εικόνων (X-Ray, MRI, CT) με AI",
+      "C": "Διαγραφή εικόνων",
+      "D": "Αποθήκευση εικόνων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι CAD;",
+    "question": "Τι είναι το Computer-Aided Diagnosis (CAD);",
     "choices": {
-      "A": "Computer-Aided Design",
-      "B": "Computer-Aided Diagnosis",
-      "C": "Cloud AI Database",
-      "D": "Computer-Aided Design"
+      "A": "Διαγραφή διάγνωσης",
+      "B": "Υποστήριξη διάγνωσης με AI",
+      "C": "Αποθήκευση διάγνωσης",
+      "D": "Εκτύπωση διάγνωσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Drug Discovery με AI;",
-    "choices": {
-      "A": "Διαγραφή φαρμάκων",
-      "B": "Επιτάχυνση ανακάλυψης φαρμάκων",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή φαρμάκων"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Predictive Healthcare;",
-    "choices": {
-      "A": "Ιστορική ανάλυση",
-      "B": "Πρόβλεψη ασθενειών με AI",
-      "C": "Αποθήκευση",
-      "D": "Ιστορική ανάλυση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Personalized Medicine;",
-    "choices": {
-      "A": "Γενική θεραπεία",
-      "B": "Εξατομικευμένη θεραπεία",
-      "C": "Τυχαία",
-      "D": "Γενική θεραπεία"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι IBM Watson Health;",
-    "choices": {
-      "A": "Database",
-      "B": "AI για ιατρική υποστήριξη",
-      "C": "Network",
-      "D": "Database"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Radiology AI;",
-    "choices": {
-      "A": "Διαγραφή",
-      "B": "AI για ακτινολογικές εικόνες",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Wearable Devices με AI;",
-    "choices": {
-      "A": "Χωρίς AI",
-      "B": "Smartwatches που παρακολουθούν υγεία",
-      "C": "Αποθήκευση",
-      "D": "Χωρίς AI"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Telemedicine;",
-    "choices": {
-      "A": "Μόνο νοσοκομείο",
-      "B": "Απομακρυσμένη ιατρική με AI",
-      "C": "Αποθήκευση",
-      "D": "Μόνο νοσοκομείο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι AlphaFold;",
-    "choices": {
-      "A": "Game AI",
-      "B": "AI για πρόβλεψη δομής πρωτεϊνών",
-      "C": "Text AI",
-      "D": "Game AI"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Medical Chatbot;",
-    "choices": {
-      "A": "Ανθρώπινος γιατρός",
-      "B": "AI για αρχική ιατρική συμβουλή",
-      "C": "Τηλέφωνο",
-      "D": "Ανθρώπινος γιατρός"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι EHR;",
-    "choices": {
-      "A": "Emergency Hospital Response",
-      "B": "Electronic Health Records",
-      "C": "External Health Registry",
-      "D": "Emergency Hospital Response"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς χρησιμοποιείται AI στην Υγεία;",
-    "choices": {
-      "A": "Μόνο διοίκηση",
-      "B": "Διάγνωση, πρόβλεψη, drug discovery, imaging",
-      "C": "Μόνο ραντεβού",
-      "D": "Μόνο διοίκηση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Medical Imaging με AI;",
-    "choices": {
-      "A": "Χειρονακτική",
-      "B": "Ανάλυση X-Ray, MRI, CT με AI",
-      "C": "Αποθήκευση",
-      "D": "Χειρονακτική"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι CAD;",
-    "choices": {
-      "A": "Computer-Aided Design",
-      "B": "Computer-Aided Diagnosis",
-      "C": "Cloud AI Database",
-      "D": "Computer-Aided Design"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Drug Discovery με AI;",
+    "question": "Τι είναι το Drug Discovery με AI;",
     "choices": {
       "A": "Διαγραφή φαρμάκων",
-      "B": "Επιτάχυνση ανακάλυψης φαρμάκων",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή φαρμάκων"
+      "B": "Επιτάχυνση ανακάλυψης νέων φαρμάκων με AI",
+      "C": "Αποθήκευση φαρμάκων",
+      "D": "Εκτύπωση φαρμάκων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Predictive Healthcare;",
+    "question": "Τι είναι το Predictive Healthcare;",
     "choices": {
       "A": "Ιστορική ανάλυση",
-      "B": "Πρόβλεψη ασθενειών με AI",
-      "C": "Αποθήκευση",
-      "D": "Ιστορική ανάλυση"
+      "B": "Πρόβλεψη ασθενειών και επιδημιών με AI",
+      "C": "Διαγραφή προβλέψεων",
+      "D": "Αποθήκευση προβλέψεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Personalized Medicine;",
+    "question": "Τι είναι το Personalized Medicine;",
     "choices": {
       "A": "Γενική θεραπεία",
-      "B": "Εξατομικευμένη θεραπεία",
-      "C": "Τυχαία",
-      "D": "Γενική θεραπεία"
+      "B": "Εξατομικευμένη θεραπεία με βάση γονίδια και δεδομένα",
+      "C": "Μαζική θεραπεία",
+      "D": "Τυχαία θεραπεία"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι IBM Watson Health;",
+    "question": "Τι είναι το IBM Watson Health;",
     "choices": {
-      "A": "Database",
-      "B": "AI για ιατρική υποστήριξη",
-      "C": "Network",
-      "D": "Database"
+      "A": "Εργαλείο σχεδίασης",
+      "B": "AI πλατφόρμα για υποστήριξη διάγνωσης και θεραπείας",
+      "C": "Βάση δεδομένων",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Radiology AI;",
+    "question": "Τι είναι το Radiology AI;",
     "choices": {
-      "A": "Διαγραφή",
-      "B": "AI για ακτινολογικές εικόνες",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή"
+      "A": "Διαγραφή ακτινογραφιών",
+      "B": "AI για ανάλυση και ερμηνεία ακτινολογικών εικόνων",
+      "C": "Αποθήκευση ακτινογραφιών",
+      "D": "Εκτύπωση ακτινογραφιών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Wearable Devices με AI;",
+    "question": "Τι είναι το Pathology AI;",
     "choices": {
-      "A": "Χωρίς AI",
-      "B": "Smartwatches που παρακολουθούν υγεία",
-      "C": "Αποθήκευση",
-      "D": "Χωρίς AI"
+      "A": "Διαγραφή ιστολογικών",
+      "B": "AI για ανάλυση παθολογοανατομικών εξετάσεων",
+      "C": "Αποθήκευση ιστολογικών",
+      "D": "Εκτύπωση ιστολογικών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Telemedicine;",
+    "question": "Τι είναι το Wearable Health Devices με AI;",
     "choices": {
-      "A": "Μόνο νοσοκομείο",
-      "B": "Απομακρυσμένη ιατρική με AI",
-      "C": "Αποθήκευση",
-      "D": "Μόνο νοσοκομείο"
+      "A": "Συσκευές χωρίς AI",
+      "B": "Φορητές συσκευές (smartwatches) που παρακολουθούν υγεία με AI",
+      "C": "Διαγραφή συσκευών",
+      "D": "Αποθήκευση συσκευών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι AlphaFold;",
+    "question": "Τι είναι το Remote Patient Monitoring;",
     "choices": {
-      "A": "Game AI",
-      "B": "AI για πρόβλεψη δομής πρωτεϊνών",
-      "C": "Text AI",
-      "D": "Game AI"
+      "A": "Παρακολούθηση στο νοσοκομείο μόνο",
+      "B": "Απομακρυσμένη παρακολούθηση ασθενών με AI και sensors",
+      "C": "Διαγραφή παρακολούθησης",
+      "D": "Αποθήκευση παρακολούθησης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Medical Chatbot;",
+    "question": "Τι είναι το Clinical Decision Support;",
     "choices": {
-      "A": "Ανθρώπινος γιατρός",
-      "B": "AI για αρχική ιατρική συμβουλή",
-      "C": "Τηλέφωνο",
-      "D": "Ανθρώπινος γιατρός"
+      "A": "Αποφάσεις χωρίς υποστήριξη",
+      "B": "Υποστήριξη κλινικών αποφάσεων με AI",
+      "C": "Διαγραφή αποφάσεων",
+      "D": "Αποθήκευση αποφάσεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι EHR;",
+    "question": "Τι είναι το Electronic Health Records (EHR) με AI;",
     "choices": {
-      "A": "Emergency Hospital Response",
-      "B": "Electronic Health Records",
-      "C": "External Health Registry",
-      "D": "Emergency Hospital Response"
+      "A": "Χάρτινοι φάκελοι",
+      "B": "Ψηφιακοί φάκελοι υγείας με AI ανάλυση",
+      "C": "Διαγραμμένοι φάκελοι",
+      "D": "Αποθηκευμένοι χωρίς ανάλυση"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς χρησιμοποιείται AI στην Υγεία;",
+    "question": "Τι είναι το Genomics AI;",
     "choices": {
-      "A": "Μόνο διοίκηση",
-      "B": "Διάγνωση, πρόβλεψη, drug discovery, imaging",
-      "C": "Μόνο ραντεβού",
-      "D": "Μόνο διοίκηση"
+      "A": "Διαγραφή γονιδίων",
+      "B": "Ανάλυση γενετικών δεδομένων με AI",
+      "C": "Αποθήκευση γονιδίων",
+      "D": "Εκτύπωση γονιδίων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Medical Imaging με AI;",
+    "question": "Τι είναι το Cancer Detection με AI;",
     "choices": {
-      "A": "Χειρονακτική",
-      "B": "Ανάλυση X-Ray, MRI, CT με AI",
-      "C": "Αποθήκευση",
-      "D": "Χειρονακτική"
+      "A": "Διαγραφή καρκίνου",
+      "B": "Έγκαιρη ανίχνευση καρκίνου με AI",
+      "C": "Αποθήκευση καρκίνου",
+      "D": "Εκτύπωση καρκίνου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι CAD;",
+    "question": "Τι είναι το Diabetic Retinopathy Detection;",
     "choices": {
-      "A": "Computer-Aided Design",
-      "B": "Computer-Aided Diagnosis",
-      "C": "Cloud AI Database",
-      "D": "Computer-Aided Design"
+      "A": "Διαγραφή ανίχνευσης",
+      "B": "Ανίχνευση διαβητικής αμφιβληστροειδοπάθειας με AI",
+      "C": "Αποθήκευση ανίχνευσης",
+      "D": "Εκτύπωση ανίχνευσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Drug Discovery με AI;",
+    "question": "Τι είναι το Virtual Health Assistants;",
     "choices": {
-      "A": "Διαγραφή φαρμάκων",
-      "B": "Επιτάχυνση ανακάλυψης φαρμάκων",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή φαρμάκων"
+      "A": "Φυσικοί βοηθοί",
+      "B": "AI chatbots για ιατρικές συμβουλές και ραντεβού",
+      "C": "Διαγραφή βοηθών",
+      "D": "Αποθήκευση βοηθών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Predictive Healthcare;",
+    "question": "Τι είναι το Robotic Surgery;",
+    "choices": {
+      "A": "Χειρονακτική χειρουργική",
+      "B": "Χειρουργικές επεμβάσεις με ρομποτικά συστήματα και AI",
+      "C": "Διαγραφή χειρουργικής",
+      "D": "Αποθήκευση χειρουργικής"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Mental Health AI;",
+    "choices": {
+      "A": "Αγνόηση ψυχικής υγείας",
+      "B": "AI για διάγνωση και υποστήριξη ψυχικής υγείας",
+      "C": "Διαγραφή ψυχικής υγείας",
+      "D": "Αποθήκευση ψυχικής υγείας"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Hospital Management με AI;",
+    "choices": {
+      "A": "Χειρονακτική διαχείριση",
+      "B": "Βελτιστοποίηση λειτουργιών νοσοκομείου με AI",
+      "C": "Διαγραφή διαχείρισης",
+      "D": "Αποθήκευση διαχείρισης"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Epidemic Prediction;",
     "choices": {
       "A": "Ιστορική ανάλυση",
-      "B": "Πρόβλεψη ασθενειών με AI",
-      "C": "Αποθήκευση",
-      "D": "Ιστορική ανάλυση"
+      "B": "Πρόβλεψη επιδημιών με AI",
+      "C": "Διαγραφή προβλέψεων",
+      "D": "Αποθήκευση προβλέψεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Personalized Medicine;",
+    "question": "Τι είναι το Clinical Trials Optimization;",
     "choices": {
-      "A": "Γενική θεραπεία",
-      "B": "Εξατομικευμένη θεραπεία",
-      "C": "Τυχαία",
-      "D": "Γενική θεραπεία"
+      "A": "Χειρονακτικές δοκιμές",
+      "B": "Βελτιστοποίηση κλινικών δοκιμών με AI",
+      "C": "Διαγραφή δοκιμών",
+      "D": "Αποθήκευση δοκιμών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι IBM Watson Health;",
+    "question": "Τι είναι το Medical Chatbots;",
     "choices": {
-      "A": "Database",
-      "B": "AI για ιατρική υποστήριξη",
-      "C": "Network",
-      "D": "Database"
+      "A": "Ανθρώπινοι γιατροί",
+      "B": "AI chatbots για αρχική ιατρική συμβουλή",
+      "C": "Διαγραφή chatbots",
+      "D": "Αποθήκευση chatbots"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Radiology AI;",
+    "question": "Τι είναι το Telemedicine με AI;",
     "choices": {
-      "A": "Διαγραφή",
-      "B": "AI για ακτινολογικές εικόνες",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή"
+      "A": "Εξέταση μόνο στο νοσοκομείο",
+      "B": "Απομακρυσμένη ιατρική με AI υποστήριξη",
+      "C": "Διαγραφή τηλεϊατρικής",
+      "D": "Αποθήκευση τηλεϊατρικής"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Wearable Devices με AI;",
+    "question": "Τι είναι το Medical Research AI;",
     "choices": {
-      "A": "Χωρίς AI",
-      "B": "Smartwatches που παρακολουθούν υγεία",
-      "C": "Αποθήκευση",
-      "D": "Χωρίς AI"
+      "A": "Χειρονακτική έρευνα",
+      "B": "Επιτάχυνση ιατρικής έρευνας με AI",
+      "C": "Διαγραφή έρευνας",
+      "D": "Αποθήκευση έρευνας"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Telemedicine;",
+    "question": "Τι είναι το Vital Signs Monitoring;",
     "choices": {
-      "A": "Μόνο νοσοκομείο",
-      "B": "Απομακρυσμένη ιατρική με AI",
-      "C": "Αποθήκευση",
-      "D": "Μόνο νοσοκομείο"
+      "A": "Μη παρακολούθηση",
+      "B": "Συνεχής παρακολούθηση ζωτικών σημείων με AI",
+      "C": "Διαγραφή παρακολούθησης",
+      "D": "Αποθήκευση παρακολούθησης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι AlphaFold;",
+    "question": "Τι είναι το AlphaFold της DeepMind;",
     "choices": {
-      "A": "Game AI",
+      "A": "Μοντέλο για παιχνίδια",
       "B": "AI για πρόβλεψη δομής πρωτεϊνών",
-      "C": "Text AI",
-      "D": "Game AI"
+      "C": "Μοντέλο για εικόνες",
+      "D": "Μοντέλο για κείμενο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Medical Chatbot;",
+    "question": "Τι είναι το Medical Image Segmentation;",
     "choices": {
-      "A": "Ανθρώπινος γιατρός",
-      "B": "AI για αρχική ιατρική συμβουλή",
-      "C": "Τηλέφωνο",
-      "D": "Ανθρώπινος γιατρός"
+      "A": "Διαγραφή εικόνων",
+      "B": "Τμηματοποίηση ιατρικών εικόνων για ακριβή διάγνωση",
+      "C": "Αποθήκευση εικόνων",
+      "D": "Εκτύπωση εικόνων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι EHR;",
+    "question": "Τι είναι το Fall Detection;",
     "choices": {
-      "A": "Emergency Hospital Response",
-      "B": "Electronic Health Records",
-      "C": "External Health Registry",
-      "D": "Emergency Hospital Response"
+      "A": "Αγνόηση πτώσεων",
+      "B": "Ανίχνευση πτώσεων ηλικιωμένων με AI",
+      "C": "Διαγραφή πτώσεων",
+      "D": "Αποθήκευση πτώσεων"
     },
     "answer": "B"
   },
   {
-    "question": "Πώς χρησιμοποιείται AI στην Υγεία;",
+    "question": "Τι είναι το Medication Adherence Monitoring;",
     "choices": {
-      "A": "Μόνο διοίκηση",
-      "B": "Διάγνωση, πρόβλεψη, drug discovery, imaging",
-      "C": "Μόνο ραντεβού",
-      "D": "Μόνο διοίκηση"
+      "A": "Αγνόηση φαρμάκων",
+      "B": "Παρακολούθηση συμμόρφωσης με φαρμακευτική αγωγή",
+      "C": "Διαγραφή φαρμάκων",
+      "D": "Αποθήκευση φαρμάκων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Medical Imaging με AI;",
+    "question": "Τι είναι το Healthcare Fraud Detection;",
     "choices": {
-      "A": "Χειρονακτική",
-      "B": "Ανάλυση X-Ray, MRI, CT με AI",
-      "C": "Αποθήκευση",
-      "D": "Χειρονακτική"
+      "A": "Αγνόηση απάτης",
+      "B": "Ανίχνευση απάτης σε ασφαλιστικές αξιώσεις με AI",
+      "C": "Διαγραφή απάτης",
+      "D": "Αποθήκευση απάτης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι CAD;",
+    "question": "Τι είναι το Surgical Planning AI;",
     "choices": {
-      "A": "Computer-Aided Design",
-      "B": "Computer-Aided Diagnosis",
-      "C": "Cloud AI Database",
-      "D": "Computer-Aided Design"
+      "A": "Χειρονακτικός σχεδιασμός",
+      "B": "Σχεδιασμός χειρουργικών επεμβάσεων με AI",
+      "C": "Διαγραφή σχεδιασμού",
+      "D": "Αποθήκευση σχεδιασμού"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Drug Discovery με AI;",
+    "question": "Τι είναι το ICU Patient Monitoring;",
     "choices": {
-      "A": "Διαγραφή φαρμάκων",
-      "B": "Επιτάχυνση ανακάλυψης φαρμάκων",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή φαρμάκων"
+      "A": "Μη παρακολούθηση",
+      "B": "Έξυπνη παρακολούθηση ασθενών ΜΕΘ με AI",
+      "C": "Διαγραφή παρακολούθησης",
+      "D": "Αποθήκευση παρακολούθησης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Predictive Healthcare;",
+    "question": "Τι είναι το Health Insurance AI;",
+    "choices": {
+      "A": "Χειρονακτική διαχείριση",
+      "B": "Βελτιστοποίηση ασφαλιστικών διαδικασιών με AI",
+      "C": "Διαγραφή ασφάλισης",
+      "D": "Αποθήκευση ασφάλισης"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Speech Therapy AI;",
+    "choices": {
+      "A": "Χειρονακτική θεραπεία",
+      "B": "AI για λογοθεραπεία και αποκατάσταση ομιλίας",
+      "C": "Διαγραφή θεραπείας",
+      "D": "Αποθήκευση θεραπείας"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Sepsis Prediction;",
     "choices": {
       "A": "Ιστορική ανάλυση",
-      "B": "Πρόβλεψη ασθενειών με AI",
-      "C": "Αποθήκευση",
-      "D": "Ιστορική ανάλυση"
+      "B": "Πρόβλεψη σήψης με AI για έγκαιρη παρέμβαση",
+      "C": "Διαγραφή πρόβλεψης",
+      "D": "Αποθήκευση πρόβλεψης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Personalized Medicine;",
+    "question": "Τι είναι το Medical Documentation AI;",
     "choices": {
-      "A": "Γενική θεραπεία",
-      "B": "Εξατομικευμένη θεραπεία",
-      "C": "Τυχαία",
-      "D": "Γενική θεραπεία"
+      "A": "Χειρόγραφη τεκμηρίωση",
+      "B": "Αυτόματη δημιουργία ιατρικής τεκμηρίωσης με AI",
+      "C": "Διαγραφή τεκμηρίωσης",
+      "D": "Αποθήκευση τεκμηρίωσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι IBM Watson Health;",
+    "question": "Τι είναι το Ambient Clinical Intelligence;",
     "choices": {
-      "A": "Database",
-      "B": "AI για ιατρική υποστήριξη",
-      "C": "Network",
-      "D": "Database"
+      "A": "Χειρονακτική καταγραφή",
+      "B": "Αυτόματη καταγραφή ιατρικών συναντήσεων με AI",
+      "C": "Διαγραφή καταγραφής",
+      "D": "Αποθήκευση καταγραφής"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Radiology AI;",
+    "question": "Τι πρόκληση αντιμετωπίζει η AI στην Υγεία;",
     "choices": {
-      "A": "Διαγραφή",
-      "B": "AI για ακτινολογικές εικόνες",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή"
+      "A": "Πολύ απλή υλοποίηση",
+      "B": "Ρύθμιση, ιδιωτικότητα, ερμηνευσιμότητα, validation",
+      "C": "Πολύ χαμηλό κόστος",
+      "D": "Έλλειψη δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Wearable Devices με AI;",
+    "question": "Ποιο πρωτόκολλο προστατεύει ιατρικά δεδομένα;",
     "choices": {
-      "A": "Χωρίς AI",
-      "B": "Smartwatches που παρακολουθούν υγεία",
-      "C": "Αποθήκευση",
-      "D": "Χωρίς AI"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Telemedicine;",
-    "choices": {
-      "A": "Μόνο νοσοκομείο",
-      "B": "Απομακρυσμένη ιατρική με AI",
-      "C": "Αποθήκευση",
-      "D": "Μόνο νοσοκομείο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι AlphaFold;",
-    "choices": {
-      "A": "Game AI",
-      "B": "AI για πρόβλεψη δομής πρωτεϊνών",
-      "C": "Text AI",
-      "D": "Game AI"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Medical Chatbot;",
-    "choices": {
-      "A": "Ανθρώπινος γιατρός",
-      "B": "AI για αρχική ιατρική συμβουλή",
-      "C": "Τηλέφωνο",
-      "D": "Ανθρώπινος γιατρός"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι EHR;",
-    "choices": {
-      "A": "Emergency Hospital Response",
-      "B": "Electronic Health Records",
-      "C": "External Health Registry",
-      "D": "Emergency Hospital Response"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Πώς χρησιμοποιείται AI στην Υγεία;",
-    "choices": {
-      "A": "Μόνο διοίκηση",
-      "B": "Διάγνωση, πρόβλεψη, drug discovery, imaging",
-      "C": "Μόνο ραντεβού",
-      "D": "Μόνο διοίκηση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Medical Imaging με AI;",
-    "choices": {
-      "A": "Χειρονακτική",
-      "B": "Ανάλυση X-Ray, MRI, CT με AI",
-      "C": "Αποθήκευση",
-      "D": "Χειρονακτική"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι CAD;",
-    "choices": {
-      "A": "Computer-Aided Design",
-      "B": "Computer-Aided Diagnosis",
-      "C": "Cloud AI Database",
-      "D": "Computer-Aided Design"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Drug Discovery με AI;",
-    "choices": {
-      "A": "Διαγραφή φαρμάκων",
-      "B": "Επιτάχυνση ανακάλυψης φαρμάκων",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή φαρμάκων"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Predictive Healthcare;",
-    "choices": {
-      "A": "Ιστορική ανάλυση",
-      "B": "Πρόβλεψη ασθενειών με AI",
-      "C": "Αποθήκευση",
-      "D": "Ιστορική ανάλυση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Personalized Medicine;",
-    "choices": {
-      "A": "Γενική θεραπεία",
-      "B": "Εξατομικευμένη θεραπεία",
-      "C": "Τυχαία",
-      "D": "Γενική θεραπεία"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι IBM Watson Health;",
-    "choices": {
-      "A": "Database",
-      "B": "AI για ιατρική υποστήριξη",
-      "C": "Network",
-      "D": "Database"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Radiology AI;",
-    "choices": {
-      "A": "Διαγραφή",
-      "B": "AI για ακτινολογικές εικόνες",
-      "C": "Εκτύπωση",
-      "D": "Διαγραφή"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Wearable Devices με AI;",
-    "choices": {
-      "A": "Χωρίς AI",
-      "B": "Smartwatches που παρακολουθούν υγεία",
-      "C": "Αποθήκευση",
-      "D": "Χωρίς AI"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Telemedicine;",
-    "choices": {
-      "A": "Μόνο νοσοκομείο",
-      "B": "Απομακρυσμένη ιατρική με AI",
-      "C": "Αποθήκευση",
-      "D": "Μόνο νοσοκομείο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι AlphaFold;",
-    "choices": {
-      "A": "Game AI",
-      "B": "AI για πρόβλεψη δομής πρωτεϊνών",
-      "C": "Text AI",
-      "D": "Game AI"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Medical Chatbot;",
-    "choices": {
-      "A": "Ανθρώπινος γιατρός",
-      "B": "AI για αρχική ιατρική συμβουλή",
-      "C": "Τηλέφωνο",
-      "D": "Ανθρώπινος γιατρός"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι EHR;",
-    "choices": {
-      "A": "Emergency Hospital Response",
-      "B": "Electronic Health Records",
-      "C": "External Health Registry",
-      "D": "Emergency Hospital Response"
+      "A": "HTTP",
+      "B": "HIPAA (USA), GDPR (EU)",
+      "C": "FTP",
+      "D": "SMTP"
     },
     "answer": "B"
   }

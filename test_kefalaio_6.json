@@ -1,701 +1,401 @@
 [
   {
-    "question": "Τι είναι Training;",
+    "question": "Ποιο είναι το πρώτο βήμα στην ανάπτυξη ενός AI μοντέλου;",
     "choices": {
-      "A": "Testing",
-      "B": "Εκπαίδευση μοντέλου σε data",
+      "A": "Εκπαίδευση",
+      "B": "Καθορισμός του προβλήματος και των στόχων",
       "C": "Deployment",
       "D": "Testing"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Epoch;",
+    "question": "Τι περιλαμβάνει η φάση Data Collection;",
     "choices": {
-      "A": "Batch",
-      "B": "Ένα πέρασμα από όλα τα training data",
-      "C": "Step",
-      "D": "Batch"
+      "A": "Διαγραφή δεδομένων",
+      "B": "Συλλογή και συγκέντρωση δεδομένων από διάφορες πηγές",
+      "C": "Εκπαίδευση μοντέλου",
+      "D": "Deployment"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Batch;",
+    "question": "Τι είναι το Data Splitting;",
     "choices": {
-      "A": "Epoch",
-      "B": "Υποσύνολο training data",
-      "C": "Model",
-      "D": "Epoch"
+      "A": "Διαγραφή δεδομένων",
+      "B": "Διαχωρισμός δεδομένων σε train/validation/test sets",
+      "C": "Αποθήκευση δεδομένων",
+      "D": "Συμπίεση δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Loss Function;",
+    "question": "Τι είναι το Model Selection;",
     "choices": {
-      "A": "Accuracy",
-      "B": "Μέτρηση σφάλματος μοντέλου",
-      "C": "Learning rate",
-      "D": "Accuracy"
+      "A": "Διαγραφή μοντέλου",
+      "B": "Επιλογή του κατάλληλου αλγορίθμου για το πρόβλημα",
+      "C": "Αποθήκευση μοντέλου",
+      "D": "Εκτύπωση μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Gradient Descent;",
+    "question": "Τι σημαίνει Model Training;",
     "choices": {
-      "A": "Loss function",
-      "B": "Αλγόριθμος minimization του loss",
-      "C": "Backprop",
-      "D": "Loss function"
+      "A": "Διαγραφή μοντέλου",
+      "B": "Εκπαίδευση μοντέλου με δεδομένα train set",
+      "C": "Αποθήκευση μοντέλου",
+      "D": "Μεταφορά μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Validation Set;",
+    "question": "Τι είναι το Model Evaluation;",
     "choices": {
-      "A": "Training set",
-      "B": "Data για tuning hyperparameters",
-      "C": "All data",
-      "D": "Training set"
+      "A": "Δημιουργία μοντέλου",
+      "B": "Αξιολόγηση απόδοσης μοντέλου με test set",
+      "C": "Διαγραφή μοντέλου",
+      "D": "Αποθήκευση μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Test Set;",
+    "question": "Τι είναι το Hyperparameter Tuning;",
     "choices": {
-      "A": "Training set",
-      "B": "Data για τελική αξιολόγηση",
-      "C": "All data",
-      "D": "Training set"
+      "A": "Διαγραφή παραμέτρων",
+      "B": "Βελτιστοποίηση υπερπαραμέτρων για καλύτερη απόδοση",
+      "C": "Αποθήκευση παραμέτρων",
+      "D": "Εκτύπωση παραμέτρων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Hyperparameter;",
+    "question": "Τι είναι το Grid Search;",
     "choices": {
-      "A": "Weight",
-      "B": "Παράμετρος που ορίζεται πριν training",
-      "C": "Activation output",
-      "D": "Weight"
+      "A": "Αναζήτηση σε βάση δεδομένων",
+      "B": "Μέθοδος αναζήτησης βέλτιστων hyperparameters δοκιμάζοντας συνδυασμούς",
+      "C": "Αναζήτηση αρχείων",
+      "D": "Αναζήτηση στο internet"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Early Stopping;",
+    "question": "Τι είναι το Random Search;",
     "choices": {
-      "A": "Training μέχρι το τέλος",
-      "B": "Σταμάτημα όταν validation loss αυξάνεται",
-      "C": "No stopping",
-      "D": "Training μέχρι το τέλος"
+      "A": "Τυχαία διαγραφή",
+      "B": "Τυχαία αναζήτηση hyperparameters",
+      "C": "Τυχαία αποθήκευση",
+      "D": "Τυχαία εκτύπωση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Dropout;",
+    "question": "Τι είναι το Model Deployment;",
     "choices": {
-      "A": "Activation",
-      "B": "Τεχνική regularization με απενεργοποίηση neurons",
-      "C": "Optimizer",
-      "D": "Activation"
+      "A": "Διαγραφή μοντέλου",
+      "B": "Ανάπτυξη εκπαιδευμένου μοντέλου σε production περιβάλλον",
+      "C": "Εκπαίδευση μοντέλου",
+      "D": "Δημιουργία μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Batch Normalization;",
+    "question": "Τι είναι το Model Monitoring;",
     "choices": {
-      "A": "Dropout",
-      "B": "Normalization μεταξύ layers",
-      "C": "Loss",
-      "D": "Dropout"
+      "A": "Διαγραφή μοντέλου",
+      "B": "Παρακολούθηση απόδοσης μοντέλου σε production",
+      "C": "Δημιουργία μοντέλου",
+      "D": "Αποθήκευση μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Learning Rate Decay;",
+    "question": "Τι σημαίνει Model Retraining;",
     "choices": {
-      "A": "Αύξηση",
-      "B": "Μείωση learning rate κατά training",
-      "C": "Τυχαίο",
-      "D": "Αύξηση"
+      "A": "Διαγραφή μοντέλου",
+      "B": "Επανεκπαίδευση μοντέλου με νέα δεδομένα",
+      "C": "Αποθήκευση μοντέλου",
+      "D": "Μεταφορά μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Model Checkpoint;",
+    "question": "Τι είναι το MLOps;",
     "choices": {
-      "A": "Διαγραφή",
-      "B": "Αποθήκευση μοντέλου κατά training",
-      "C": "Validation",
-      "D": "Διαγραφή"
+      "A": "Λειτουργικό σύστημα",
+      "B": "Πρακτικές για διαχείριση κύκλου ζωής ML μοντέλων",
+      "C": "Βάση δεδομένων",
+      "D": "Πρωτόκολλο δικτύου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι MLOps;",
+    "question": "Τι είναι το CI/CD για ML;",
     "choices": {
-      "A": "Μόνο development",
-      "B": "Practices για ML lifecycle",
-      "C": "Μόνο monitoring",
-      "D": "Μόνο development"
+      "A": "Τύπος βάσης δεδομένων",
+      "B": "Continuous Integration/Deployment για αυτοματοποίηση pipeline",
+      "C": "Λειτουργικό σύστημα",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Training;",
+    "question": "Τι είναι το Model Versioning;",
     "choices": {
-      "A": "Testing",
-      "B": "Εκπαίδευση μοντέλου σε data",
-      "C": "Deployment",
-      "D": "Testing"
+      "A": "Διαγραφή εκδόσεων",
+      "B": "Διαχείριση και παρακολούθηση διαφορετικών εκδόσεων μοντέλου",
+      "C": "Εκτύπωση εκδόσεων",
+      "D": "Αποθήκευση χωρίς έλεγχο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Epoch;",
+    "question": "Τι είναι το Feature Engineering;",
     "choices": {
-      "A": "Batch",
-      "B": "Ένα πέρασμα από όλα τα training data",
-      "C": "Step",
-      "D": "Batch"
+      "A": "Διαγραφή χαρακτηριστικών",
+      "B": "Δημιουργία και επιλογή χαρακτηριστικών για το μοντέλο",
+      "C": "Αποθήκευση χαρακτηριστικών",
+      "D": "Εκτύπωση χαρακτηριστικών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Batch;",
+    "question": "Τι είναι το Model Inference;",
     "choices": {
-      "A": "Epoch",
-      "B": "Υποσύνολο training data",
-      "C": "Model",
-      "D": "Epoch"
+      "A": "Εκπαίδευση μοντέλου",
+      "B": "Χρήση εκπαιδευμένου μοντέλου για προβλέψεις",
+      "C": "Διαγραφή μοντέλου",
+      "D": "Αποθήκευση μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Loss Function;",
+    "question": "Τι είναι το A/B Testing για ML μοντέλα;",
     "choices": {
-      "A": "Accuracy",
-      "B": "Μέτρηση σφάλματος μοντέλου",
-      "C": "Learning rate",
-      "D": "Accuracy"
+      "A": "Τεστ ταχύτητας",
+      "B": "Σύγκριση απόδοσης δύο μοντέλων σε production",
+      "C": "Τεστ μνήμης",
+      "D": "Τεστ κόστους"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Gradient Descent;",
+    "question": "Τι είναι το Model Explainability;",
     "choices": {
-      "A": "Loss function",
-      "B": "Αλγόριθμος minimization του loss",
-      "C": "Backprop",
-      "D": "Loss function"
+      "A": "Κρυπτογράφηση μοντέλου",
+      "B": "Ικανότητα να εξηγήσουμε τις αποφάσεις του μοντέλου",
+      "C": "Συμπίεση μοντέλου",
+      "D": "Διαγραφή μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Validation Set;",
+    "question": "Τι είναι το SHAP;",
     "choices": {
-      "A": "Training set",
-      "B": "Data για tuning hyperparameters",
-      "C": "All data",
-      "D": "Training set"
+      "A": "Βάση δεδομένων",
+      "B": "Τεχνική για εξήγηση προβλέψεων ML μοντέλων",
+      "C": "Λειτουργικό σύστημα",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Test Set;",
+    "question": "Τι είναι το LIME;",
     "choices": {
-      "A": "Training set",
-      "B": "Data για τελική αξιολόγηση",
-      "C": "All data",
-      "D": "Training set"
+      "A": "Φρούτο",
+      "B": "Local Interpretable Model-agnostic Explanations - τεχνική explainability",
+      "C": "Βάση δεδομένων",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Hyperparameter;",
+    "question": "Τι είναι το Model Compression;",
     "choices": {
-      "A": "Weight",
-      "B": "Παράμετρος που ορίζεται πριν training",
-      "C": "Activation output",
-      "D": "Weight"
+      "A": "Αύξηση μεγέθους μοντέλου",
+      "B": "Μείωση μεγέθους μοντέλου χωρίς απώλεια απόδοσης",
+      "C": "Διαγραφή μοντέλου",
+      "D": "Εκτύπωση μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Early Stopping;",
+    "question": "Τι είναι το Quantization;",
     "choices": {
-      "A": "Training μέχρι το τέλος",
-      "B": "Σταμάτημα όταν validation loss αυξάνεται",
-      "C": "No stopping",
-      "D": "Training μέχρι το τέλος"
+      "A": "Αύξηση ακρίβειας",
+      "B": "Μείωση ακρίβειας αριθμών για μικρότερο μοντέλο",
+      "C": "Διαγραφή δεδομένων",
+      "D": "Αποθήκευση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Dropout;",
+    "question": "Τι είναι το Pruning στα νευρωνικά δίκτυα;",
     "choices": {
-      "A": "Activation",
-      "B": "Τεχνική regularization με απενεργοποίηση neurons",
-      "C": "Optimizer",
-      "D": "Activation"
+      "A": "Προσθήκη layers",
+      "B": "Αφαίρεση μη σημαντικών συνδέσεων για μικρότερο μοντέλο",
+      "C": "Αύξηση νευρώνων",
+      "D": "Διαγραφή όλου του μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Batch Normalization;",
+    "question": "Τι είναι το Knowledge Distillation;",
     "choices": {
-      "A": "Dropout",
-      "B": "Normalization μεταξύ layers",
-      "C": "Loss",
-      "D": "Dropout"
+      "A": "Διαγραφή γνώσης",
+      "B": "Μεταφορά γνώσης από μεγάλο σε μικρό μοντέλο",
+      "C": "Αποθήκευση γνώσης",
+      "D": "Εκτύπωση γνώσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Learning Rate Decay;",
+    "question": "Τι είναι το Model Drift;",
     "choices": {
-      "A": "Αύξηση",
-      "B": "Μείωση learning rate κατά training",
-      "C": "Τυχαίο",
-      "D": "Αύξηση"
+      "A": "Σταθερή απόδοση",
+      "B": "Υποβάθμιση απόδοσης μοντέλου με την πάροδο του χρόνου",
+      "C": "Βελτίωση απόδοσης",
+      "D": "Αποθήκευση μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Model Checkpoint;",
+    "question": "Τι είναι το Data Drift;",
     "choices": {
-      "A": "Διαγραφή",
-      "B": "Αποθήκευση μοντέλου κατά training",
-      "C": "Validation",
-      "D": "Διαγραφή"
+      "A": "Σταθερά δεδομένα",
+      "B": "Αλλαγή στην κατανομή των δεδομένων με την πάροδο του χρόνου",
+      "C": "Διαγραφή δεδομένων",
+      "D": "Αποθήκευση δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι MLOps;",
+    "question": "Τι πλατφόρμα χρησιμοποιείται για MLOps;",
     "choices": {
-      "A": "Μόνο development",
-      "B": "Practices για ML lifecycle",
-      "C": "Μόνο monitoring",
-      "D": "Μόνο development"
+      "A": "Word",
+      "B": "MLflow, Kubeflow, SageMaker",
+      "C": "Excel",
+      "D": "PowerPoint"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Training;",
+    "question": "Τι είναι το Docker στο ML;",
     "choices": {
-      "A": "Testing",
-      "B": "Εκπαίδευση μοντέλου σε data",
-      "C": "Deployment",
-      "D": "Testing"
+      "A": "Βάση δεδομένων",
+      "B": "Containerization tool για packaging μοντέλων",
+      "C": "Λειτουργικό σύστημα",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Epoch;",
+    "question": "Τι είναι το Kubernetes στο ML;",
     "choices": {
-      "A": "Batch",
-      "B": "Ένα πέρασμα από όλα τα training data",
-      "C": "Step",
-      "D": "Batch"
+      "A": "Γλώσσα προγραμματισμού",
+      "B": "Orchestration platform για scaling containers",
+      "C": "Βάση δεδομένων",
+      "D": "Εργαλείο σχεδίασης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Batch;",
+    "question": "Τι είναι το REST API για ML;",
     "choices": {
-      "A": "Epoch",
-      "B": "Υποσύνολο training data",
-      "C": "Model",
-      "D": "Epoch"
+      "A": "Βάση δεδομένων",
+      "B": "Interface για πρόσβαση σε μοντέλα μέσω HTTP requests",
+      "C": "Λειτουργικό σύστημα",
+      "D": "Πρωτόκολλο αποθήκευσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Loss Function;",
+    "question": "Τι είναι το Batch Prediction;",
     "choices": {
-      "A": "Accuracy",
-      "B": "Μέτρηση σφάλματος μοντέλου",
-      "C": "Learning rate",
-      "D": "Accuracy"
+      "A": "Προβλέψεις σε real-time",
+      "B": "Προβλέψεις σε μεγάλο σύνολο δεδομένων offline",
+      "C": "Διαγραφή προβλέψεων",
+      "D": "Αποθήκευση προβλέψεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Gradient Descent;",
+    "question": "Τι είναι το Real-time Inference;",
     "choices": {
-      "A": "Loss function",
-      "B": "Αλγόριθμος minimization του loss",
-      "C": "Backprop",
-      "D": "Loss function"
+      "A": "Offline προβλέψεις",
+      "B": "Προβλέψεις σε πραγματικό χρόνο για κάθε αίτημα",
+      "C": "Αποθήκευση προβλέψεων",
+      "D": "Διαγραφή προβλέψεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Validation Set;",
+    "question": "Τι είναι το Model Registry;",
     "choices": {
-      "A": "Training set",
-      "B": "Data για tuning hyperparameters",
-      "C": "All data",
-      "D": "Training set"
+      "A": "Διαγραφή μοντέλων",
+      "B": "Κεντρική αποθήκη για διαχείριση ML μοντέλων",
+      "C": "Εκτύπωση μοντέλων",
+      "D": "Συμπίεση μοντέλων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Test Set;",
+    "question": "Τι είναι το Feature Store;",
     "choices": {
-      "A": "Training set",
-      "B": "Data για τελική αξιολόγηση",
-      "C": "All data",
-      "D": "Training set"
+      "A": "Κατάστημα",
+      "B": "Κεντρική αποθήκη features για επαναχρησιμοποίηση",
+      "C": "Βάση δεδομένων εικόνων",
+      "D": "Αρχείο κειμένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Hyperparameter;",
+    "question": "Τι είναι το Canary Deployment;",
     "choices": {
-      "A": "Weight",
-      "B": "Παράμετρος που ορίζεται πριν training",
-      "C": "Activation output",
-      "D": "Weight"
+      "A": "Deployment σε όλους",
+      "B": "Σταδιακό deployment σε μικρό ποσοστό χρηστών πρώτα",
+      "C": "Διαγραφή deployment",
+      "D": "Αποθήκευση deployment"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Early Stopping;",
+    "question": "Τι είναι το Blue-Green Deployment;",
     "choices": {
-      "A": "Training μέχρι το τέλος",
-      "B": "Σταμάτημα όταν validation loss αυξάνεται",
-      "C": "No stopping",
-      "D": "Training μέχρι το τέλος"
+      "A": "Deployment με χρώματα",
+      "B": "Δύο παράλληλα περιβάλλοντα για ασφαλή εναλλαγή",
+      "C": "Διαγραφή deployment",
+      "D": "Αποθήκευση deployment"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Dropout;",
+    "question": "Τι είναι το Model Performance Metrics Dashboard;",
     "choices": {
-      "A": "Activation",
-      "B": "Τεχνική regularization με απενεργοποίηση neurons",
-      "C": "Optimizer",
-      "D": "Activation"
+      "A": "Εργαλείο σχεδίασης",
+      "B": "Dashboard για παρακολούθηση μετρικών απόδοσης μοντέλου",
+      "C": "Βάση δεδομένων",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Batch Normalization;",
+    "question": "Τι είναι το Experiment Tracking;",
     "choices": {
-      "A": "Dropout",
-      "B": "Normalization μεταξύ layers",
-      "C": "Loss",
-      "D": "Dropout"
+      "A": "Διαγραφή πειραμάτων",
+      "B": "Καταγραφή και σύγκριση πειραμάτων ML",
+      "C": "Αποθήκευση χωρίς καταγραφή",
+      "D": "Εκτύπωση πειραμάτων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Learning Rate Decay;",
+    "question": "Ποιο εργαλείο χρησιμοποιείται για experiment tracking;",
     "choices": {
-      "A": "Αύξηση",
-      "B": "Μείωση learning rate κατά training",
-      "C": "Τυχαίο",
-      "D": "Αύξηση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Model Checkpoint;",
-    "choices": {
-      "A": "Διαγραφή",
-      "B": "Αποθήκευση μοντέλου κατά training",
-      "C": "Validation",
-      "D": "Διαγραφή"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι MLOps;",
-    "choices": {
-      "A": "Μόνο development",
-      "B": "Practices για ML lifecycle",
-      "C": "Μόνο monitoring",
-      "D": "Μόνο development"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Training;",
-    "choices": {
-      "A": "Testing",
-      "B": "Εκπαίδευση μοντέλου σε data",
-      "C": "Deployment",
-      "D": "Testing"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Epoch;",
-    "choices": {
-      "A": "Batch",
-      "B": "Ένα πέρασμα από όλα τα training data",
-      "C": "Step",
-      "D": "Batch"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Batch;",
-    "choices": {
-      "A": "Epoch",
-      "B": "Υποσύνολο training data",
-      "C": "Model",
-      "D": "Epoch"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Loss Function;",
-    "choices": {
-      "A": "Accuracy",
-      "B": "Μέτρηση σφάλματος μοντέλου",
-      "C": "Learning rate",
-      "D": "Accuracy"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Gradient Descent;",
-    "choices": {
-      "A": "Loss function",
-      "B": "Αλγόριθμος minimization του loss",
-      "C": "Backprop",
-      "D": "Loss function"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Validation Set;",
-    "choices": {
-      "A": "Training set",
-      "B": "Data για tuning hyperparameters",
-      "C": "All data",
-      "D": "Training set"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Test Set;",
-    "choices": {
-      "A": "Training set",
-      "B": "Data για τελική αξιολόγηση",
-      "C": "All data",
-      "D": "Training set"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Hyperparameter;",
-    "choices": {
-      "A": "Weight",
-      "B": "Παράμετρος που ορίζεται πριν training",
-      "C": "Activation output",
-      "D": "Weight"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Early Stopping;",
-    "choices": {
-      "A": "Training μέχρι το τέλος",
-      "B": "Σταμάτημα όταν validation loss αυξάνεται",
-      "C": "No stopping",
-      "D": "Training μέχρι το τέλος"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Dropout;",
-    "choices": {
-      "A": "Activation",
-      "B": "Τεχνική regularization με απενεργοποίηση neurons",
-      "C": "Optimizer",
-      "D": "Activation"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Batch Normalization;",
-    "choices": {
-      "A": "Dropout",
-      "B": "Normalization μεταξύ layers",
-      "C": "Loss",
-      "D": "Dropout"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Learning Rate Decay;",
-    "choices": {
-      "A": "Αύξηση",
-      "B": "Μείωση learning rate κατά training",
-      "C": "Τυχαίο",
-      "D": "Αύξηση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Model Checkpoint;",
-    "choices": {
-      "A": "Διαγραφή",
-      "B": "Αποθήκευση μοντέλου κατά training",
-      "C": "Validation",
-      "D": "Διαγραφή"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι MLOps;",
-    "choices": {
-      "A": "Μόνο development",
-      "B": "Practices για ML lifecycle",
-      "C": "Μόνο monitoring",
-      "D": "Μόνο development"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Training;",
-    "choices": {
-      "A": "Testing",
-      "B": "Εκπαίδευση μοντέλου σε data",
-      "C": "Deployment",
-      "D": "Testing"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Epoch;",
-    "choices": {
-      "A": "Batch",
-      "B": "Ένα πέρασμα από όλα τα training data",
-      "C": "Step",
-      "D": "Batch"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Batch;",
-    "choices": {
-      "A": "Epoch",
-      "B": "Υποσύνολο training data",
-      "C": "Model",
-      "D": "Epoch"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Loss Function;",
-    "choices": {
-      "A": "Accuracy",
-      "B": "Μέτρηση σφάλματος μοντέλου",
-      "C": "Learning rate",
-      "D": "Accuracy"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Gradient Descent;",
-    "choices": {
-      "A": "Loss function",
-      "B": "Αλγόριθμος minimization του loss",
-      "C": "Backprop",
-      "D": "Loss function"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Validation Set;",
-    "choices": {
-      "A": "Training set",
-      "B": "Data για tuning hyperparameters",
-      "C": "All data",
-      "D": "Training set"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Test Set;",
-    "choices": {
-      "A": "Training set",
-      "B": "Data για τελική αξιολόγηση",
-      "C": "All data",
-      "D": "Training set"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Hyperparameter;",
-    "choices": {
-      "A": "Weight",
-      "B": "Παράμετρος που ορίζεται πριν training",
-      "C": "Activation output",
-      "D": "Weight"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Early Stopping;",
-    "choices": {
-      "A": "Training μέχρι το τέλος",
-      "B": "Σταμάτημα όταν validation loss αυξάνεται",
-      "C": "No stopping",
-      "D": "Training μέχρι το τέλος"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Dropout;",
-    "choices": {
-      "A": "Activation",
-      "B": "Τεχνική regularization με απενεργοποίηση neurons",
-      "C": "Optimizer",
-      "D": "Activation"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Batch Normalization;",
-    "choices": {
-      "A": "Dropout",
-      "B": "Normalization μεταξύ layers",
-      "C": "Loss",
-      "D": "Dropout"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Learning Rate Decay;",
-    "choices": {
-      "A": "Αύξηση",
-      "B": "Μείωση learning rate κατά training",
-      "C": "Τυχαίο",
-      "D": "Αύξηση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Model Checkpoint;",
-    "choices": {
-      "A": "Διαγραφή",
-      "B": "Αποθήκευση μοντέλου κατά training",
-      "C": "Validation",
-      "D": "Διαγραφή"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι MLOps;",
-    "choices": {
-      "A": "Μόνο development",
-      "B": "Practices για ML lifecycle",
-      "C": "Μόνο monitoring",
-      "D": "Μόνο development"
+      "A": "Word",
+      "B": "Weights & Biases, MLflow, TensorBoard",
+      "C": "Excel",
+      "D": "PowerPoint"
     },
     "answer": "B"
   }

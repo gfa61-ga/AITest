@@ -1,701 +1,401 @@
 [
   {
-    "question": "Τι είναι Computer Vision;",
+    "question": "Τι είναι το Computer Vision;",
     "choices": {
-      "A": "NLP",
-      "B": "Ικανότητα υπολογιστών να κατανοούν εικόνες",
-      "C": "Audio processing",
-      "D": "NLP"
+      "A": "Οπτική διόρθωση",
+      "B": "Τομέας AI που επιτρέπει στους υπολογιστές να 'βλέπουν' και να κατανοούν εικόνες",
+      "C": "Οθόνη υπολογιστή",
+      "D": "Κάμερα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Image Classification;",
+    "question": "Τι είναι το Image Classification;",
     "choices": {
-      "A": "Object detection",
-      "B": "Ταξινόμηση εικόνας σε κατηγορία",
-      "C": "Generation",
-      "D": "Object detection"
+      "A": "Διαγραφή εικόνων",
+      "B": "Κατηγοριοποίηση εικόνας σε προκαθορισμένες κατηγορίες",
+      "C": "Αποθήκευση εικόνων",
+      "D": "Μετάφραση εικόνων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Object Detection;",
+    "question": "Τι είναι το Object Detection;",
     "choices": {
-      "A": "Classification",
-      "B": "Εντοπισμός και τοποθέτηση bounding boxes",
-      "C": "Generation",
-      "D": "Classification"
+      "A": "Διαγραφή αντικειμένων",
+      "B": "Εντοπισμός και τοποθέτηση bounding boxes γύρω από αντικείμενα",
+      "C": "Αποθήκευση αντικειμένων",
+      "D": "Μετάφραση αντικειμένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Image Segmentation;",
+    "question": "Τι είναι το Image Segmentation;",
     "choices": {
-      "A": "Classification",
-      "B": "Τμηματοποίηση εικόνας ανά pixel",
-      "C": "Generation",
-      "D": "Classification"
+      "A": "Διαγραφή εικόνας",
+      "B": "Τμηματοποίηση εικόνας σε περιοχές/pixels ανά κατηγορία",
+      "C": "Αποθήκευση εικόνας",
+      "D": "Εκτύπωση εικόνας"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι YOLO;",
+    "question": "Τι είναι το Face Recognition;",
     "choices": {
-      "A": "R-CNN",
-      "B": "You Only Look Once - real-time detection",
-      "C": "Mask R-CNN",
-      "D": "R-CNN"
+      "A": "Δημιουργία προσώπων",
+      "B": "Αναγνώριση και ταυτοποίηση προσώπων",
+      "C": "Διαγραφή προσώπων",
+      "D": "Αποθήκευση προσώπων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι R-CNN;",
+    "question": "Τι είναι το Optical Character Recognition (OCR);",
     "choices": {
-      "A": "YOLO",
-      "B": "Region-based CNN για detection",
-      "C": "U-Net",
-      "D": "YOLO"
+      "A": "Δημιουργία χαρακτήρων",
+      "B": "Μετατροπή εικόνων κειμένου σε ψηφιακό κείμενο",
+      "C": "Διαγραφή χαρακτήρων",
+      "D": "Αποθήκευση χαρακτήρων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι U-Net;",
+    "question": "Τι είναι το YOLO;",
     "choices": {
-      "A": "YOLO",
-      "B": "Αρχιτεκτονική για segmentation",
-      "C": "ResNet",
-      "D": "YOLO"
+      "A": "Βάση δεδομένων",
+      "B": "You Only Look Once - αλγόριθμος real-time object detection",
+      "C": "Λειτουργικό σύστημα",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι ResNet;",
+    "question": "Τι είναι το R-CNN;",
     "choices": {
-      "A": "VGG",
-      "B": "Residual Network με skip connections",
-      "C": "Inception",
-      "D": "VGG"
+      "A": "Τύπος δικτύου",
+      "B": "Region-based CNN για object detection",
+      "C": "Βάση δεδομένων",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι VGG;",
+    "question": "Τι είναι το U-Net;",
     "choices": {
-      "A": "ResNet",
-      "B": "Very Deep CNN architecture",
-      "C": "Inception",
-      "D": "ResNet"
+      "A": "Δίκτυο για ταξινόμηση",
+      "B": "Αρχιτεκτονική για image segmentation",
+      "C": "Δίκτυο για κείμενο",
+      "D": "Δίκτυο για ήχο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Transfer Learning σε CV;",
+    "question": "Τι είναι το ResNet;",
     "choices": {
-      "A": "Training from scratch",
-      "B": "Χρήση pretrained ImageNet models",
-      "C": "Random weights",
-      "D": "Training from scratch"
+      "A": "Δίκτυο για κείμενο",
+      "B": "Residual Network - βαθύ CNN με skip connections",
+      "C": "Δίκτυο για ήχο",
+      "D": "Δίκτυο για αριθμούς"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Augmentation σε CV;",
+    "question": "Τι είναι το VGG;",
     "choices": {
-      "A": "Διαγραφή",
-      "B": "Rotation, flip, zoom, crop",
-      "C": "Encryption",
+      "A": "Πρωτόκολλο",
+      "B": "Αρχιτεκτονική CNN με πολλά layers",
+      "C": "Βάση δεδομένων",
+      "D": "Λειτουργικό σύστημα"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το InceptionNet (GoogLeNet);",
+    "choices": {
+      "A": "Δίκτυο για κείμενο",
+      "B": "CNN με inception modules για εξαγωγή features",
+      "C": "Δίκτυο για ήχο",
+      "D": "Βάση δεδομένων"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Convolutional Layer στο Computer Vision;",
+    "choices": {
+      "A": "Layer για κείμενο",
+      "B": "Layer που εφαρμόζει φίλτρα για εξαγωγή χαρακτηριστικών",
+      "C": "Layer για ήχο",
+      "D": "Layer για αριθμούς"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Max Pooling;",
+    "choices": {
+      "A": "Αύξηση διαστάσεων",
+      "B": "Μείωση διαστάσεων με επιλογή μέγιστης τιμής",
+      "C": "Διαγραφή δεδομένων",
+      "D": "Αποθήκευση δεδομένων"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Transfer Learning στο Computer Vision;",
+    "choices": {
+      "A": "Μεταφορά εικόνων",
+      "B": "Χρήση προεκπαιδευμένου μοντέλου (π.χ. ImageNet) για νέο πρόβλημα",
+      "C": "Διαγραφή μοντέλου",
+      "D": "Αποθήκευση μοντέλου"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το ImageNet;",
+    "choices": {
+      "A": "Δίκτυο υπολογιστών",
+      "B": "Μεγάλο dataset εικόνων για εκπαίδευση μοντέλων",
+      "C": "Λειτουργικό σύστημα",
+      "D": "Πρωτόκολλο"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Data Augmentation στην Computer Vision;",
+    "choices": {
+      "A": "Διαγραφή εικόνων",
+      "B": "Αύξηση dataset με μετασχηματισμούς (rotation, flip, zoom)",
+      "C": "Συμπίεση εικόνων",
+      "D": "Κρυπτογράφηση εικόνων"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Bounding Box;",
+    "choices": {
+      "A": "Αποθήκευση box",
+      "B": "Ορθογώνιο που περικλείει ένα αντικείμενο σε εικόνα",
+      "C": "Διαγραφή box",
+      "D": "Εκτύπωση box"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Anchor Box;",
+    "choices": {
+      "A": "Αποθήκευση",
+      "B": "Προκαθορισμένα bounding boxes διαφόρων μεγεθών για object detection",
+      "C": "Διαγραφή",
+      "D": "Εκτύπωση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το IoU (Intersection over Union);",
+    "choices": {
+      "A": "Τύπος δικτύου",
+      "B": "Μετρική για αξιολόγηση overlap μεταξύ predicted και ground truth boxes",
+      "C": "Βάση δεδομένων",
+      "D": "Πρωτόκολλο"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Non-Maximum Suppression (NMS);",
+    "choices": {
+      "A": "Αύξηση detections",
+      "B": "Τεχνική για αφαίρεση επικαλυπτόμενων bounding boxes",
+      "C": "Διαγραφή όλων",
+      "D": "Αποθήκευση"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Feature Extraction;",
+    "choices": {
+      "A": "Διαγραφή χαρακτηριστικών",
+      "B": "Εξαγωγή σημαντικών χαρακτηριστικών από εικόνες",
+      "C": "Αποθήκευση χαρακτηριστικών",
+      "D": "Μετάφραση χαρακτηριστικών"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Edge Detection;",
+    "choices": {
+      "A": "Διαγραφή άκρων",
+      "B": "Εντοπισμός άκρων/ορίων αντικειμένων σε εικόνα",
+      "C": "Αποθήκευση άκρων",
+      "D": "Εκτύπωση άκρων"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Semantic Segmentation;",
+    "choices": {
+      "A": "Ταξινόμηση εικόνας",
+      "B": "Ανάθεση κατηγορίας σε κάθε pixel της εικόνας",
+      "C": "Object detection",
+      "D": "Διαγραφή εικόνας"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Τι είναι το Instance Segmentation;",
+    "choices": {
+      "A": "Semantic segmentation",
+      "B": "Διαχωρισμός και αναγνώριση μεμονωμένων instances αντικειμένων",
+      "C": "Classification",
       "D": "Διαγραφή"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι OCR;",
+    "question": "Τι είναι το Panoptic Segmentation;",
     "choices": {
-      "A": "Object detection",
-      "B": "Optical Character Recognition",
-      "C": "Classification",
-      "D": "Object detection"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Face Recognition;",
-    "choices": {
-      "A": "Object detection",
-      "B": "Αναγνώριση προσώπων",
-      "C": "OCR",
-      "D": "Object detection"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Pose Estimation;",
-    "choices": {
-      "A": "Face recognition",
-      "B": "Εκτίμηση στάσης σώματος",
-      "C": "Classification",
-      "D": "Face recognition"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Computer Vision;",
-    "choices": {
-      "A": "NLP",
-      "B": "Ικανότητα υπολογιστών να κατανοούν εικόνες",
-      "C": "Audio processing",
-      "D": "NLP"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Image Classification;",
-    "choices": {
-      "A": "Object detection",
-      "B": "Ταξινόμηση εικόνας σε κατηγορία",
-      "C": "Generation",
-      "D": "Object detection"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Object Detection;",
-    "choices": {
-      "A": "Classification",
-      "B": "Εντοπισμός και τοποθέτηση bounding boxes",
-      "C": "Generation",
-      "D": "Classification"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Image Segmentation;",
-    "choices": {
-      "A": "Classification",
-      "B": "Τμηματοποίηση εικόνας ανά pixel",
-      "C": "Generation",
-      "D": "Classification"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι YOLO;",
-    "choices": {
-      "A": "R-CNN",
-      "B": "You Only Look Once - real-time detection",
-      "C": "Mask R-CNN",
-      "D": "R-CNN"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι R-CNN;",
-    "choices": {
-      "A": "YOLO",
-      "B": "Region-based CNN για detection",
-      "C": "U-Net",
-      "D": "YOLO"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι U-Net;",
-    "choices": {
-      "A": "YOLO",
-      "B": "Αρχιτεκτονική για segmentation",
-      "C": "ResNet",
-      "D": "YOLO"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι ResNet;",
-    "choices": {
-      "A": "VGG",
-      "B": "Residual Network με skip connections",
-      "C": "Inception",
-      "D": "VGG"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι VGG;",
-    "choices": {
-      "A": "ResNet",
-      "B": "Very Deep CNN architecture",
-      "C": "Inception",
-      "D": "ResNet"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Transfer Learning σε CV;",
-    "choices": {
-      "A": "Training from scratch",
-      "B": "Χρήση pretrained ImageNet models",
-      "C": "Random weights",
-      "D": "Training from scratch"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Data Augmentation σε CV;",
-    "choices": {
-      "A": "Διαγραφή",
-      "B": "Rotation, flip, zoom, crop",
-      "C": "Encryption",
+      "A": "Ταξινόμηση μόνο",
+      "B": "Συνδυασμός semantic και instance segmentation",
+      "C": "Object detection μόνο",
       "D": "Διαγραφή"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι OCR;",
+    "question": "Τι είναι το Pose Estimation;",
     "choices": {
-      "A": "Object detection",
-      "B": "Optical Character Recognition",
-      "C": "Classification",
-      "D": "Object detection"
+      "A": "Εκτίμηση χρόνου",
+      "B": "Εκτίμηση στάσης/θέσης σώματος σε εικόνα",
+      "C": "Εκτίμηση κόστους",
+      "D": "Εκτίμηση μεγέθους"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Face Recognition;",
+    "question": "Τι είναι το Image Captioning;",
     "choices": {
-      "A": "Object detection",
-      "B": "Αναγνώριση προσώπων",
-      "C": "OCR",
-      "D": "Object detection"
+      "A": "Διαγραφή εικόνας",
+      "B": "Αυτόματη δημιουργία περιγραφής εικόνας",
+      "C": "Αποθήκευση εικόνας",
+      "D": "Συμπίεση εικόνας"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Pose Estimation;",
+    "question": "Τι είναι το Visual Question Answering (VQA);",
     "choices": {
-      "A": "Face recognition",
-      "B": "Εκτίμηση στάσης σώματος",
-      "C": "Classification",
-      "D": "Face recognition"
+      "A": "Διαγραφή ερωτήσεων",
+      "B": "Απάντηση ερωτήσεων σχετικά με εικόνα",
+      "C": "Αποθήκευση ερωτήσεων",
+      "D": "Μετάφραση ερωτήσεων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Computer Vision;",
+    "question": "Τι είναι το GANs στο Computer Vision;",
     "choices": {
-      "A": "NLP",
-      "B": "Ικανότητα υπολογιστών να κατανοούν εικόνες",
-      "C": "Audio processing",
-      "D": "NLP"
+      "A": "Ταξινόμηση",
+      "B": "Generative Adversarial Networks για δημιουργία εικόνων",
+      "C": "Object detection",
+      "D": "Segmentation"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Image Classification;",
+    "question": "Τι είναι το Style Transfer;",
     "choices": {
-      "A": "Object detection",
-      "B": "Ταξινόμηση εικόνας σε κατηγορία",
-      "C": "Generation",
-      "D": "Object detection"
+      "A": "Μεταφορά αρχείων",
+      "B": "Μεταφορά καλλιτεχνικού στυλ από μία εικόνα σε άλλη",
+      "C": "Διαγραφή στυλ",
+      "D": "Αποθήκευση στυλ"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Object Detection;",
+    "question": "Τι είναι το Super Resolution;",
     "choices": {
-      "A": "Classification",
-      "B": "Εντοπισμός και τοποθέτηση bounding boxes",
-      "C": "Generation",
-      "D": "Classification"
+      "A": "Μείωση ανάλυσης",
+      "B": "Αύξηση ανάλυσης εικόνας με AI",
+      "C": "Διαγραφή εικόνας",
+      "D": "Συμπίεση εικόνας"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Image Segmentation;",
+    "question": "Τι είναι το Image Denoising;",
     "choices": {
-      "A": "Classification",
-      "B": "Τμηματοποίηση εικόνας ανά pixel",
-      "C": "Generation",
-      "D": "Classification"
+      "A": "Προσθήκη θορύβου",
+      "B": "Αφαίρεση θορύβου από εικόνα",
+      "C": "Διαγραφή εικόνας",
+      "D": "Αποθήκευση εικόνας"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι YOLO;",
+    "question": "Τι βιβλιοθήκη χρησιμοποιείται για Computer Vision;",
     "choices": {
-      "A": "R-CNN",
-      "B": "You Only Look Once - real-time detection",
-      "C": "Mask R-CNN",
-      "D": "R-CNN"
+      "A": "Word",
+      "B": "OpenCV, PIL/Pillow, TensorFlow, PyTorch",
+      "C": "Excel",
+      "D": "PowerPoint"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι R-CNN;",
+    "question": "Τι είναι το OpenCV;",
     "choices": {
-      "A": "YOLO",
-      "B": "Region-based CNN για detection",
-      "C": "U-Net",
-      "D": "YOLO"
+      "A": "Λειτουργικό σύστημα",
+      "B": "Open Source Computer Vision Library",
+      "C": "Βάση δεδομένων",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι U-Net;",
+    "question": "Τι είναι το Mask R-CNN;",
     "choices": {
-      "A": "YOLO",
-      "B": "Αρχιτεκτονική για segmentation",
-      "C": "ResNet",
-      "D": "YOLO"
+      "A": "Μοντέλο για κείμενο",
+      "B": "Επέκταση Faster R-CNN για instance segmentation",
+      "C": "Μοντέλο για ήχο",
+      "D": "Βάση δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι ResNet;",
+    "question": "Τι είναι το Real-time Object Detection;",
     "choices": {
-      "A": "VGG",
-      "B": "Residual Network με skip connections",
-      "C": "Inception",
-      "D": "VGG"
+      "A": "Offline detection",
+      "B": "Ανίχνευση αντικειμένων σε πραγματικό χρόνο (π.χ. YOLO)",
+      "C": "Αργή detection",
+      "D": "Διαγραφή detection"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι VGG;",
+    "question": "Τι είναι το 3D Vision;",
     "choices": {
-      "A": "ResNet",
-      "B": "Very Deep CNN architecture",
-      "C": "Inception",
-      "D": "ResNet"
+      "A": "2D εικόνες",
+      "B": "Κατανόηση τρισδιάστατης δομής από εικόνες",
+      "C": "Διαγραφή εικόνων",
+      "D": "Αποθήκευση εικόνων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Transfer Learning σε CV;",
+    "question": "Τι είναι το Action Recognition;",
     "choices": {
-      "A": "Training from scratch",
-      "B": "Χρήση pretrained ImageNet models",
-      "C": "Random weights",
-      "D": "Training from scratch"
+      "A": "Αναγνώριση χρωμάτων",
+      "B": "Αναγνώριση ενεργειών/δράσεων σε βίντεο",
+      "C": "Αναγνώριση κειμένου",
+      "D": "Διαγραφή ενεργειών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Data Augmentation σε CV;",
+    "question": "Τι GPUs χρησιμοποιούνται για Computer Vision training;",
     "choices": {
-      "A": "Διαγραφή",
-      "B": "Rotation, flip, zoom, crop",
-      "C": "Encryption",
-      "D": "Διαγραφή"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι OCR;",
-    "choices": {
-      "A": "Object detection",
-      "B": "Optical Character Recognition",
-      "C": "Classification",
-      "D": "Object detection"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Face Recognition;",
-    "choices": {
-      "A": "Object detection",
-      "B": "Αναγνώριση προσώπων",
-      "C": "OCR",
-      "D": "Object detection"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Pose Estimation;",
-    "choices": {
-      "A": "Face recognition",
-      "B": "Εκτίμηση στάσης σώματος",
-      "C": "Classification",
-      "D": "Face recognition"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Computer Vision;",
-    "choices": {
-      "A": "NLP",
-      "B": "Ικανότητα υπολογιστών να κατανοούν εικόνες",
-      "C": "Audio processing",
-      "D": "NLP"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Image Classification;",
-    "choices": {
-      "A": "Object detection",
-      "B": "Ταξινόμηση εικόνας σε κατηγορία",
-      "C": "Generation",
-      "D": "Object detection"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Object Detection;",
-    "choices": {
-      "A": "Classification",
-      "B": "Εντοπισμός και τοποθέτηση bounding boxes",
-      "C": "Generation",
-      "D": "Classification"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Image Segmentation;",
-    "choices": {
-      "A": "Classification",
-      "B": "Τμηματοποίηση εικόνας ανά pixel",
-      "C": "Generation",
-      "D": "Classification"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι YOLO;",
-    "choices": {
-      "A": "R-CNN",
-      "B": "You Only Look Once - real-time detection",
-      "C": "Mask R-CNN",
-      "D": "R-CNN"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι R-CNN;",
-    "choices": {
-      "A": "YOLO",
-      "B": "Region-based CNN για detection",
-      "C": "U-Net",
-      "D": "YOLO"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι U-Net;",
-    "choices": {
-      "A": "YOLO",
-      "B": "Αρχιτεκτονική για segmentation",
-      "C": "ResNet",
-      "D": "YOLO"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι ResNet;",
-    "choices": {
-      "A": "VGG",
-      "B": "Residual Network με skip connections",
-      "C": "Inception",
-      "D": "VGG"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι VGG;",
-    "choices": {
-      "A": "ResNet",
-      "B": "Very Deep CNN architecture",
-      "C": "Inception",
-      "D": "ResNet"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Transfer Learning σε CV;",
-    "choices": {
-      "A": "Training from scratch",
-      "B": "Χρήση pretrained ImageNet models",
-      "C": "Random weights",
-      "D": "Training from scratch"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Data Augmentation σε CV;",
-    "choices": {
-      "A": "Διαγραφή",
-      "B": "Rotation, flip, zoom, crop",
-      "C": "Encryption",
-      "D": "Διαγραφή"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι OCR;",
-    "choices": {
-      "A": "Object detection",
-      "B": "Optical Character Recognition",
-      "C": "Classification",
-      "D": "Object detection"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Face Recognition;",
-    "choices": {
-      "A": "Object detection",
-      "B": "Αναγνώριση προσώπων",
-      "C": "OCR",
-      "D": "Object detection"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Pose Estimation;",
-    "choices": {
-      "A": "Face recognition",
-      "B": "Εκτίμηση στάσης σώματος",
-      "C": "Classification",
-      "D": "Face recognition"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Computer Vision;",
-    "choices": {
-      "A": "NLP",
-      "B": "Ικανότητα υπολογιστών να κατανοούν εικόνες",
-      "C": "Audio processing",
-      "D": "NLP"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Image Classification;",
-    "choices": {
-      "A": "Object detection",
-      "B": "Ταξινόμηση εικόνας σε κατηγορία",
-      "C": "Generation",
-      "D": "Object detection"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Object Detection;",
-    "choices": {
-      "A": "Classification",
-      "B": "Εντοπισμός και τοποθέτηση bounding boxes",
-      "C": "Generation",
-      "D": "Classification"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Image Segmentation;",
-    "choices": {
-      "A": "Classification",
-      "B": "Τμηματοποίηση εικόνας ανά pixel",
-      "C": "Generation",
-      "D": "Classification"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι YOLO;",
-    "choices": {
-      "A": "R-CNN",
-      "B": "You Only Look Once - real-time detection",
-      "C": "Mask R-CNN",
-      "D": "R-CNN"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι R-CNN;",
-    "choices": {
-      "A": "YOLO",
-      "B": "Region-based CNN για detection",
-      "C": "U-Net",
-      "D": "YOLO"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι U-Net;",
-    "choices": {
-      "A": "YOLO",
-      "B": "Αρχιτεκτονική για segmentation",
-      "C": "ResNet",
-      "D": "YOLO"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι ResNet;",
-    "choices": {
-      "A": "VGG",
-      "B": "Residual Network με skip connections",
-      "C": "Inception",
-      "D": "VGG"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι VGG;",
-    "choices": {
-      "A": "ResNet",
-      "B": "Very Deep CNN architecture",
-      "C": "Inception",
-      "D": "ResNet"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Transfer Learning σε CV;",
-    "choices": {
-      "A": "Training from scratch",
-      "B": "Χρήση pretrained ImageNet models",
-      "C": "Random weights",
-      "D": "Training from scratch"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Data Augmentation σε CV;",
-    "choices": {
-      "A": "Διαγραφή",
-      "B": "Rotation, flip, zoom, crop",
-      "C": "Encryption",
-      "D": "Διαγραφή"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι OCR;",
-    "choices": {
-      "A": "Object detection",
-      "B": "Optical Character Recognition",
-      "C": "Classification",
-      "D": "Object detection"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Face Recognition;",
-    "choices": {
-      "A": "Object detection",
-      "B": "Αναγνώριση προσώπων",
-      "C": "OCR",
-      "D": "Object detection"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Pose Estimation;",
-    "choices": {
-      "A": "Face recognition",
-      "B": "Εκτίμηση στάσης σώματος",
-      "C": "Classification",
-      "D": "Face recognition"
+      "A": "Μόνο CPUs",
+      "B": "NVIDIA GPUs (π.χ. RTX, A100, V100)",
+      "C": "Μόνο RAM",
+      "D": "Μόνο σκληροί δίσκοι"
     },
     "answer": "B"
   }

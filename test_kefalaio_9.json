@@ -1,601 +1,401 @@
 [
   {
-    "question": "Τι είναι Ρομποτική;",
+    "question": "Τι είναι η Ρομποτική;",
     "choices": {
-      "A": "Μόνο AI",
-      "B": "Επιστήμη σχεδιασμού και κατασκευής ρομπότ",
-      "C": "Μόνο software",
-      "D": "Μόνο AI"
+      "A": "Μελέτη ζώων",
+      "B": "Επιστήμη σχεδιασμού, κατασκευής και λειτουργίας ρομπότ",
+      "C": "Μελέτη φυτών",
+      "D": "Μελέτη βακτηρίων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Αυτόνομο Όχημα;",
+    "question": "Πώς η AI βελτιώνει τη Ρομποτική;",
     "choices": {
-      "A": "Χειρονακτικό",
-      "B": "Όχημα που οδηγεί μόνο του",
-      "C": "Σταθερό",
-      "D": "Χειρονακτικό"
+      "A": "Μόνο με χρώματα",
+      "B": "Με αυτονομία, προσαρμοστικότητα, μάθηση και αντίληψη περιβάλλοντος",
+      "C": "Μόνο με μέγεθος",
+      "D": "Μόνο με ταχύτητα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι SLAM;",
+    "question": "Τι είναι τα Cobots;",
     "choices": {
-      "A": "Sleep Learning Algorithm",
-      "B": "Simultaneous Localization and Mapping",
-      "C": "Smart Learning AI",
-      "D": "Sleep Learning Algorithm"
+      "A": "Ρομπότ μόνο για βιομηχανία",
+      "B": "Collaborative Robots που συνεργάζονται με ανθρώπους",
+      "C": "Ρομπότ μόνο για καθαρισμό",
+      "D": "Ρομπότ μόνο για μεταφορές"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Path Planning;",
+    "question": "Τι είναι τα Service Robots;",
     "choices": {
-      "A": "Θέση ρομπότ",
-      "B": "Σχεδιασμός διαδρομής ρομπότ",
-      "C": "Αισθητήρες",
-      "D": "Θέση ρομπότ"
+      "A": "Βιομηχανικά ρομπότ",
+      "B": "Ρομπότ που εξυπηρετούν ανθρώπους (καθαρισμός, υποδοχή)",
+      "C": "Ρομπότ μόνο για παραγωγή",
+      "D": "Ρομπότ μόνο για στρατό"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Computer Vision σε ρομποτική;",
+    "question": "Τι είναι τα Αυτόνομα Οχήματα;",
     "choices": {
-      "A": "Μηχανική όραση",
-      "B": "Όραση μέσω καμερών",
-      "C": "GPS",
-      "D": "Μηχανική όραση"
+      "A": "Οχήματα με οδηγό",
+      "B": "Οχήματα που οδηγούν μόνα τους με AI (Tesla, Waymo)",
+      "C": "Οχήματα χωρίς κινητήρα",
+      "D": "Οχήματα μόνο για αγώνες"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Lidar;",
+    "question": "Τι είναι το SLAM;",
     "choices": {
-      "A": "GPS",
-      "B": "Light Detection and Ranging",
-      "C": "Radar",
-      "D": "GPS"
+      "A": "Τύπος μουσικής",
+      "B": "Simultaneous Localization and Mapping - χαρτογράφηση και εντοπισμός",
+      "C": "Βάση δεδομένων",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Actuator;",
+    "question": "Τι είναι η Computer Vision στη Ρομποτική;",
     "choices": {
-      "A": "Αισθητήρας",
-      "B": "Μηχανισμός κίνησης",
-      "C": "Κάμερα",
-      "D": "Αισθητήρας"
+      "A": "Οθόνη ρομπότ",
+      "B": "Ικανότητα ρομπότ να 'βλέπουν' και να κατανοούν περιβάλλον",
+      "C": "Φώτα ρομπότ",
+      "D": "Ήχοι ρομπότ"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Inverse Kinematics;",
+    "question": "Τι είναι το Path Planning;",
     "choices": {
-      "A": "Forward kinematics",
-      "B": "Υπολογισμός joint angles για θέση",
-      "C": "SLAM",
-      "D": "Forward kinematics"
+      "A": "Διαγραφή διαδρομών",
+      "B": "Σχεδιασμός βέλτιστης διαδρομής για το ρομπότ",
+      "C": "Αποθήκευση διαδρομών",
+      "D": "Εκτύπωση διαδρομών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι ROS;",
+    "question": "Τι είναι η Reinforcement Learning στη Ρομποτική;",
     "choices": {
-      "A": "Random Operating System",
-      "B": "Robot Operating System",
-      "C": "Remote Operating System",
-      "D": "Random Operating System"
+      "A": "Μάθηση από βιβλία",
+      "B": "Μάθηση μέσω δοκιμών και ανταμοιβών",
+      "C": "Μάθηση χωρίς δεδομένα",
+      "D": "Μη μάθηση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Drone;",
+    "question": "Τι είναι το Grasping Problem;",
     "choices": {
-      "A": "Επίγειο",
-      "B": "Ιπτάμενο ρομπότ",
-      "C": "Διαστημικό",
-      "D": "Επίγειο"
+      "A": "Πρόβλημα κίνησης",
+      "B": "Πρόβλημα σωστής σύλληψης αντικειμένων από ρομπότ",
+      "C": "Πρόβλημα όρασης",
+      "D": "Πρόβλημα ήχου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Ρομποτική;",
+    "question": "Τι είναι τα Drones με AI;",
     "choices": {
-      "A": "Μόνο AI",
-      "B": "Επιστήμη σχεδιασμού και κατασκευής ρομπότ",
-      "C": "Μόνο software",
-      "D": "Μόνο AI"
+      "A": "Μόνο για φωτογραφίες",
+      "B": "Μη επανδρωμένα αεροσκάφη με αυτόνομη πτήση και AI",
+      "C": "Μόνο για παιχνίδια",
+      "D": "Μόνο για διακόσμηση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Αυτόνομο Όχημα;",
+    "question": "Τι είναι το Moxi Robot;",
     "choices": {
-      "A": "Χειρονακτικό",
-      "B": "Όχημα που οδηγεί μόνο του",
-      "C": "Σταθερό",
-      "D": "Χειρονακτικό"
+      "A": "Βιομηχανικό ρομπότ",
+      "B": "Νοσοκομειακό ρομπότ που μεταφέρει προμήθειες",
+      "C": "Ρομπότ καθαρισμού",
+      "D": "Ρομπότ μαγειρικής"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι SLAM;",
+    "question": "Τι είναι τα Kiva Robots της Amazon;",
     "choices": {
-      "A": "Sleep Learning Algorithm",
-      "B": "Simultaneous Localization and Mapping",
-      "C": "Smart Learning AI",
-      "D": "Sleep Learning Algorithm"
+      "A": "Ρομπότ καθαρισμού",
+      "B": "Ρομπότ για logistics και μεταφορά προϊόντων σε αποθήκες",
+      "C": "Ρομπότ για μαγείρεμα",
+      "D": "Ρομπότ για διακόσμηση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Path Planning;",
+    "question": "Τι είναι το Tesla Autopilot;",
     "choices": {
-      "A": "Θέση ρομπότ",
-      "B": "Σχεδιασμός διαδρομής ρομπότ",
-      "C": "Αισθητήρες",
-      "D": "Θέση ρομπότ"
+      "A": "Σύστημα ψυχαγωγίας",
+      "B": "Σύστημα αυτόνομης οδήγησης με AI και sensors",
+      "C": "Σύστημα φωτισμού",
+      "D": "Σύστημα ήχου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Computer Vision σε ρομποτική;",
+    "question": "Τι αισθητήρες χρησιμοποιούν τα αυτόνομα οχήματα;",
     "choices": {
-      "A": "Μηχανική όραση",
-      "B": "Όραση μέσω καμερών",
-      "C": "GPS",
-      "D": "Μηχανική όραση"
+      "A": "Μόνο κάμερες",
+      "B": "Κάμερες, LiDAR, Radar, Ultrasonic sensors",
+      "C": "Μόνο μικρόφωνα",
+      "D": "Μόνο GPS"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Lidar;",
+    "question": "Τι είναι το LiDAR;",
     "choices": {
-      "A": "GPS",
-      "B": "Light Detection and Ranging",
-      "C": "Radar",
-      "D": "GPS"
+      "A": "Μια βάση δεδομένων",
+      "B": "Light Detection and Ranging - τεχνολογία για 3D χαρτογράφηση",
+      "C": "Λειτουργικό σύστημα",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Actuator;",
+    "question": "Τι είναι η Motion Planning;",
     "choices": {
-      "A": "Αισθητήρας",
-      "B": "Μηχανισμός κίνησης",
-      "C": "Κάμερα",
-      "D": "Αισθητήρας"
+      "A": "Σχεδιασμός κτιρίων",
+      "B": "Σχεδιασμός κίνησης ρομπότ αποφεύγοντας εμπόδια",
+      "C": "Σχεδιασμός γραφικών",
+      "D": "Σχεδιασμός δικτύων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Inverse Kinematics;",
+    "question": "Τι είναι το Object Manipulation;",
     "choices": {
-      "A": "Forward kinematics",
-      "B": "Υπολογισμός joint angles για θέση",
-      "C": "SLAM",
-      "D": "Forward kinematics"
+      "A": "Διαγραφή αντικειμένων",
+      "B": "Χειρισμός αντικειμένων από ρομπότ (σύλληψη, μεταφορά)",
+      "C": "Αποθήκευση αντικειμένων",
+      "D": "Εκτύπωση αντικειμένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι ROS;",
+    "question": "Τι είναι τα Χειρουργικά Ρομπότ;",
     "choices": {
-      "A": "Random Operating System",
-      "B": "Robot Operating System",
-      "C": "Remote Operating System",
-      "D": "Random Operating System"
+      "A": "Ρομπότ για καθαρισμό",
+      "B": "Ρομπότ που βοηθούν σε χειρουργικές επεμβάσεις με ακρίβεια",
+      "C": "Ρομπότ για μεταφορές",
+      "D": "Ρομπότ για μαγείρεμα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Drone;",
+    "question": "Τι είναι το Swarm Robotics;",
     "choices": {
-      "A": "Επίγειο",
-      "B": "Ιπτάμενο ρομπότ",
-      "C": "Διαστημικό",
-      "D": "Επίγειο"
+      "A": "Ένα ρομπότ",
+      "B": "Συντονισμός πολλών ρομπότ που συνεργάζονται",
+      "C": "Διαγραφή ρομπότ",
+      "D": "Αποθήκευση ρομπότ"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Ρομποτική;",
+    "question": "Τι είναι το ROS (Robot Operating System);",
     "choices": {
-      "A": "Μόνο AI",
-      "B": "Επιστήμη σχεδιασμού και κατασκευής ρομπότ",
-      "C": "Μόνο software",
-      "D": "Μόνο AI"
+      "A": "Windows για ρομπότ",
+      "B": "Framework για ανάπτυξη λογισμικού ρομποτικής",
+      "C": "Βάση δεδομένων",
+      "D": "Εργαλείο σχεδίασης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Αυτόνομο Όχημα;",
+    "question": "Τι είναι το Sensor Fusion;",
     "choices": {
-      "A": "Χειρονακτικό",
-      "B": "Όχημα που οδηγεί μόνο του",
-      "C": "Σταθερό",
-      "D": "Χειρονακτικό"
+      "A": "Διαγραφή αισθητήρων",
+      "B": "Συνδυασμός δεδομένων από πολλούς αισθητήρες",
+      "C": "Αποθήκευση αισθητήρων",
+      "D": "Εκτύπωση αισθητήρων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι SLAM;",
+    "question": "Τι είναι η Obstacle Avoidance;",
     "choices": {
-      "A": "Sleep Learning Algorithm",
-      "B": "Simultaneous Localization and Mapping",
-      "C": "Smart Learning AI",
-      "D": "Sleep Learning Algorithm"
+      "A": "Πρόσκρουση σε εμπόδια",
+      "B": "Αποφυγή εμποδίων από ρομπότ",
+      "C": "Δημιουργία εμποδίων",
+      "D": "Αγνόηση εμποδίων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Path Planning;",
+    "question": "Τι είναι το Humanoid Robot;",
     "choices": {
-      "A": "Θέση ρομπότ",
-      "B": "Σχεδιασμός διαδρομής ρομπότ",
-      "C": "Αισθητήρες",
-      "D": "Θέση ρομπότ"
+      "A": "Ρομπότ σε σχήμα ζώου",
+      "B": "Ρομπότ με ανθρώπινη μορφή και κινήσεις",
+      "C": "Ρομπότ σε σχήμα αυτοκινήτου",
+      "D": "Ρομπότ χωρίς μορφή"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Computer Vision σε ρομποτική;",
+    "question": "Τι είναι το Industrial Robot;",
     "choices": {
-      "A": "Μηχανική όραση",
-      "B": "Όραση μέσω καμερών",
-      "C": "GPS",
-      "D": "Μηχανική όραση"
+      "A": "Ρομπότ για σπίτι",
+      "B": "Ρομπότ για αυτοματοποίηση βιομηχανικών διαδικασιών",
+      "C": "Ρομπότ για παιχνίδια",
+      "D": "Ρομπότ για διακόσμηση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Lidar;",
+    "question": "Τι είναι το End Effector;",
     "choices": {
-      "A": "GPS",
-      "B": "Light Detection and Ranging",
-      "C": "Radar",
-      "D": "GPS"
+      "A": "Εγκέφαλος ρομπότ",
+      "B": "Το 'χέρι' ή εργαλείο στο άκρο βραχίονα ρομπότ",
+      "C": "Πόδια ρομπότ",
+      "D": "Μάτια ρομπότ"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Actuator;",
+    "question": "Τι επίπεδα αυτονομίας έχουν τα οχήματα;",
     "choices": {
-      "A": "Αισθητήρας",
-      "B": "Μηχανισμός κίνησης",
-      "C": "Κάμερα",
-      "D": "Αισθητήρας"
+      "A": "Μόνο 1",
+      "B": "Επίπεδα 0-5 (Level 0: χωρίς αυτονομία, Level 5: πλήρης αυτονομία)",
+      "C": "Μόνο 10",
+      "D": "Άπειρα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Inverse Kinematics;",
+    "question": "Τι είναι το Teleoperation;",
     "choices": {
-      "A": "Forward kinematics",
-      "B": "Υπολογισμός joint angles για θέση",
-      "C": "SLAM",
-      "D": "Forward kinematics"
+      "A": "Αυτόνομη λειτουργία",
+      "B": "Απομακρυσμένος έλεγχος ρομπότ από άνθρωπο",
+      "C": "Διαγραφή ρομπότ",
+      "D": "Αποθήκευση ρομπότ"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι ROS;",
+    "question": "Τι είναι το Robotic Process Automation (RPA);",
     "choices": {
-      "A": "Random Operating System",
-      "B": "Robot Operating System",
-      "C": "Remote Operating System",
-      "D": "Random Operating System"
+      "A": "Φυσικά ρομπότ",
+      "B": "Λογισμικό που αυτοματοποιεί επαναλαμβανόμενες εργασίες",
+      "C": "Διαγραφή διαδικασιών",
+      "D": "Αποθήκευση διαδικασιών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Drone;",
+    "question": "Τι είναι το Robotic Gripper;",
     "choices": {
-      "A": "Επίγειο",
-      "B": "Ιπτάμενο ρομπότ",
-      "C": "Διαστημικό",
-      "D": "Επίγειο"
+      "A": "Πόδι ρομπότ",
+      "B": "Εργαλείο για σύλληψη αντικειμένων",
+      "C": "Μάτι ρομπότ",
+      "D": "Αυτί ρομπότ"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Ρομποτική;",
+    "question": "Τι είναι το Warehouse Automation;",
     "choices": {
-      "A": "Μόνο AI",
-      "B": "Επιστήμη σχεδιασμού και κατασκευής ρομπότ",
-      "C": "Μόνο software",
-      "D": "Μόνο AI"
+      "A": "Χειρονακτική διαχείριση",
+      "B": "Αυτοματοποίηση αποθηκών με ρομπότ και AI",
+      "C": "Διαγραφή αποθηκών",
+      "D": "Κλείσιμο αποθηκών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Αυτόνομο Όχημα;",
+    "question": "Τι είναι το Delivery Robot;",
     "choices": {
-      "A": "Χειρονακτικό",
-      "B": "Όχημα που οδηγεί μόνο του",
-      "C": "Σταθερό",
-      "D": "Χειρονακτικό"
+      "A": "Ρομπότ για καθαρισμό",
+      "B": "Ρομπότ για παράδοση προϊόντων (π.χ. Starship)",
+      "C": "Ρομπότ για μαγείρεμα",
+      "D": "Ρομπότ για διακόσμηση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι SLAM;",
+    "question": "Τι είναι το Agricultural Robot;",
     "choices": {
-      "A": "Sleep Learning Algorithm",
-      "B": "Simultaneous Localization and Mapping",
-      "C": "Smart Learning AI",
-      "D": "Sleep Learning Algorithm"
+      "A": "Ρομπότ για πόλεις",
+      "B": "Ρομπότ για γεωργικές εργασίες (συγκομιδή, φύτευση)",
+      "C": "Ρομπότ για γραφεία",
+      "D": "Ρομπότ για καταστήματα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Path Planning;",
+    "question": "Τι είναι το Social Robot;",
     "choices": {
-      "A": "Θέση ρομπότ",
-      "B": "Σχεδιασμός διαδρομής ρομπότ",
-      "C": "Αισθητήρες",
-      "D": "Θέση ρομπότ"
+      "A": "Βιομηχανικό ρομπότ",
+      "B": "Ρομπότ σχεδιασμένο για αλληλεπίδραση με ανθρώπους",
+      "C": "Ρομπότ για παραγωγή",
+      "D": "Ρομπότ χωρίς επικοινωνία"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Computer Vision σε ρομποτική;",
+    "question": "Τι είναι το Boston Dynamics;",
     "choices": {
-      "A": "Μηχανική όραση",
-      "B": "Όραση μέσω καμερών",
-      "C": "GPS",
-      "D": "Μηχανική όραση"
+      "A": "Βάση δεδομένων",
+      "B": "Εταιρεία που κατασκευάζει προηγμένα ρομπότ (Spot, Atlas)",
+      "C": "Λειτουργικό σύστημα",
+      "D": "Πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Lidar;",
+    "question": "Τι είναι το Spot Robot;",
     "choices": {
-      "A": "GPS",
-      "B": "Light Detection and Ranging",
-      "C": "Radar",
-      "D": "GPS"
+      "A": "Humanoid ρομπότ",
+      "B": "Τετράποδο ρομπότ της Boston Dynamics",
+      "C": "Drone",
+      "D": "Αυτόνομο όχημα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Actuator;",
+    "question": "Τι είναι το Localization στη Ρομποτική;",
     "choices": {
-      "A": "Αισθητήρας",
-      "B": "Μηχανισμός κίνησης",
-      "C": "Κάμερα",
-      "D": "Αισθητήρας"
+      "A": "Διαγραφή θέσης",
+      "B": "Εντοπισμός θέσης ρομπότ στο περιβάλλον",
+      "C": "Αποθήκευση θέσης",
+      "D": "Εκτύπωση θέσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Inverse Kinematics;",
+    "question": "Τι sensors χρησιμοποιούν τα ρομπότ;",
     "choices": {
-      "A": "Forward kinematics",
-      "B": "Υπολογισμός joint angles για θέση",
-      "C": "SLAM",
-      "D": "Forward kinematics"
+      "A": "Μόνο κάμερες",
+      "B": "Κάμερες, LiDAR, Ultrasonic, IMU, Force sensors",
+      "C": "Μόνο μικρόφωνα",
+      "D": "Καθόλου sensors"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι ROS;",
+    "question": "Τι είναι το Model Predictive Control;",
     "choices": {
-      "A": "Random Operating System",
-      "B": "Robot Operating System",
-      "C": "Remote Operating System",
-      "D": "Random Operating System"
+      "A": "Διαγραφή ελέγχου",
+      "B": "Τεχνική ελέγχου που προβλέπει μελλοντικές καταστάσεις",
+      "C": "Αποθήκευση ελέγχου",
+      "D": "Εκτύπωση ελέγχου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Drone;",
+    "question": "Τι πρόκληση αντιμετωπίζει η Ρομποτική;",
     "choices": {
-      "A": "Επίγειο",
-      "B": "Ιπτάμενο ρομπότ",
-      "C": "Διαστημικό",
-      "D": "Επίγειο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Ρομποτική;",
-    "choices": {
-      "A": "Μόνο AI",
-      "B": "Επιστήμη σχεδιασμού και κατασκευής ρομπότ",
-      "C": "Μόνο software",
-      "D": "Μόνο AI"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Αυτόνομο Όχημα;",
-    "choices": {
-      "A": "Χειρονακτικό",
-      "B": "Όχημα που οδηγεί μόνο του",
-      "C": "Σταθερό",
-      "D": "Χειρονακτικό"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι SLAM;",
-    "choices": {
-      "A": "Sleep Learning Algorithm",
-      "B": "Simultaneous Localization and Mapping",
-      "C": "Smart Learning AI",
-      "D": "Sleep Learning Algorithm"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Path Planning;",
-    "choices": {
-      "A": "Θέση ρομπότ",
-      "B": "Σχεδιασμός διαδρομής ρομπότ",
-      "C": "Αισθητήρες",
-      "D": "Θέση ρομπότ"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Computer Vision σε ρομποτική;",
-    "choices": {
-      "A": "Μηχανική όραση",
-      "B": "Όραση μέσω καμερών",
-      "C": "GPS",
-      "D": "Μηχανική όραση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Lidar;",
-    "choices": {
-      "A": "GPS",
-      "B": "Light Detection and Ranging",
-      "C": "Radar",
-      "D": "GPS"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Actuator;",
-    "choices": {
-      "A": "Αισθητήρας",
-      "B": "Μηχανισμός κίνησης",
-      "C": "Κάμερα",
-      "D": "Αισθητήρας"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Inverse Kinematics;",
-    "choices": {
-      "A": "Forward kinematics",
-      "B": "Υπολογισμός joint angles για θέση",
-      "C": "SLAM",
-      "D": "Forward kinematics"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι ROS;",
-    "choices": {
-      "A": "Random Operating System",
-      "B": "Robot Operating System",
-      "C": "Remote Operating System",
-      "D": "Random Operating System"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Drone;",
-    "choices": {
-      "A": "Επίγειο",
-      "B": "Ιπτάμενο ρομπότ",
-      "C": "Διαστημικό",
-      "D": "Επίγειο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Ρομποτική;",
-    "choices": {
-      "A": "Μόνο AI",
-      "B": "Επιστήμη σχεδιασμού και κατασκευής ρομπότ",
-      "C": "Μόνο software",
-      "D": "Μόνο AI"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Αυτόνομο Όχημα;",
-    "choices": {
-      "A": "Χειρονακτικό",
-      "B": "Όχημα που οδηγεί μόνο του",
-      "C": "Σταθερό",
-      "D": "Χειρονακτικό"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι SLAM;",
-    "choices": {
-      "A": "Sleep Learning Algorithm",
-      "B": "Simultaneous Localization and Mapping",
-      "C": "Smart Learning AI",
-      "D": "Sleep Learning Algorithm"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Path Planning;",
-    "choices": {
-      "A": "Θέση ρομπότ",
-      "B": "Σχεδιασμός διαδρομής ρομπότ",
-      "C": "Αισθητήρες",
-      "D": "Θέση ρομπότ"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Computer Vision σε ρομποτική;",
-    "choices": {
-      "A": "Μηχανική όραση",
-      "B": "Όραση μέσω καμερών",
-      "C": "GPS",
-      "D": "Μηχανική όραση"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Lidar;",
-    "choices": {
-      "A": "GPS",
-      "B": "Light Detection and Ranging",
-      "C": "Radar",
-      "D": "GPS"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Actuator;",
-    "choices": {
-      "A": "Αισθητήρας",
-      "B": "Μηχανισμός κίνησης",
-      "C": "Κάμερα",
-      "D": "Αισθητήρας"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Inverse Kinematics;",
-    "choices": {
-      "A": "Forward kinematics",
-      "B": "Υπολογισμός joint angles για θέση",
-      "C": "SLAM",
-      "D": "Forward kinematics"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι ROS;",
-    "choices": {
-      "A": "Random Operating System",
-      "B": "Robot Operating System",
-      "C": "Remote Operating System",
-      "D": "Random Operating System"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Drone;",
-    "choices": {
-      "A": "Επίγειο",
-      "B": "Ιπτάμενο ρομπότ",
-      "C": "Διαστημικό",
-      "D": "Επίγειο"
+      "A": "Πολύ απλή υλοποίηση",
+      "B": "Πολυπλοκότητα αντίληψης, ασφάλεια, κόστος, ηθικά ζητήματα",
+      "C": "Πολύ χαμηλό κόστος",
+      "D": "Έλλειψη εφαρμογών"
     },
     "answer": "B"
   }

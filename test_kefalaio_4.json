@@ -1,801 +1,401 @@
 [
   {
-    "question": "Τι είναι Supervised Learning;",
+    "question": "Τι είναι η Εποπτευόμενη Μάθηση (Supervised Learning);",
     "choices": {
-      "A": "Μάθηση χωρίς labels",
-      "B": "Μάθηση με labeled data",
-      "C": "Unsupervised",
-      "D": "Μάθηση χωρίς labels"
+      "A": "Μάθηση χωρίς ετικέτες",
+      "B": "Μάθηση από δεδομένα με ετικέτες (labeled data)",
+      "C": "Μάθηση από ανταμοιβές",
+      "D": "Αυτόματη μάθηση χωρίς δεδομένα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Classification;",
+    "question": "Ποια από τις παρακάτω είναι τεχνική Εποπτευόμενης Μάθησης;",
     "choices": {
-      "A": "Πρόβλεψη τιμής",
-      "B": "Πρόβλεψη κατηγορίας",
-      "C": "Dimensionality reduction",
-      "D": "Πρόβλεψη τιμής"
+      "A": "K-Means Clustering",
+      "B": "Decision Trees (Δέντρα Απόφασης)",
+      "C": "PCA",
+      "D": "Autoencoders"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Regression;",
+    "question": "Τι είναι η Μη Εποπτευόμενη Μάθηση (Unsupervised Learning);",
     "choices": {
-      "A": "Πρόβλεψη κατηγορίας",
-      "B": "Πρόβλεψη συνεχούς τιμής",
-      "C": "Classification",
-      "D": "Πρόβλεψη κατηγορίας"
+      "A": "Μάθηση με ετικέτες",
+      "B": "Μάθηση από δεδομένα χωρίς ετικέτες για εύρεση προτύπων",
+      "C": "Μάθηση από ανταμοιβές",
+      "D": "Μάθηση με επίβλεψη"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Decision Tree;",
+    "question": "Ποιος αλγόριθμος χρησιμοποιείται για ομαδοποίηση (clustering);",
     "choices": {
-      "A": "Linear model",
-      "B": "Δενδρική δομή αποφάσεων",
-      "C": "Clustering",
-      "D": "Linear model"
+      "A": "Linear Regression",
+      "B": "K-Means",
+      "C": "Decision Trees",
+      "D": "Logistic Regression"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Random Forest;",
+    "question": "Τι είναι η Ενισχυτική Μάθηση (Reinforcement Learning);",
     "choices": {
-      "A": "Ένα tree",
-      "B": "Ensemble από πολλά decision trees",
-      "C": "Linear model",
-      "D": "Ένα tree"
+      "A": "Μάθηση από ετικετωμένα δεδομένα",
+      "B": "Μάθηση μέσω αλληλεπίδρασης με περιβάλλον και ανταμοιβών",
+      "C": "Μάθηση χωρίς δεδομένα",
+      "D": "Μάθηση από εικόνες"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι SVM;",
+    "question": "Τι σημαίνει Overfitting;",
     "choices": {
-      "A": "Neural network",
-      "B": "Support Vector Machine για classification",
-      "C": "K-means",
-      "D": "Neural network"
+      "A": "Πολύ καλή γενίκευση του μοντέλου",
+      "B": "Υπερπροσαρμογή μοντέλου στα δεδομένα εκπαίδευσης με κακή γενίκευση",
+      "C": "Υποπροσαρμογή μοντέλου",
+      "D": "Τέλεια απόδοση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι K-NN;",
+    "question": "Τι σημαίνει Underfitting;",
     "choices": {
-      "A": "Neural network",
-      "B": "K-Nearest Neighbors για classification",
-      "C": "SVM",
-      "D": "Neural network"
+      "A": "Τέλεια προσαρμογή",
+      "B": "Υποπροσαρμογή - το μοντέλο δεν μαθαίνει επαρκώς από τα δεδομένα",
+      "C": "Υπερπροσαρμογή",
+      "D": "Άριστη γενίκευση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Logistic Regression;",
+    "question": "Τι είναι το Cross-Validation;",
     "choices": {
-      "A": "Για continuous prediction",
-      "B": "Για binary classification",
-      "C": "Για dimensionality",
-      "D": "Για continuous prediction"
+      "A": "Διαγραφή δεδομένων",
+      "B": "Τεχνική αξιολόγησης μοντέλου με διαχωρισμό δεδομένων σε folds",
+      "C": "Δημιουργία νέων δεδομένων",
+      "D": "Αποθήκευση μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Naive Bayes;",
+    "question": "Τι μετράει το Precision (Ακρίβεια);",
     "choices": {
-      "A": "Decision tree",
-      "B": "Probabilistic classifier",
-      "C": "SVM",
-      "D": "Decision tree"
+      "A": "Την ταχύτητα του μοντέλου",
+      "B": "Το ποσοστό σωστών θετικών προβλέψεων από όλες τις θετικές προβλέψεις",
+      "C": "Το μέγεθος των δεδομένων",
+      "D": "Την πολυπλοκότητα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Linear Regression;",
+    "question": "Τι μετράει το Recall (Ανάκληση);",
     "choices": {
-      "A": "Για classification",
-      "B": "Γραμμικό μοντέλο για regression",
-      "C": "Neural network",
-      "D": "Για classification"
+      "A": "Την ταχύτητα",
+      "B": "Το ποσοστό σωστών θετικών που εντοπίστηκαν από όλες τις πραγματικές θετικές",
+      "C": "Το κόστος",
+      "D": "Τη μνήμη"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Supervised Learning;",
+    "question": "Τι είναι το F1 Score;",
     "choices": {
-      "A": "Μάθηση χωρίς labels",
-      "B": "Μάθηση με labeled data",
-      "C": "Unsupervised",
-      "D": "Μάθηση χωρίς labels"
+      "A": "Μια μετρική ταχύτητας",
+      "B": "Αρμονικός μέσος του Precision και Recall",
+      "C": "Μια βάση δεδομένων",
+      "D": "Ένα λειτουργικό σύστημα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Classification;",
+    "question": "Τι είναι το MSE (Mean Squared Error);",
     "choices": {
-      "A": "Πρόβλεψη τιμής",
-      "B": "Πρόβλεψη κατηγορίας",
-      "C": "Dimensionality reduction",
-      "D": "Πρόβλεψη τιμής"
+      "A": "Μέτρηση ταχύτητας",
+      "B": "Μέτρηση σφάλματος που υπολογίζει το μέσο τετραγωνικό σφάλμα",
+      "C": "Μέτρηση μνήμης",
+      "D": "Μέτρηση κόστους"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Regression;",
+    "question": "Τι είναι η Feature Selection;",
     "choices": {
-      "A": "Πρόβλεψη κατηγορίας",
-      "B": "Πρόβλεψη συνεχούς τιμής",
-      "C": "Classification",
-      "D": "Πρόβλεψη κατηγορίας"
+      "A": "Διαγραφή δεδομένων",
+      "B": "Επιλογή των πιο σημαντικών χαρακτηριστικών για το μοντέλο",
+      "C": "Αποθήκευση μοντέλου",
+      "D": "Εκτύπωση αποτελεσμάτων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Decision Tree;",
+    "question": "Τι είναι ο αλγόριθμος K-Nearest Neighbors (KNN);",
     "choices": {
-      "A": "Linear model",
-      "B": "Δενδρική δομή αποφάσεων",
-      "C": "Clustering",
-      "D": "Linear model"
+      "A": "Αλγόριθμος βαθιάς μάθησης",
+      "B": "Αλγόριθμος ταξινόμησης βάσει των κοντινότερων γειτόνων",
+      "C": "Αλγόριθμος ομαδοποίησης",
+      "D": "Αλγόριθμος ενισχυτικής μάθησης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Random Forest;",
+    "question": "Τι είναι τα Support Vector Machines (SVM);",
     "choices": {
-      "A": "Ένα tree",
-      "B": "Ensemble από πολλά decision trees",
-      "C": "Linear model",
-      "D": "Ένα tree"
+      "A": "Βάσεις δεδομένων",
+      "B": "Αλγόριθμοι ταξινόμησης που βρίσκουν το βέλτιστο υπερεπίπεδο",
+      "C": "Εργαλεία οπτικοποίησης",
+      "D": "Πρωτόκολλα δικτύου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι SVM;",
+    "question": "Τι σημαίνει Ensemble Learning;",
     "choices": {
-      "A": "Neural network",
-      "B": "Support Vector Machine για classification",
-      "C": "K-means",
-      "D": "Neural network"
+      "A": "Χρήση ενός μοντέλου",
+      "B": "Συνδυασμός πολλών μοντέλων για καλύτερη απόδοση",
+      "C": "Διαγραφή μοντέλων",
+      "D": "Μη χρήση μοντέλων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι K-NN;",
+    "question": "Τι είναι το Random Forest;",
     "choices": {
-      "A": "Neural network",
-      "B": "K-Nearest Neighbors για classification",
-      "C": "SVM",
-      "D": "Neural network"
+      "A": "Ένα δάσος",
+      "B": "Ensemble μέθοδος που χρησιμοποιεί πολλά Decision Trees",
+      "C": "Μια βάση δεδομένων",
+      "D": "Ένα πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Logistic Regression;",
+    "question": "Τι είναι το Gradient Boosting;",
     "choices": {
-      "A": "Για continuous prediction",
-      "B": "Για binary classification",
-      "C": "Για dimensionality",
-      "D": "Για continuous prediction"
+      "A": "Τεχνική αποθήκευσης",
+      "B": "Ensemble τεχνική που βελτιώνει μοντέλα σταδιακά",
+      "C": "Τεχνική διαγραφής",
+      "D": "Τεχνική εκτύπωσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Naive Bayes;",
+    "question": "Τι είναι η Logistic Regression;",
     "choices": {
-      "A": "Decision tree",
-      "B": "Probabilistic classifier",
-      "C": "SVM",
-      "D": "Decision tree"
+      "A": "Αλγόριθμος μόνο για αριθμούς",
+      "B": "Αλγόριθμος ταξινόμησης για δυαδικά προβλήματα",
+      "C": "Αλγόριθμος ομαδοποίησης",
+      "D": "Αλγόριθμος εικόνων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Linear Regression;",
+    "question": "Τι είναι η Linear Regression;",
     "choices": {
-      "A": "Για classification",
-      "B": "Γραμμικό μοντέλο για regression",
-      "C": "Neural network",
-      "D": "Για classification"
+      "A": "Αλγόριθμος ταξινόμησης",
+      "B": "Αλγόριθμος πρόβλεψης συνεχών τιμών με γραμμική σχέση",
+      "C": "Αλγόριθμος ομαδοποίησης",
+      "D": "Αλγόριθμος κειμένου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Unsupervised Learning;",
+    "question": "Τι είναι το Confusion Matrix;",
     "choices": {
-      "A": "Μάθηση με labels",
-      "B": "Μάθηση χωρίς labels",
-      "C": "Reinforcement",
-      "D": "Μάθηση με labels"
+      "A": "Μια βάση δεδομένων",
+      "B": "Πίνακας αξιολόγησης μοντέλου με true/false positives/negatives",
+      "C": "Ένα εργαλείο σχεδίασης",
+      "D": "Ένα πρωτόκολλο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Clustering;",
+    "question": "Τι είναι το Training Set;",
     "choices": {
-      "A": "Classification",
-      "B": "Ομαδοποίηση παρόμοιων δεδομένων",
-      "C": "Dimensionality",
-      "D": "Classification"
+      "A": "Δεδομένα για αποθήκευση",
+      "B": "Δεδομένα για εκπαίδευση του μοντέλου",
+      "C": "Δεδομένα για διαγραφή",
+      "D": "Δεδομένα για εκτύπωση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι K-Means;",
+    "question": "Τι είναι το Test Set;",
     "choices": {
-      "A": "Classification",
-      "B": "Clustering algorithm",
-      "C": "Neural network",
-      "D": "Classification"
+      "A": "Δεδομένα για εκπαίδευση",
+      "B": "Δεδομένα για αξιολόγηση της απόδοσης του μοντέλου",
+      "C": "Δεδομένα για αποθήκευση",
+      "D": "Δεδομένα για διαγραφή"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Hierarchical Clustering;",
+    "question": "Τι είναι το Validation Set;",
     "choices": {
-      "A": "Flat clustering",
-      "B": "Δενδρική ομαδοποίηση",
-      "C": "Regression",
-      "D": "Flat clustering"
+      "A": "Δεδομένα για εκτύπωση",
+      "B": "Δεδομένα για ρύθμιση υπερπαραμέτρων κατά την εκπαίδευση",
+      "C": "Δεδομένα για διαγραφή",
+      "D": "Δεδομένα για αποθήκευση"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι DBSCAN;",
+    "question": "Τι σημαίνει Regularization;",
     "choices": {
-      "A": "K-means",
-      "B": "Density-based clustering",
-      "C": "Regression",
-      "D": "K-means"
+      "A": "Αύξηση της πολυπλοκότητας",
+      "B": "Τεχνική για αποφυγή overfitting με προσθήκη ποινής",
+      "C": "Διαγραφή δεδομένων",
+      "D": "Αποθήκευση μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Unsupervised Learning;",
+    "question": "Τι είναι το L1 Regularization (Lasso);",
     "choices": {
-      "A": "Μάθηση με labels",
-      "B": "Μάθηση χωρίς labels",
-      "C": "Reinforcement",
-      "D": "Μάθηση με labels"
+      "A": "Τεχνική αποθήκευσης",
+      "B": "Regularization που προσθέτει απόλυτη τιμή των βαρών",
+      "C": "Τεχνική διαγραφής",
+      "D": "Τεχνική εκτύπωσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Clustering;",
+    "question": "Τι είναι το L2 Regularization (Ridge);",
     "choices": {
-      "A": "Classification",
-      "B": "Ομαδοποίηση παρόμοιων δεδομένων",
-      "C": "Dimensionality",
-      "D": "Classification"
+      "A": "Τεχνική για εικόνες",
+      "B": "Regularization που προσθέτει τετράγωνο των βαρών",
+      "C": "Τεχνική για κείμενο",
+      "D": "Τεχνική για ήχο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι K-Means;",
+    "question": "Τι είναι το Hyperparameter;",
     "choices": {
-      "A": "Classification",
-      "B": "Clustering algorithm",
-      "C": "Neural network",
-      "D": "Classification"
+      "A": "Παράμετρος που μαθαίνεται από το μοντέλο",
+      "B": "Παράμετρος που ορίζεται πριν την εκπαίδευση (π.χ. learning rate)",
+      "C": "Αποτέλεσμα του μοντέλου",
+      "D": "Τύπος δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Hierarchical Clustering;",
+    "question": "Τι είναι το Learning Rate;",
     "choices": {
-      "A": "Flat clustering",
-      "B": "Δενδρική ομαδοποίηση",
-      "C": "Regression",
-      "D": "Flat clustering"
+      "A": "Ταχύτητα του υπολογιστή",
+      "B": "Ρυθμός με τον οποίο το μοντέλο ενημερώνει τα βάρη του",
+      "C": "Αριθμός δεδομένων",
+      "D": "Μέγεθος μοντέλου"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι DBSCAN;",
+    "question": "Τι είναι το Batch Size;",
     "choices": {
-      "A": "K-means",
-      "B": "Density-based clustering",
-      "C": "Regression",
-      "D": "K-means"
+      "A": "Το συνολικό μέγεθος των δεδομένων",
+      "B": "Αριθμός δειγμάτων που επεξεργάζονται ταυτόχρονα",
+      "C": "Αριθμός μοντέλων",
+      "D": "Αριθμός υπολογιστών"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Unsupervised Learning;",
+    "question": "Τι είναι το Epoch;",
     "choices": {
-      "A": "Μάθηση με labels",
-      "B": "Μάθηση χωρίς labels",
-      "C": "Reinforcement",
-      "D": "Μάθηση με labels"
+      "A": "Ένας τύπος δεδομένων",
+      "B": "Μία πλήρης διέλευση από όλα τα δεδομένα εκπαίδευσης",
+      "C": "Ένα εργαλείο",
+      "D": "Μια βάση δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Clustering;",
+    "question": "Τι είναι η Gradient Descent;",
     "choices": {
-      "A": "Classification",
-      "B": "Ομαδοποίηση παρόμοιων δεδομένων",
-      "C": "Dimensionality",
-      "D": "Classification"
+      "A": "Τεχνική αποθήκευσης",
+      "B": "Αλγόριθμος βελτιστοποίησης για εύρεση ελαχίστου της συνάρτησης σφάλματος",
+      "C": "Τεχνική διαγραφής",
+      "D": "Τεχνική εκτύπωσης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι K-Means;",
+    "question": "Τι είναι το Bias (Μεροληψία) στα μοντέλα ML;",
     "choices": {
-      "A": "Classification",
-      "B": "Clustering algorithm",
-      "C": "Neural network",
-      "D": "Classification"
+      "A": "Η ταχύτητα του μοντέλου",
+      "B": "Το σφάλμα από λανθασμένες υποθέσεις στον αλγόριθμο",
+      "C": "Η μνήμη που χρησιμοποιεί",
+      "D": "Το κόστος υλοποίησης"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Hierarchical Clustering;",
+    "question": "Τι είναι το Variance (Διακύμανση) στα μοντέλα ML;",
     "choices": {
-      "A": "Flat clustering",
-      "B": "Δενδρική ομαδοποίηση",
-      "C": "Regression",
-      "D": "Flat clustering"
+      "A": "Το κόστος",
+      "B": "Η ευαισθησία του μοντέλου στις αλλαγές των δεδομένων εκπαίδευσης",
+      "C": "Η ταχύτητα",
+      "D": "Η πολυπλοκότητα"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι DBSCAN;",
+    "question": "Τι είναι το Bias-Variance Tradeoff;",
     "choices": {
-      "A": "K-means",
-      "B": "Density-based clustering",
-      "C": "Regression",
-      "D": "K-means"
+      "A": "Η σχέση μεταξύ κόστους και ταχύτητας",
+      "B": "Η ισορροπία μεταξύ bias και variance για βέλτιστη απόδοση",
+      "C": "Η σχέση μεταξύ δεδομένων και μοντέλου",
+      "D": "Η σχέση μεταξύ hardware και software"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Reinforcement Learning;",
+    "question": "Τι είναι ο αλγόριθμος Decision Tree;",
     "choices": {
-      "A": "Supervised learning",
-      "B": "Μάθηση μέσω trial-and-error με rewards",
-      "C": "Transfer learning",
-      "D": "Supervised learning"
+      "A": "Αλγόριθμος για εικόνες",
+      "B": "Αλγόριθμος που δημιουργεί δενδρική δομή αποφάσεων",
+      "C": "Αλγόριθμος για ήχο",
+      "D": "Αλγόριθμος για βίντεο"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Agent στο RL;",
+    "question": "Τι είναι η Dimensionality Reduction;",
     "choices": {
-      "A": "Environment",
-      "B": "Το σύστημα που μαθαίνει",
-      "C": "State",
-      "D": "Environment"
+      "A": "Αύξηση των χαρακτηριστικών",
+      "B": "Μείωση του αριθμού των χαρακτηριστικών διατηρώντας πληροφορία",
+      "C": "Διαγραφή δεδομένων",
+      "D": "Αποθήκευση δεδομένων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Reward;",
+    "question": "Ποιο εργαλείο/βιβλιοθήκη χρησιμοποιείται ευρέως για Machine Learning σε Python;",
     "choices": {
-      "A": "State",
-      "B": "Σήμα ανατροφοδότησης",
-      "C": "Policy",
-      "D": "State"
+      "A": "Word",
+      "B": "Scikit-learn",
+      "C": "Photoshop",
+      "D": "Excel"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Q-Learning;",
+    "question": "Τι είναι το Clustering;",
     "choices": {
-      "A": "Supervised",
-      "B": "RL αλγόριθμος με Q-values",
-      "C": "Deep learning",
-      "D": "Supervised"
+      "A": "Ταξινόμηση με ετικέτες",
+      "B": "Ομαδοποίηση δεδομένων σε clusters χωρίς ετικέτες",
+      "C": "Πρόβλεψη τιμών",
+      "D": "Δημιουργία εικόνων"
     },
     "answer": "B"
   },
   {
-    "question": "Τι είναι Policy;",
+    "question": "Τι είναι το DBSCAN;",
     "choices": {
-      "A": "Reward",
-      "B": "Στρατηγική επιλογής actions",
-      "C": "Agent",
-      "D": "Reward"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Reinforcement Learning;",
-    "choices": {
-      "A": "Supervised learning",
-      "B": "Μάθηση μέσω trial-and-error με rewards",
-      "C": "Transfer learning",
-      "D": "Supervised learning"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Agent στο RL;",
-    "choices": {
-      "A": "Environment",
-      "B": "Το σύστημα που μαθαίνει",
-      "C": "State",
-      "D": "Environment"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Reward;",
-    "choices": {
-      "A": "State",
-      "B": "Σήμα ανατροφοδότησης",
-      "C": "Policy",
-      "D": "State"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Q-Learning;",
-    "choices": {
-      "A": "Supervised",
-      "B": "RL αλγόριθμος με Q-values",
-      "C": "Deep learning",
-      "D": "Supervised"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Policy;",
-    "choices": {
-      "A": "Reward",
-      "B": "Στρατηγική επιλογής actions",
-      "C": "Agent",
-      "D": "Reward"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Ensemble Learning;",
-    "choices": {
-      "A": "Ένα μοντέλο",
-      "B": "Συνδυασμός πολλών μοντέλων",
-      "C": "Transfer learning",
-      "D": "Ένα μοντέλο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Bagging;",
-    "choices": {
-      "A": "Boosting",
-      "B": "Bootstrap Aggregating",
-      "C": "Blending",
-      "D": "Boosting"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Boosting;",
-    "choices": {
-      "A": "Bagging",
-      "B": "Σειριακός συνδυασμός αδύναμων μοντέλων",
-      "C": "Blending",
-      "D": "Bagging"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι XGBoost;",
-    "choices": {
-      "A": "Random Forest",
-      "B": "Extreme Gradient Boosting",
-      "C": "Neural network",
-      "D": "Random Forest"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι AdaBoost;",
-    "choices": {
-      "A": "XGBoost",
-      "B": "Adaptive Boosting",
-      "C": "Random Forest",
-      "D": "XGBoost"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Ensemble Learning;",
-    "choices": {
-      "A": "Ένα μοντέλο",
-      "B": "Συνδυασμός πολλών μοντέλων",
-      "C": "Transfer learning",
-      "D": "Ένα μοντέλο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Bagging;",
-    "choices": {
-      "A": "Boosting",
-      "B": "Bootstrap Aggregating",
-      "C": "Blending",
-      "D": "Boosting"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Boosting;",
-    "choices": {
-      "A": "Bagging",
-      "B": "Σειριακός συνδυασμός αδύναμων μοντέλων",
-      "C": "Blending",
-      "D": "Bagging"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι XGBoost;",
-    "choices": {
-      "A": "Random Forest",
-      "B": "Extreme Gradient Boosting",
-      "C": "Neural network",
-      "D": "Random Forest"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι AdaBoost;",
-    "choices": {
-      "A": "XGBoost",
-      "B": "Adaptive Boosting",
-      "C": "Random Forest",
-      "D": "XGBoost"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Accuracy;",
-    "choices": {
-      "A": "Precision",
-      "B": "Ποσοστό σωστών προβλέψεων",
-      "C": "F1-score",
-      "D": "Precision"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Precision;",
-    "choices": {
-      "A": "Accuracy",
-      "B": "True Positives / (TP + FP)",
-      "C": "F1-score",
-      "D": "Accuracy"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Recall;",
-    "choices": {
-      "A": "Precision",
-      "B": "True Positives / (TP + FN)",
-      "C": "F1-score",
-      "D": "Precision"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι F1-Score;",
-    "choices": {
-      "A": "Accuracy",
-      "B": "Harmonic mean of Precision and Recall",
-      "C": "Recall μόνο",
-      "D": "Accuracy"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Confusion Matrix;",
-    "choices": {
-      "A": "Accuracy μόνο",
-      "B": "Πίνακας με TP, FP, TN, FN",
-      "C": "Recall μόνο",
-      "D": "Accuracy μόνο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Accuracy;",
-    "choices": {
-      "A": "Precision",
-      "B": "Ποσοστό σωστών προβλέψεων",
-      "C": "F1-score",
-      "D": "Precision"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Precision;",
-    "choices": {
-      "A": "Accuracy",
-      "B": "True Positives / (TP + FP)",
-      "C": "F1-score",
-      "D": "Accuracy"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Recall;",
-    "choices": {
-      "A": "Precision",
-      "B": "True Positives / (TP + FN)",
-      "C": "F1-score",
-      "D": "Precision"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι F1-Score;",
-    "choices": {
-      "A": "Accuracy",
-      "B": "Harmonic mean of Precision and Recall",
-      "C": "Recall μόνο",
-      "D": "Accuracy"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Confusion Matrix;",
-    "choices": {
-      "A": "Accuracy μόνο",
-      "B": "Πίνακας με TP, FP, TN, FN",
-      "C": "Recall μόνο",
-      "D": "Accuracy μόνο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Accuracy;",
-    "choices": {
-      "A": "Precision",
-      "B": "Ποσοστό σωστών προβλέψεων",
-      "C": "F1-score",
-      "D": "Precision"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Precision;",
-    "choices": {
-      "A": "Accuracy",
-      "B": "True Positives / (TP + FP)",
-      "C": "F1-score",
-      "D": "Accuracy"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Recall;",
-    "choices": {
-      "A": "Precision",
-      "B": "True Positives / (TP + FN)",
-      "C": "F1-score",
-      "D": "Precision"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι F1-Score;",
-    "choices": {
-      "A": "Accuracy",
-      "B": "Harmonic mean of Precision and Recall",
-      "C": "Recall μόνο",
-      "D": "Accuracy"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Confusion Matrix;",
-    "choices": {
-      "A": "Accuracy μόνο",
-      "B": "Πίνακας με TP, FP, TN, FN",
-      "C": "Recall μόνο",
-      "D": "Accuracy μόνο"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Overfitting;",
-    "choices": {
-      "A": "Underfitting",
-      "B": "Υπερπροσαρμογή στα training data",
-      "C": "Perfect fit",
-      "D": "Underfitting"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Underfitting;",
-    "choices": {
-      "A": "Overfitting",
-      "B": "Κακή προσαρμογή σε training data",
-      "C": "Perfect fit",
-      "D": "Overfitting"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Regularization;",
-    "choices": {
-      "A": "Αύξηση complexity",
-      "B": "Τεχνική για πρόληψη overfitting",
-      "C": "Αύξηση features",
-      "D": "Αύξηση complexity"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι L1 Regularization;",
-    "choices": {
-      "A": "L2 regularization",
-      "B": "Lasso, προσθήκη |w| στο loss",
-      "C": "Batch norm",
-      "D": "L2 regularization"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι L2 Regularization;",
-    "choices": {
-      "A": "L1 regularization",
-      "B": "Ridge, προσθήκη w² στο loss",
-      "C": "Batch norm",
-      "D": "L1 regularization"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Overfitting;",
-    "choices": {
-      "A": "Underfitting",
-      "B": "Υπερπροσαρμογή στα training data",
-      "C": "Perfect fit",
-      "D": "Underfitting"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Underfitting;",
-    "choices": {
-      "A": "Overfitting",
-      "B": "Κακή προσαρμογή σε training data",
-      "C": "Perfect fit",
-      "D": "Overfitting"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι Regularization;",
-    "choices": {
-      "A": "Αύξηση complexity",
-      "B": "Τεχνική για πρόληψη overfitting",
-      "C": "Αύξηση features",
-      "D": "Αύξηση complexity"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι L1 Regularization;",
-    "choices": {
-      "A": "L2 regularization",
-      "B": "Lasso, προσθήκη |w| στο loss",
-      "C": "Batch norm",
-      "D": "L2 regularization"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "Τι είναι L2 Regularization;",
-    "choices": {
-      "A": "L1 regularization",
-      "B": "Ridge, προσθήκη w² στο loss",
-      "C": "Batch norm",
-      "D": "L1 regularization"
+      "A": "Μια βάση δεδομένων",
+      "B": "Αλγόριθμος clustering βασισμένος σε πυκνότητα",
+      "C": "Ένα λειτουργικό σύστημα",
+      "D": "Ένα πρωτόκολλο"
     },
     "answer": "B"
   }
