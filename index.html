@@ -125,9 +125,13 @@
                 </div>
 
                 <div id="error-message" class="error-message hidden">
+                    <div class="error-icon">⚠️</div>
                     <h3>Σφάλμα φόρτωσης</h3>
                     <p>Δεν ήταν δυνατή η φόρτωση των ερωτήσεων. Παρακαλώ δοκιμάστε ξανά.</p>
-                    <button id="retry-load" class="btn btn--primary">Επανάληψη</button>
+                    <div class="error-actions">
+                        <button id="retry-load" class="btn btn--primary">Επανάληψη</button>
+                        <button id="back-to-home-error" class="btn btn--outline">Επιστροφή στην Αρχική</button>
+                    </div>
                 </div>
             </div>
         </div>

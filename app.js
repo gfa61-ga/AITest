@@ -32,6 +32,21 @@ class QuizApp {
         this.setupEventListeners();
         this.handleRouting();
         this.populateChaptersTable();
+        this.setupDebugConsole();
+    }
+    
+    setupDebugConsole() {
+        // Add debug information to console
+        console.log('Τεστ Πολλαπλών Επιλογών - Τεχνητή Νοημοσύνη');
+        console.log('Debug Information:');
+        console.log('- Available chapters:', this.chapters.length);
+        console.log('- Expected JSON files:');
+        this.chapters.forEach(chapter => {
+            console.log(`  ${chapter.file} (${chapter.questions} questions)`);
+        });
+        console.log('- Current URL:', window.location.href);
+        console.log('- Application initialized successfully');
+        console.log('---');
     }
 
     setupEventListeners() {
@@ -75,7 +90,16 @@ class QuizApp {
 
         document.getElementById('retry-load').addEventListener('click', () => {
             if (this.currentChapter) {
+                console.log('Retrying quiz load...');
                 this.loadQuiz(this.currentChapter);
+            }
+        });
+        
+        // Add event listener for back to home from error state
+        document.addEventListener('click', (e) => {
+            if (e.target && e.target.id === 'back-to-home-error') {
+                console.log('Returning to home from error state');
+                this.showMainView();
             }
         });
 
@@ -88,13 +112,93 @@ class QuizApp {
     handleRouting() {
         const urlParams = new URLSearchParams(window.location.search);
         const chapter = urlParams.get('chapter');
+        console.log('Routing - Chapter parameter:', chapter);
         
-        if (chapter && this.chapters.find(c => c.number === parseInt(chapter))) {
-            const chapterData = this.chapters.find(c => c.number === parseInt(chapter));
-            this.loadQuiz(chapterData);
+        if (chapter) {
+            const chapterNumber = parseInt(chapter);
+            const chapterData = this.chapters.find(c => c.number === chapterNumber);
+            
+            if (chapterData) {
+                console.log('Valid chapter found:', chapterData);
+                this.loadQuiz(chapterData);
+            } else {
+                console.error('Invalid chapter number:', chapterNumber);
+                this.showMainView();
+            }
         } else {
+            console.log('No chapter parameter - showing main view');
             this.showMainView();
         }
+    }
+    
+    validateQuizData(data) {
+        console.log('Validating quiz data...');
+        
+        // Check if it's an array
+        if (!Array.isArray(data)) {
+            console.error('Data is not an array');
+            return false;
+        }
+        
+        // Check if array is not empty
+        if (data.length === 0) {
+            console.error('Data array is empty');
+            return false;
+        }
+        
+        // Validate each question
+        for (let i = 0; i < data.length; i++) {
+            const question = data[i];
+            
+            if (!question || typeof question !== 'object') {
+                console.error(`Question ${i + 1} is not an object`);
+                return false;
+            }
+            
+            // Check required fields
+            if (!question.question || typeof question.question !== 'string') {
+                console.error(`Question ${i + 1} missing or invalid question text`);
+                return false;
+            }
+            
+            if (!question.choices || typeof question.choices !== 'object') {
+                console.error(`Question ${i + 1} missing or invalid choices`);
+                return false;
+            }
+            
+            // Check choices structure
+            const requiredChoices = ['A', 'B', 'C', 'D'];
+            for (const choice of requiredChoices) {
+                if (!question.choices[choice] || typeof question.choices[choice] !== 'string') {
+                    console.error(`Question ${i + 1} missing choice ${choice}`);
+                    return false;
+                }
+            }
+            
+            // Check answer field
+            if (!question.answer || !requiredChoices.includes(question.answer)) {
+                console.error(`Question ${i + 1} missing or invalid answer`);
+                return false;
+            }
+        }
+        
+        console.log(`Validation passed for ${data.length} questions`);
+        return true;
+    }
+    
+    getJSONTemplate() {
+        return `[
+  {
+    "question": "Τί είναι η τεχνητή νοημοσύνη;",
+    "choices": {
+      "A": "Πρώτη επιλογή",
+      "B": "Δεύτερη επιλογή",
+      "C": "Τρίτη επιλογή",
+      "D": "Τέταρτη επιλογή"
+    },
+    "answer": "A"
+  }
+]`;
     }
 
     populateChaptersTable() {
@@ -133,30 +237,76 @@ class QuizApp {
     }
 
     startTest(chapterNumber) {
+        console.log('Starting test for chapter:', chapterNumber);
         const chapter = this.chapters.find(c => c.number === chapterNumber);
         if (chapter) {
+            console.log('Chapter data:', chapter);
             // Update URL without page reload
             const url = new URL(window.location);
             url.searchParams.set('chapter', chapterNumber);
             window.history.pushState({}, '', url);
+            console.log('Updated URL to:', url.toString());
             
             this.loadQuiz(chapter);
+        } else {
+            console.error('Chapter not found:', chapterNumber);
         }
     }
 
     async loadQuiz(chapter) {
+        console.log(`Loading quiz for chapter ${chapter.number}`);
         this.currentChapter = chapter;
         this.showQuizView();
         this.showLoading();
         
+        // Construct the JSON file path
+        const jsonFile = `test_kefalaio_${chapter.number}.json`;
+        console.log(`Attempting to fetch: ${jsonFile}`);
+        
         try {
-            // Simulate loading from JSON file
-            // Since we can't actually load files in this sandbox environment,
-            // we'll generate sample questions
-            const questions = this.generateSampleQuestions(chapter.number);
+            // Show loading message
+            this.updateLoadingMessage('Φόρτωση τεστ...');
             
-            this.questions = questions;
-            this.userAnswers = new Array(questions.length).fill(null);
+            // Create AbortController for timeout
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
+            
+            try {
+                // Attempt to fetch the JSON file with timeout
+                const response = await fetch(jsonFile, {
+                    signal: controller.signal,
+                    cache: 'no-cache'
+                });
+                clearTimeout(timeoutId);
+                console.log(`Fetch response status: ${response.status}`);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                console.log(`Response received, data type:`, typeof data);
+                console.log(`Data length:`, Array.isArray(data) ? data.length : 'Not an array');
+                
+                // Comprehensive data validation
+                if (!this.validateQuizData(data)) {
+                    throw new Error('VALIDATION_ERROR');
+                }
+                
+                console.log(`Successfully validated ${data.length} questions`);
+                console.log('Sample question structure:', data[0]);
+                
+            } catch (fetchError) {
+                clearTimeout(timeoutId);
+                if (fetchError.name === 'AbortError') {
+                    throw new Error('TIMEOUT_ERROR');
+                }
+                throw fetchError;
+            }
+            
+            // Load the questions
+            this.questions = data;
+            this.userAnswers = new Array(data.length).fill(null);
             this.currentQuestionIndex = 0;
             this.isTestComplete = false;
             
@@ -166,7 +316,66 @@ class QuizApp {
             
         } catch (error) {
             console.error('Error loading quiz:', error);
-            this.showError();
+            this.hideLoading();
+            
+            // Determine error type and show appropriate message
+            let errorMessage = 'Σφάλμα φόρτωσης τεστ';
+            let errorDetails = '';
+            
+            if (error.message.includes('404')) {
+                errorMessage = 'Το αρχείο δεν βρέθηκε';
+                errorDetails = `Βεβαιωθείτε ότι το αρχείο ${jsonFile} υπάρχει στον ίδιο φάκελο.`;
+            } else if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+                errorMessage = 'Σφάλμα δικτύου';
+                errorDetails = 'Ελέγξτε τη σύνδεσή σας στο διαδίκτυο.';
+            } else if (error.message.includes('JSON')) {
+                errorMessage = 'Σφάλμα ανάγνωσης δεδομένων';
+                errorDetails = 'Το αρχείο JSON είναι κατεστραμμένο ή έχει λάθος μορφή.';
+            } else {
+                errorDetails = error.message;
+            }
+            
+            // Determine specific error type and message
+            if (error.message === 'TIMEOUT_ERROR') {
+                errorMessage = 'Χρονικό όριο λήξεως';
+                errorDetails = 'Το αρχείο φαίνεται να είναι πολύ μεγάλο ή η σύνδεση είναι αργή.';
+            } else if (error.message === 'VALIDATION_ERROR') {
+                errorMessage = 'Μη έγκυρο αρχείο';
+                errorDetails = 'Το αρχείο JSON δεν έχει τη σωστή μορφή ερωτήσεων.';
+            }
+            
+            this.showError(errorMessage, errorDetails, jsonFile);
+            
+            // Add debugging information about the error
+            console.log('DEBUG: Error details:', {
+                message: error.message,
+                stack: error.stack,
+                chapter: chapter.number,
+                expectedFile: jsonFile,
+                timestamp: new Date().toISOString()
+            });
+            
+            // Fallback: Load sample questions for demonstration
+            console.log('Falling back to sample questions');
+            setTimeout(() => {
+                try {
+                    const questions = this.generateSampleQuestions(chapter.number);
+                    this.questions = questions;
+                    this.userAnswers = new Array(questions.length).fill(null);
+                    this.currentQuestionIndex = 0;
+                    this.isTestComplete = false;
+                    
+                    console.log(`Loaded ${questions.length} sample questions for chapter ${chapter.number}`);
+                    
+                    // Show a notice that we're using sample data
+                    this.showSampleDataNotice();
+                    this.hideError();
+                    this.displayQuestion();
+                    this.updateProgress();
+                } catch (fallbackError) {
+                    console.error('Error with fallback questions:', fallbackError);
+                }
+            }, 2000);
         }
     }
 
@@ -270,16 +479,77 @@ class QuizApp {
         document.getElementById('quiz-content').classList.remove('hidden');
     }
 
-    showError() {
+    showError(title = 'Σφάλμα φόρτωσης', details = 'Κάτι πήγε στραβά', fileName = '') {
         document.getElementById('loading-spinner').classList.add('hidden');
         document.getElementById('quiz-content').classList.add('hidden');
-        document.getElementById('error-message').classList.remove('hidden');
+        
+        const errorDiv = document.getElementById('error-message');
+        const errorTitle = errorDiv.querySelector('h3');
+        const errorText = errorDiv.querySelector('p');
+        
+        errorTitle.textContent = title;
+        if (fileName) {
+            errorText.innerHTML = `
+                Αδυναμία φόρτωσης: <strong>${fileName}</strong><br><br>
+                ${details}<br><br>
+                <small>Παρακαλώ ελέγξτε ότι το αρχείο υπάρχει στον ίδιο φάκελο με την εφαρμογή.</small>
+            `;
+        } else {
+            errorText.textContent = details;
+        }
+        
+        errorDiv.classList.remove('hidden');
+    }
+    
+    hideError() {
+        document.getElementById('error-message').classList.add('hidden');
+    }
+    
+    updateLoadingMessage(message) {
+        const loadingElement = document.querySelector('#loading-spinner p');
+        if (loadingElement) {
+            loadingElement.textContent = message;
+        }
+    }
+    
+    showSampleDataNotice() {
+        // Create a temporary notice
+        const notice = document.createElement('div');
+        notice.className = 'sample-data-notice';
+        notice.innerHTML = `
+            <div style="
+                background: var(--color-bg-2);
+                border: 1px solid var(--color-warning);
+                border-radius: var(--radius-base);
+                padding: var(--space-12);
+                margin-bottom: var(--space-16);
+                text-align: center;
+                color: var(--color-warning);
+                font-size: var(--font-size-sm);
+            ">
+                ⚠️ Χρησιμοποιούνται δείγματα ερωτήσεων (το JSON αρχείο δεν βρέθηκε)
+            </div>
+        `;
+        
+        const quizContent = document.getElementById('quiz-content');
+        quizContent.insertBefore(notice, quizContent.firstChild);
+        
+        // Remove notice after 5 seconds
+        setTimeout(() => {
+            if (notice.parentNode) {
+                notice.parentNode.removeChild(notice);
+            }
+        }, 5000);
     }
 
     displayQuestion() {
-        if (this.questions.length === 0) return;
+        if (this.questions.length === 0) {
+            console.warn('No questions available to display');
+            return;
+        }
         
         const question = this.questions[this.currentQuestionIndex];
+        console.log(`Displaying question ${this.currentQuestionIndex + 1}:`, question.question.substring(0, 50) + '...');
         
         document.getElementById('question-number').textContent = 
             `Ερώτηση ${this.currentQuestionIndex + 1}`;
@@ -378,6 +648,7 @@ class QuizApp {
 
     calculateResults() {
         let correctAnswers = 0;
+        console.log('Calculating results for', this.questions.length, 'questions');
         
         this.results = this.questions.map((question, index) => {
             const userAnswer = this.userAnswers[index];
@@ -403,9 +674,16 @@ class QuizApp {
             total: this.questions.length,
             percentage: Math.round((correctAnswers / this.questions.length) * 100)
         };
+        
+        console.log('Final score:', this.score);
+        console.log('Results breakdown:', {
+            correct: this.results.filter(r => r.isCorrect).length,
+            incorrect: this.results.filter(r => !r.isCorrect).length
+        });
     }
 
     showResults() {
+        console.log('Showing results modal');
         const modal = document.getElementById('results-modal');
         const scorePercentage = document.getElementById('score-percentage');
         const scoreFraction = document.getElementById('score-fraction');
@@ -451,6 +729,7 @@ class QuizApp {
         });
         
         modal.classList.remove('hidden');
+        console.log('Results modal displayed');
     }
 
     hideModal() {
