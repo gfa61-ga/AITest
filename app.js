@@ -1,22 +1,35 @@
+/**
+ * Fisher-Yates shuffle algorithm
+ * Randomly shuffles array elements
+ */
+function shuffleArray(array) {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+}
+
 // Application State
 class QuizApp {
     constructor() {
         this.chapters = [
-            { number: 1, title: "Εισαγωγή στην Τεχνητή Νοημοσύνη", questions: 15, file: "test_kefalaio_1.json" },
-            { number: 2, title: "Διασύνδεση AI με Άλλες Τεχνολογίες", questions: 20, file: "test_kefalaio_2.json" },
-            { number: 3, title: "Η Αξία των Δεδομένων για την AI", questions: 15, file: "test_kefalaio_3.json" },
-            { number: 4, title: "Αλγόριθμοι και Μοντέλα Μηχανικής Μάθησης", questions: 15, file: "test_kefalaio_4.json" },
-            { number: 5, title: "Νευρωνικά Δίκτυα και Βαθιά Μάθηση", questions: 20, file: "test_kefalaio_5.json" },
-            { number: 6, title: "Ανάπτυξη και Εκπαίδευση Μοντέλων AI", questions: 20, file: "test_kefalaio_6.json" },
-            { number: 7, title: "Natural Language Processing (NLP)", questions: 22, file: "test_kefalaio_7.json" },
-            { number: 8, title: "Computer Vision", questions: 15, file: "test_kefalaio_8.json" },
-            { number: 9, title: "Ρομποτική και Αυτονομία", questions: 15, file: "test_kefalaio_9.json" },
-            { number: 10, title: "Ηθικά και Νομικά Ζητήματα AI", questions: 15, file: "test_kefalaio_10.json" },
-            { number: 11, title: "AI στο Marketing", questions: 15, file: "test_kefalaio_11.json" },
-            { number: 12, title: "AI στην Υγεία", questions: 15, file: "test_kefalaio_12.json" },
-            { number: 13, title: "Conversational AI και Personal Assistants", questions: 15, file: "test_kefalaio_13.json" },
-            { number: 14, title: "AI στις Επιχειρήσεις", questions: 15, file: "test_kefalaio_14.json" },
-            { number: 15, title: "Υλοποίηση και Ενσωμάτωση AI", questions: 15, file: "test_kefalaio_15.json" }
+            { number: 1, title: "Εισαγωγή στην Τεχνητή Νοημοσύνη", questions: 60, file: "test_kefalaio_1.json" },
+            { number: 2, title: "Διασύνδεση AI με Άλλες Τεχνολογίες", questions: 70, file: "test_kefalaio_2.json" },
+            { number: 3, title: "Η Αξία των Δεδομένων για την AI", questions: 65, file: "test_kefalaio_3.json" },
+            { number: 4, title: "Αλγόριθμοι και Μοντέλα Μηχανικής Μάθησης", questions: 80, file: "test_kefalaio_4.json" },
+            { number: 5, title: "Νευρωνικά Δίκτυα και Βαθιά Μάθηση", questions: 75, file: "test_kefalaio_5.json" },
+            { number: 6, title: "Ανάπτυξη και Εκπαίδευση Μοντέλων AI", questions: 70, file: "test_kefalaio_6.json" },
+            { number: 7, title: "Natural Language Processing (NLP)", questions: 65, file: "test_kefalaio_7.json" },
+            { number: 8, title: "Computer Vision", questions: 70, file: "test_kefalaio_8.json" },
+            { number: 9, title: "Ρομποτική και Αυτονομία", questions: 60, file: "test_kefalaio_9.json" },
+            { number: 10, title: "Ηθικά και Νομικά Ζητήματα AI", questions: 55, file: "test_kefalaio_10.json" },
+            { number: 11, title: "AI στο Marketing", questions: 60, file: "test_kefalaio_11.json" },
+            { number: 12, title: "AI στην Υγεία", questions: 65, file: "test_kefalaio_12.json" },
+            { number: 13, title: "Conversational AI και Personal Assistants", questions: 55, file: "test_kefalaio_13.json" },
+            { number: 14, title: "AI στις Επιχειρήσεις", questions: 60, file: "test_kefalaio_14.json" },
+            { number: 15, title: "Υλοποίηση και Ενσωμάτωση AI", questions: 55, file: "test_kefalaio_15.json" }
         ];
         
         this.currentChapter = null;
@@ -201,6 +214,51 @@ class QuizApp {
 ]`;
     }
 
+    /**
+     * Shuffles the choices of a question while maintaining correct answer
+     */
+    shuffleQuestion(question) {
+        // Store original correct answer
+        const correctAnswer = question.answer; // e.g., "B"
+        const correctText = question.choices[correctAnswer];
+        
+        // Create array of all choices with their keys
+        const choicesArray = [
+            { key: 'A', text: question.choices.A },
+            { key: 'B', text: question.choices.B },
+            { key: 'C', text: question.choices.C },
+            { key: 'D', text: question.choices.D }
+        ];
+        
+        // Shuffle the choices
+        const shuffledChoices = shuffleArray(choicesArray);
+        
+        // Create new choices object with shuffled order
+        const newChoices = {
+            A: shuffledChoices[0].text,
+            B: shuffledChoices[1].text,
+            C: shuffledChoices[2].text,
+            D: shuffledChoices[3].text
+        };
+        
+        // Find new position of correct answer
+        let newCorrectAnswer = 'A';
+        for (let i = 0; i < shuffledChoices.length; i++) {
+            if (shuffledChoices[i].text === correctText) {
+                newCorrectAnswer = ['A', 'B', 'C', 'D'][i];
+                break;
+            }
+        }
+        
+        console.log(`Question shuffled: Original answer=${correctAnswer}, New answer=${newCorrectAnswer}`);
+        
+        return {
+            question: question.question,
+            choices: newChoices,
+            answer: newCorrectAnswer
+        };
+    }
+
     populateChaptersTable() {
         const tbody = document.getElementById('tests-tbody');
         tbody.innerHTML = '';
@@ -291,9 +349,18 @@ class QuizApp {
             console.log(`Successfully validated ${jsonData.length} questions`);
             console.log('Sample question structure:', jsonData[0]);
             
-            // Store in instance variables IMMEDIATELY after validation
-            this.questions = jsonData;
-            this.userAnswers = new Array(jsonData.length).fill(null);
+            // Apply shuffling to each question
+            console.log('Applying shuffling to questions...');
+            this.questions = jsonData.map((q, index) => {
+                const shuffled = this.shuffleQuestion(q);
+                if (index === 0) {
+                    console.log(`Sample shuffle - Question 1: Original answer=${q.answer}, New answer=${shuffled.answer}`);
+                }
+                return shuffled;
+            });
+            console.log(`Shuffling complete for ${this.questions.length} questions`);
+            
+            this.userAnswers = new Array(this.questions.length).fill(null);
             this.currentQuestionIndex = 0;
             this.isTestComplete = false;
             
@@ -571,17 +638,29 @@ class QuizApp {
             resultItem.className = `result-item ${result.isCorrect ? 'correct' : 'incorrect'}`;
             
             let resultHTML = `
-                <div class="result-number">${result.questionNumber}.</div>
-                <div class="result-details">
-                    <div class="result-answer">
-                        Η απάντησή σας: ${result.userAnswerText || 'Δεν απαντήθηκε'}
+                <div class="result-header">
+                    <span class="result-number">Ερώτηση ${result.questionNumber}</span>
+                    <span class="result-status ${result.isCorrect ? 'status-correct' : 'status-incorrect'}">
+                        ${result.isCorrect ? '✓ Σωστό' : '✗ Λάθος'}
+                    </span>
+                </div>
+                
+                <div class="result-question">
+                    <strong>:</strong> ${result.question}
+                </div>
+                
+                <div class="result-answers">
+                    <div class="user-answer ${result.isCorrect ? 'answer-correct' : 'answer-incorrect'}">
+                        <strong>Η απάντησή σας:</strong> 
+                        <span class="answer-choice">${result.userAnswer}</span>
+                        <span class="answer-text">${result.userAnswerText}</span>
                     </div>
             `;
             
             if (!result.isCorrect) {
                 resultHTML += `
                     <div class="result-correct">
-                        Σωστή απάντηση: ${result.correctAnswerText}
+                        <strong>Σωστή απάντηση:</strong> ${result.correctAnswerText}
                     </div>
                 `;
             }

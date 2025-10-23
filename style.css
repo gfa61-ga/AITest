@@ -1410,6 +1410,38 @@ p {
   color: var(--color-text-secondary);
   margin-top: var(--space-4);
 }
+.result-question {
+    margin-bottom: 12px;
+    padding: 12px;
+    background: #f0f9ff;
+    border-radius: 6px;
+    border-left: 3px solid #3b82f6;
+}
+
+.result-question strong {
+    color: #1e40af;
+    display: block;
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.answer-choice {
+    display: inline-block;
+    background: #1e40af;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 0 6px;
+}
 
 .modal-footer {
   padding: var(--space-24);
